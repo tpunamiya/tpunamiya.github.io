@@ -24,7 +24,7 @@
 
     <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
     <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="Example3.css">
     <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
 
     <!-- This is a link to the vega-lite which we're using to make graphs -->
@@ -67,6 +67,18 @@
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
+    <section>
+        <div class="chart-description">
+            <h2>Section 2: A basic chart</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
+                As a first example, we're using a basic chart from our repo.
+            </p>
+        </div>
+        <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+         <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -85,8 +97,13 @@
         // Do you want to add more graphs?
         // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
         // e.g. 
-        // let figure_3_spec = ...
-        // vegaEmbed('#Location3', figure_3_spec)
+        let figure_3_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig3_prize-category.json";
+    
+        vegaEmbed('#Location2', figure_3_spec)
+
+        let figure_4_spec = "wk1_chart2.json";
+    
+        vegaEmbed('#Location3', figure_4_spec)
 
 
     </script>
