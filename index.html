@@ -46,7 +46,7 @@
         <!-- This is a header, it is the largest text on the page -->
         Trisha Punamiya
     </h1>
-    <p style="margin-top: 0px; color: darkblue">
+    <p style="margin-top: 0px; color: rgb(0, 0, 0)">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
         Trisha Punamiya | <a href="https://www.linkedin.com/in/trisha-punamiya-16b25214b/">LinkedIn</a> | <a
             href="https://github.com/tpunamiya">GitHub</a>
@@ -79,6 +79,17 @@
          <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
+     <section>
+        <div class="chart-description">
+            <h2>Section 3: CPI chart</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
+                As a first example, we're using a basic chart from our repo.
+            </p>
+        </div>
+        <figure id="cpi_linechart"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -97,13 +108,18 @@
         // Do you want to add more graphs?
         // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
         // e.g. 
-        let figure_3_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig3_prize-category.json";
+        let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig3_prize-category.json";
     
-        vegaEmbed('#Location2', figure_3_spec)
+        vegaEmbed('#Location2', figure_2_spec)
 
-        let figure_4_spec = "wk1_chart2.json";
+        let figure_3_spec = "wk1_chart2.json";
     
-        vegaEmbed('#Location3', figure_4_spec)
+        vegaEmbed('#Location3', figure_3_spec)
+
+        let figure_4_spec = "cpi_linechart.json";
+    
+        vegaEmbed('#cpi_linechart', figure_4_spec)
+    
 
 
     </script>

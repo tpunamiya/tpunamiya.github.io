@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "A line chart of CPI in the US",
+  "data": {
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/data/cpi_fred.csv"
+  },
+  "mark": "line",
+  "title": {"text": "CPI in the US"},
+  "width": 600,
+  "height": 400,
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "CPI", "type": "quantitative"}
+  },
+  "config": {}
+}
