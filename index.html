@@ -74,6 +74,17 @@
         <figure id="Location5"></figure>
     </section>
 
+    <section>
+        <h2>Challenge 5: Using a World Bank API</h2>
+        <div class="task">
+            <strong>Task:</strong> Leverage Python's Altair library to create programmatic visualizations that can be embedded in web portfolios.
+        </div>
+        <div class="chart-description">
+            <h3>Shiller P/E Ratio Analysis</h3>
+            <p>The Shiller Price-to-Earnings (P/E) ratio, also known as the cyclically adjusted price-to-earnings ratio (CAPE), is a valuation metric that smooths out short-term earnings fluctuations. This chart reveals historical market valuations and can signal periods of overvaluation or undervaluation in equity markets.</p>
+        <figure id="Location6"></figure>
+    </section>
+
     <footer>
         <p>&copy; 2025 Trisha Punamiya | Built with Vega-Lite and HTML/CSS</p>
     </footer>
@@ -85,6 +96,7 @@
         let figure_3_spec = "wk1_chart2.json";
         let figure_4_spec = "cpi_linechart.json";
         let figure_5_spec = "shiller_pe_ratio_chart.json";
+        let figure_6_spec = "world_bank_api_chart.json";
         
         // Configuration for consistent chart sizing
         const embedConfig = {
@@ -99,6 +111,7 @@
         vegaEmbed('#Location3', figure_3_spec, embedConfig);
         vegaEmbed('#cpi_linechart', figure_4_spec, embedConfig);
         vegaEmbed('#Location5', figure_5_spec, embedConfig);
+        vegaEmbed('#Location6', figure_6_spec, embedConfig);
     </script>
 </body>
 </html>
