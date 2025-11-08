@@ -606,40 +606,22 @@
     "Titles": 1
   },
   {
-    "Country": "Socialist Federal Republic of Yugoslavia",
+    "Country": "Yugoslavia",
     "Tournament": "French Open",
+    "Gender": "Women",
+    "Titles": 4
+  },
+  {
+    "Country": "Yugoslavia",
+    "Tournament": "Australian Open",
     "Gender": "Women",
     "Titles": 3
   },
   {
-    "Country": "Socialist Federal Republic of Yugoslavia",
-    "Tournament": "Australian Open",
+    "Country": "Yugoslavia",
+    "Tournament": "US Open",
     "Gender": "Women",
     "Titles": 2
-  },
-  {
-    "Country": "Socialist Federal Republic of Yugoslavia",
-    "Tournament": "US Open",
-    "Gender": "Women",
-    "Titles": 1
-  },
-  {
-    "Country": "Federal Republic of Yugoslavia",
-    "Tournament": "French Open",
-    "Gender": "Women",
-    "Titles": 1
-  },
-  {
-    "Country": "Federal Republic of Yugoslavia",
-    "Tournament": "US Open",
-    "Gender": "Women",
-    "Titles": 1
-  },
-  {
-    "Country": "Federal Republic of Yugoslavia",
-    "Tournament": "Australian Open",
-    "Gender": "Women",
-    "Titles": 1
   },
   {
     "Country": "Belgium",
