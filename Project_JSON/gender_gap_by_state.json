@@ -6,7 +6,8 @@
     "total_enrollment":7077644,
     "girls_percentage":46.2634317295,
     "boys_percentage":53.7365682705,
-    "gender_gap":-7.4731365409
+    "gpi":0.860930149,
+    "gender_gap":-0.139069851
   },
   {
     "state":"PUNJAB",
@@ -15,7 +16,8 @@
     "total_enrollment":9927377,
     "girls_percentage":46.2685964278,
     "boys_percentage":53.7314035722,
-    "gender_gap":-7.4628071443
+    "gpi":0.8611090229,
+    "gender_gap":-0.1388909771
   },
   {
     "state":"RAJASTHAN",
@@ -24,7 +26,8 @@
     "total_enrollment":18880521,
     "girls_percentage":47.0584895406,
     "boys_percentage":52.9415104594,
-    "gender_gap":-5.8830209188
+    "gpi":0.8888769726,
+    "gender_gap":-0.1111230274
   },
   {
     "state":"GUJARAT",
@@ -33,7 +36,8 @@
     "total_enrollment":15822125,
     "girls_percentage":47.2507706771,
     "boys_percentage":52.7492293229,
-    "gender_gap":-5.4984586457
+    "gpi":0.8957622942,
+    "gender_gap":-0.1042377058
   },
   {
     "state":"CHANDIGARH",
@@ -42,7 +46,8 @@
     "total_enrollment":300443,
     "girls_percentage":47.4026687258,
     "boys_percentage":52.5973312742,
-    "gender_gap":-5.1946625483
+    "gpi":0.901237146,
+    "gender_gap":-0.098762854
   },
   {
     "state":"MAHARASHTRA",
@@ -51,7 +56,8 @@
     "total_enrollment":28599071,
     "girls_percentage":47.8347321142,
     "boys_percentage":52.1652678858,
-    "gender_gap":-4.3305357716
+    "gpi":0.9169843088,
+    "gender_gap":-0.0830156912
   },
   {
     "state":"UTTAR PRADESH",
@@ -60,7 +66,8 @@
     "total_enrollment":68380027,
     "girls_percentage":47.8510047971,
     "boys_percentage":52.1489952029,
-    "gender_gap":-4.2979904059
+    "gpi":0.9175824886,
+    "gender_gap":-0.0824175114
   },
   {
     "state":"DADRA & NAGAR HAVELI AND DAMAN & DIU",
@@ -69,7 +76,8 @@
     "total_enrollment":178604,
     "girls_percentage":47.8718281785,
     "boys_percentage":52.1281718215,
-    "gender_gap":-4.2563436429
+    "gpi":0.9183484958,
+    "gender_gap":-0.0816515042
   },
   {
     "state":"UTTARAKHAND",
@@ -78,7 +86,8 @@
     "total_enrollment":3599643,
     "girls_percentage":48.0013712471,
     "boys_percentage":51.9986287529,
-    "gender_gap":-3.9972575058
+    "gpi":0.9231276362,
+    "gender_gap":-0.0768723638
   },
   {
     "state":"DELHI",
@@ -87,7 +96,8 @@
     "total_enrollment":5592690,
     "girls_percentage":48.0365262512,
     "boys_percentage":51.9634737488,
-    "gender_gap":-3.9269474975
+    "gpi":0.9244286955,
+    "gender_gap":-0.0755713045
   },
   {
     "state":"HIMACHAL PRADESH",
@@ -96,7 +106,8 @@
     "total_enrollment":1665194,
     "girls_percentage":48.071996416,
     "boys_percentage":51.928003584,
-    "gender_gap":-3.8560071679
+    "gpi":0.925743204,
+    "gender_gap":-0.074256796
   },
   {
     "state":"MADHYA PRADESH",
@@ -105,7 +116,8 @@
     "total_enrollment":22444915,
     "girls_percentage":48.3164315837,
     "boys_percentage":51.6835684163,
-    "gender_gap":-3.3671368326
+    "gpi":0.934850922,
+    "gender_gap":-0.065149078
   },
   {
     "state":"JAMMU & KASHMIR",
@@ -114,7 +126,8 @@
     "total_enrollment":6240962,
     "girls_percentage":48.3969138091,
     "boys_percentage":51.6030861909,
-    "gender_gap":-3.2061723818
+    "gpi":0.9378685924,
+    "gender_gap":-0.0621314076
   },
   {
     "state":"ANDHRA PRADESH",
@@ -123,7 +136,8 @@
     "total_enrollment":16068910,
     "girls_percentage":48.5666980523,
     "boys_percentage":51.4333019477,
-    "gender_gap":-2.8666038953
+    "gpi":0.9442656064,
+    "gender_gap":-0.0557343936
   },
   {
     "state":"GOA",
@@ -132,7 +146,8 @@
     "total_enrollment":447348,
     "girls_percentage":48.7390130279,
     "boys_percentage":51.2609869721,
-    "gender_gap":-2.5219739442
+    "gpi":0.9508012995,
+    "gender_gap":-0.0491987005
   },
   {
     "state":"TELANGANA",
@@ -141,7 +156,8 @@
     "total_enrollment":12720153,
     "girls_percentage":48.9139242272,
     "boys_percentage":51.0860757728,
-    "gender_gap":-2.1721515457
+    "gpi":0.9574805559,
+    "gender_gap":-0.0425194441
   },
   {
     "state":"TAMIL NADU",
@@ -150,7 +166,8 @@
     "total_enrollment":15650008,
     "girls_percentage":49.0228120011,
     "boys_percentage":50.9771879989,
-    "gender_gap":-1.9543759978
+    "gpi":0.9616617535,
+    "gender_gap":-0.0383382465
   },
   {
     "state":"MANIPUR",
@@ -159,7 +176,8 @@
     "total_enrollment":1281106,
     "girls_percentage":49.0494931723,
     "boys_percentage":50.9505068277,
-    "gender_gap":-1.9010136554
+    "gpi":0.9626890138,
+    "gender_gap":-0.0373109862
   },
   {
     "state":"ODISHA",
@@ -168,7 +186,8 @@
     "total_enrollment":13839489,
     "girls_percentage":49.0888644805,
     "boys_percentage":50.9111355195,
-    "gender_gap":-1.8222710391
+    "gpi":0.9642068278,
+    "gender_gap":-0.0357931722
   },
   {
     "state":"KERALA",
@@ -177,7 +196,8 @@
     "total_enrollment":12058210,
     "girls_percentage":49.0941441557,
     "boys_percentage":50.9058558443,
-    "gender_gap":-1.8117116886
+    "gpi":0.9644105446,
+    "gender_gap":-0.0355894554
   },
   {
     "state":"SIKKIM",
@@ -186,7 +206,8 @@
     "total_enrollment":215667,
     "girls_percentage":49.1294449313,
     "boys_percentage":50.8705550687,
-    "gender_gap":-1.7411101374
+    "gpi":0.9657737146,
+    "gender_gap":-0.0342262854
   },
   {
     "state":"ANDAMAN & NICOBAR ISLANDS",
@@ -195,7 +216,8 @@
     "total_enrollment":102681,
     "girls_percentage":49.2057926978,
     "boys_percentage":50.7942073022,
-    "gender_gap":-1.5884146045
+    "gpi":0.9687284301,
+    "gender_gap":-0.0312715699
   },
   {
     "state":"LAKSHADWEEP",
@@ -204,7 +226,8 @@
     "total_enrollment":27796,
     "girls_percentage":49.4711469276,
     "boys_percentage":50.5288530724,
-    "gender_gap":-1.0577061448
+    "gpi":0.9790672837,
+    "gender_gap":-0.0209327163
   },
   {
     "state":"NAGALAND",
@@ -213,7 +236,8 @@
     "total_enrollment":1013046,
     "girls_percentage":49.5339797008,
     "boys_percentage":50.4660202992,
-    "gender_gap":-0.9320405984
+    "gpi":0.9815313236,
+    "gender_gap":-0.0184686764
   },
   {
     "state":"KARNATAKA",
@@ -222,7 +246,8 @@
     "total_enrollment":19685263,
     "girls_percentage":49.5484464698,
     "boys_percentage":50.4515535302,
-    "gender_gap":-0.9031070603
+    "gpi":0.9820995193,
+    "gender_gap":-0.0179004807
   },
   {
     "state":"PUDUCHERRY",
@@ -231,7 +256,8 @@
     "total_enrollment":364808,
     "girls_percentage":49.6354246617,
     "boys_percentage":50.3645753383,
-    "gender_gap":-0.7291506765
+    "gpi":0.9855225489,
+    "gender_gap":-0.0144774511
   },
   {
     "state":"MIZORAM",
@@ -240,7 +266,8 @@
     "total_enrollment":713852,
     "girls_percentage":49.6450244589,
     "boys_percentage":50.3549755411,
-    "gender_gap":-0.7099510823
+    "gpi":0.9859010738,
+    "gender_gap":-0.0140989262
   },
   {
     "state":"JHARKHAND",
@@ -249,7 +276,8 @@
     "total_enrollment":13280523,
     "girls_percentage":49.7210011985,
     "boys_percentage":50.2789988015,
-    "gender_gap":-0.557997603
+    "gpi":0.9889019747,
+    "gender_gap":-0.0110980253
   },
   {
     "state":"TRIPURA",
@@ -258,7 +286,8 @@
     "total_enrollment":1117574,
     "girls_percentage":49.805382015,
     "boys_percentage":50.194617985,
-    "gender_gap":-0.3892359701
+    "gpi":0.992245464,
+    "gender_gap":-0.007754536
   },
   {
     "state":"ARUNACHAL PRADESH",
@@ -267,7 +296,8 @@
     "total_enrollment":656615,
     "girls_percentage":50.1563320972,
     "boys_percentage":49.8436679028,
-    "gender_gap":0.3126641944
+    "gpi":1.006272897,
+    "gender_gap":0.006272897
   },
   {
     "state":"CHHATTISGARH",
@@ -276,7 +306,8 @@
     "total_enrollment":10660317,
     "girls_percentage":50.1760032089,
     "boys_percentage":49.8239967911,
-    "gender_gap":0.3520064178
+    "gpi":1.0070649976,
+    "gender_gap":0.0070649976
   },
   {
     "state":"ASSAM",
@@ -285,7 +316,8 @@
     "total_enrollment":15142490,
     "girls_percentage":50.2631865697,
     "boys_percentage":49.7368134303,
-    "gender_gap":0.5263731394
+    "gpi":1.0105831698,
+    "gender_gap":0.0105831698
   },
   {
     "state":"BIHAR",
@@ -294,7 +326,8 @@
     "total_enrollment":41997243,
     "girls_percentage":50.3635298155,
     "boys_percentage":49.6364701845,
-    "gender_gap":0.727059631
+    "gpi":1.0146476901,
+    "gender_gap":0.0146476901
   },
   {
     "state":"WEST BENGAL",
@@ -303,7 +336,8 @@
     "total_enrollment":24855325,
     "girls_percentage":50.4679258871,
     "boys_percentage":49.5320741129,
-    "gender_gap":0.9358517742
+    "gpi":1.018893854,
+    "gender_gap":0.018893854
   },
   {
     "state":"LADAKH",
@@ -312,7 +346,8 @@
     "total_enrollment":142418,
     "girls_percentage":50.4760634189,
     "boys_percentage":49.5239365811,
-    "gender_gap":0.9521268379
+    "gpi":1.0192255887,
+    "gender_gap":0.0192255887
   },
   {
     "state":"MEGHALAYA",
@@ -321,6 +356,7 @@
     "total_enrollment":2719888,
     "girls_percentage":50.6852120381,
     "boys_percentage":49.3147879619,
-    "gender_gap":1.3704240763
+    "gpi":1.027789313,
+    "gender_gap":0.027789313
   }
 ]
