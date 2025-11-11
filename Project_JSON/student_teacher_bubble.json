@@ -1,252 +1,324 @@
 [
   {
     "state":"ANDAMAN & NICOBAR ISLANDS",
+    "num_schools":408,
     "total_students":102681,
+    "avg_students_per_school":251.6691176471,
     "total_tch":6132,
     "student_teacher_ratio":16.7451076321,
     "region":"South"
   },
   {
     "state":"ANDHRA PRADESH",
+    "num_schools":61316,
     "total_students":16068910,
+    "avg_students_per_school":262.0671602844,
     "total_tch":342721,
     "student_teacher_ratio":46.8862719238,
     "region":"South"
   },
   {
     "state":"ARUNACHAL PRADESH",
+    "num_schools":3208,
     "total_students":656615,
+    "avg_students_per_school":204.6804862843,
     "total_tch":25117,
     "student_teacher_ratio":26.1422542501,
     "region":"Northeast"
   },
   {
     "state":"ASSAM",
+    "num_schools":55283,
     "total_students":15142490,
+    "avg_students_per_school":273.9086156685,
     "total_tch":340471,
     "student_teacher_ratio":44.4751241662,
     "region":"Northeast"
   },
   {
     "state":"BIHAR",
+    "num_schools":94334,
     "total_students":41997243,
+    "avg_students_per_school":445.1973095596,
     "total_tch":707516,
     "student_teacher_ratio":59.3587183894,
     "region":"East\/Central"
   },
   {
     "state":"CHANDIGARH",
+    "num_schools":207,
     "total_students":300443,
+    "avg_students_per_school":1451.4154589372,
     "total_tch":9968,
     "student_teacher_ratio":30.1407504013,
     "region":"North"
   },
   {
     "state":"CHHATTISGARH",
+    "num_schools":56802,
     "total_students":10660317,
+    "avg_students_per_school":187.6750290483,
     "total_tch":285248,
     "student_teacher_ratio":37.3721007685,
     "region":"East\/Central"
   },
   {
     "state":"DADRA & NAGAR HAVELI AND DAMAN & DIU",
+    "num_schools":433,
     "total_students":178604,
+    "avg_students_per_school":412.480369515,
     "total_tch":5288,
     "student_teacher_ratio":33.7753403933,
     "region":"West"
   },
   {
     "state":"DELHI",
+    "num_schools":5556,
     "total_students":5592690,
+    "avg_students_per_school":1006.6036717063,
     "total_tch":161958,
     "student_teacher_ratio":34.5317304486,
     "region":"North"
   },
   {
     "state":"GOA",
+    "num_schools":1479,
     "total_students":447348,
+    "avg_students_per_school":302.4665314402,
     "total_tch":15196,
     "student_teacher_ratio":29.438536457,
     "region":"West"
   },
   {
     "state":"GUJARAT",
+    "num_schools":53292,
     "total_students":15822125,
+    "avg_students_per_school":296.8949373264,
     "total_tch":389063,
     "student_teacher_ratio":40.6672569738,
     "region":"West"
   },
   {
     "state":"HARYANA",
+    "num_schools":23494,
     "total_students":7077644,
+    "avg_students_per_school":301.2532561505,
     "total_tch":263942,
     "student_teacher_ratio":26.8151487827,
     "region":"North"
   },
   {
     "state":"HIMACHAL PRADESH",
+    "num_schools":17330,
     "total_students":1665194,
+    "avg_students_per_school":96.0873629544,
     "total_tch":102825,
     "student_teacher_ratio":16.1944468758,
     "region":"North"
   },
   {
     "state":"JAMMU & KASHMIR",
+    "num_schools":24046,
     "total_students":6240962,
+    "avg_students_per_school":259.5426266323,
     "total_tch":166717,
     "student_teacher_ratio":37.434466791,
     "region":"North"
   },
   {
     "state":"JHARKHAND",
+    "num_schools":44269,
     "total_students":13280523,
+    "avg_students_per_school":299.9960017168,
     "total_tch":209203,
     "student_teacher_ratio":63.4815131714,
     "region":"East\/Central"
   },
   {
     "state":"KARNATAKA",
+    "num_schools":74589,
     "total_students":19685263,
+    "avg_students_per_school":263.9164353993,
     "total_tch":452602,
     "student_teacher_ratio":43.4935395778,
     "region":"South"
   },
   {
     "state":"KERALA",
+    "num_schools":15710,
     "total_students":12058210,
+    "avg_students_per_school":767.5499681731,
     "total_tch":292072,
     "student_teacher_ratio":41.2850598483,
     "region":"South"
   },
   {
     "state":"LADAKH",
+    "num_schools":951,
     "total_students":142418,
+    "avg_students_per_school":149.7560462671,
     "total_tch":6908,
     "student_teacher_ratio":20.6163867979,
     "region":"Other"
   },
   {
     "state":"LAKSHADWEEP",
+    "num_schools":36,
     "total_students":27796,
+    "avg_students_per_school":772.1111111111,
     "total_tch":751,
     "student_teacher_ratio":37.0119840213,
     "region":"South"
   },
   {
     "state":"MADHYA PRADESH",
+    "num_schools":121657,
     "total_students":22444915,
+    "avg_students_per_school":184.4934118053,
     "total_tch":717493,
     "student_teacher_ratio":31.2824166926,
     "region":"West"
   },
   {
     "state":"MAHARASHTRA",
+    "num_schools":108250,
     "total_students":28599071,
+    "avg_students_per_school":264.1946512702,
     "total_tch":747501,
     "student_teacher_ratio":38.2595755725,
     "region":"West"
   },
   {
     "state":"MANIPUR",
+    "num_schools":4631,
     "total_students":1281106,
+    "avg_students_per_school":276.6370114446,
     "total_tch":41490,
     "student_teacher_ratio":30.8774644493,
     "region":"Northeast"
   },
   {
     "state":"MEGHALAYA",
+    "num_schools":14513,
     "total_students":2719888,
+    "avg_students_per_school":187.410459588,
     "total_tch":57002,
     "student_teacher_ratio":47.7156590997,
     "region":"Northeast"
   },
   {
     "state":"MIZORAM",
+    "num_schools":3942,
     "total_students":713852,
+    "avg_students_per_school":181.0887874176,
     "total_tch":24952,
     "student_teacher_ratio":28.6090092979,
     "region":"Northeast"
   },
   {
     "state":"NAGALAND",
+    "num_schools":2750,
     "total_students":1013046,
+    "avg_students_per_school":368.3803636364,
     "total_tch":33131,
     "student_teacher_ratio":30.5769822825,
     "region":"Northeast"
   },
   {
     "state":"ODISHA",
+    "num_schools":61562,
     "total_students":13839489,
+    "avg_students_per_school":224.8057080667,
     "total_tch":344116,
     "student_teacher_ratio":40.2175109556,
     "region":"East\/Central"
   },
   {
     "state":"PUDUCHERRY",
+    "num_schools":763,
     "total_students":364808,
+    "avg_students_per_school":478.123197903,
     "total_tch":13639,
     "student_teacher_ratio":26.7474154997,
     "region":"South"
   },
   {
     "state":"PUNJAB",
+    "num_schools":27268,
     "total_students":9927377,
+    "avg_students_per_school":364.0669282676,
     "total_tch":273130,
     "student_teacher_ratio":36.3467103577,
     "region":"North"
   },
   {
     "state":"RAJASTHAN",
+    "num_schools":106087,
     "total_students":18880521,
+    "avg_students_per_school":177.972051241,
     "total_tch":792265,
     "student_teacher_ratio":23.8310678876,
     "region":"North"
   },
   {
     "state":"SIKKIM",
+    "num_schools":1245,
     "total_students":215667,
+    "avg_students_per_school":173.2265060241,
     "total_tch":14994,
     "student_teacher_ratio":14.3835534214,
     "region":"Northeast"
   },
   {
     "state":"TAMIL NADU",
+    "num_schools":57624,
     "total_students":15650008,
+    "avg_students_per_school":271.5883659586,
     "total_tch":549850,
     "student_teacher_ratio":28.4623224516,
     "region":"South"
   },
   {
     "state":"TELANGANA",
+    "num_schools":40909,
     "total_students":12720153,
+    "avg_students_per_school":310.9377643061,
     "total_tch":357911,
     "student_teacher_ratio":35.5399889917,
     "region":"South"
   },
   {
     "state":"TRIPURA",
+    "num_schools":4943,
     "total_students":1117574,
+    "avg_students_per_school":226.092251669,
     "total_tch":37733,
     "student_teacher_ratio":29.617947155,
     "region":"Northeast"
   },
   {
     "state":"UTTAR PRADESH",
+    "num_schools":262277,
     "total_students":68380027,
+    "avg_students_per_school":260.7168261037,
     "total_tch":1615427,
     "student_teacher_ratio":42.3293822624,
     "region":"East\/Central"
   },
   {
     "state":"UTTARAKHAND",
+    "num_schools":22413,
     "total_students":3599643,
+    "avg_students_per_school":160.6051398742,
     "total_tch":134263,
     "student_teacher_ratio":26.8103870761,
     "region":"North"
   },
   {
     "state":"WEST BENGAL",
+    "num_schools":89903,
     "total_students":24855325,
+    "avg_students_per_school":276.4682491129,
     "total_tch":583825,
     "student_teacher_ratio":42.5732454074,
     "region":"East\/Central"
