@@ -30,7 +30,7 @@
       "type": "quantitative",
       "axis": {"title": "Number of Crimes"}
     },
-    "color": {"value": "#95e1d3"},
+    "color": {"value": "#9e2a2b"},
     "tooltip": [
       {"field": "category_clean", "type": "nominal", "title": "Crime Type"},
       {"field": "count", "type": "quantitative", "title": "Count"}
