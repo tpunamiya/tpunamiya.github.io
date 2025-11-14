@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Total population living in extreme poverty by world region",
+    "fontSize": 16,
+    "subtitle": "Extreme poverty: living below $3 per day (2021 prices)",
+    "subtitleFontSize": 12
+  },
+  "width": 650,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/data/total-population-living-in-extreme-poverty-by-world-region.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "quantitative",
+      "axis": {"title": null, "format": "d", "grid": false}
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "Number of people in poverty ($3 a day, 2021 prices)",
+      "type": "quantitative",
+      "axis": {"title": null, "format": "~s", "grid": false}
+    },
+    "color": {
+      "field": "Entity",
+      "type": "nominal",
+      "legend": {
+        "title": "Region",
+        "orient": "none",
+        "legendX": 480,
+        "legendY": 10
+      }
+    },
+    "detail": {
+      "field": "Entity",
+      "type": "nominal"
+    }
+  }
+}

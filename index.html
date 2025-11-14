@@ -18,72 +18,162 @@
         <h1 class="big">Data Visualization Portfolio</h1>
         <p class="subtitle">Trisha Punamiya</p>
         <div class="links">
-            <a href="https://www.linkedin.com/in/trisha-punamiya-16b25214b/" target="_blank">LinkedIn |</a>
+            <a href="https://www.linkedin.com/in/trisha-punamiya-16b25214b/" target="_blank">LinkedIn</a> |
             <a href="https://github.com/tpunamiya" target="_blank">GitHub</a>
         </div>
     </header>
+    
+    <p><a href="education-india.html">View Final Project: Educational Disparities Across India →</a></p>
 
     <div class="intro">
-        <p>This portfolio was creating through the coding challenges assigned as part of LSE PP434 - Automated Data Visualization taught by Professor Richard Davies.</p>
+        <p>This portfolio was created through the coding challenges assigned as part of LSE PP434 - Automated Data Visualization taught by Professor Richard Davies. Each challenge demonstrates progressive mastery of data visualization techniques, from basic chart embedding to advanced API integration and web scraping.</p>
     </div>
 
     <section>
-        <h2>Challenge 1: Foundation Charts</h2>
+        <h2>Challenge 1: Hosting</h2>
         <div class="task">
-            <strong>Task:</strong> Set up GitHub Pages hosting and create initial visualizations using Vega-Lite specifications.
+            <strong>Task:</strong> Set up a GitHub Pages site and embed two charts using the vegaEmbed function.
         </div>
-        <div class="chart-description">
-            <p>These foundational charts demonstrate the basic capabilities of Vega-Lite for data visualization. The first chart examines economic trends, while the second explores prize money distribution in professional tennis.</p>
-        </div>
+
         <figure id="Location1"></figure>
+        <p class="source"><em>Source: Richard Davies Library</em></p>
+        
         <figure id="Location2"></figure>
+        <p class="source"><em>Source: Richard Davies Library</em></p>
     </section>
 
     <section>
-        <h2>Challenge 2: Custom Chart Development</h2>
+        <h2>Challenge 2: Building</h2>
         <div class="task">
-            <strong>Task:</strong> Build custom visualizations using local JSON specifications to display economic indicators.
+            <strong>Task:</strong> Create custom visualizations using the Economics Observatory's "create" tool and embed them using local JSON specifications.
         </div>
         <div class="chart-description">
-            <p>This visualization presents a custom-built chart analyzing key economic metrics. By creating local specification files, we gain precise control over chart aesthetics and interactivity.</p>
+            <p>India's GDP per Capita has risen!</p>
         </div>
         <figure id="Location3"></figure>
+        <div class="chart-description">
+            <p>But...Unemployment has not fallen!</p>
+        </div>
+        <figure id="Location3a"></figure>
+        <p class="source"><em>Source: Economics Observatory</em></p>
     </section>
 
     <section>
-        <h2>Challenge 3: Inflation Analysis</h2>
+        <h2>Challenge 3: Debate</h2>
         <div class="task">
-            <strong>Task:</strong> Analyze Consumer Price Index (CPI) data to understand inflation trends over time.
+            <strong>Task:</strong> Create visualizations that support or refute a policy debate, with commentary limited to 25 words per chart.
         </div>
         <div class="chart-description">
-            <p>The Consumer Price Index serves as a crucial indicator of inflation and purchasing power. This line chart tracks CPI movements, revealing periods of high inflation, deflation, and economic stability. Understanding these patterns is essential for economic policy analysis and forecasting.</p>
+            <h3>Poverty</h3>
+            <p><strong>Policy question:</strong> Have international development efforts successfully reduced extreme poverty?</p>
+            <p>Global poverty reduction has been a central goal of international development policy for decades. These visualizations examine poverty trends across different income thresholds and world regions to assess progress toward eliminating extreme poverty. The first chart tracks the number of people living in extreme poverty (below $3 per day) by region, while the second shows India's progress across multiple poverty bands, revealing how populations have shifted from extreme poverty toward higher income levels.</p>
         </div>
-        <figure id="cpi_linechart"></figure>
+        <figure id="Location4"></figure>
+        <figure id="Location4a"></figure>
+        <p class="source"><em>Source: World Bank Poverty and Inequality Platform (2025) - with major processing by Our World in Data</em></p>
     </section>
 
-    <section>
-        <h2>Challenge 4: Python Integration with Altair</h2>
-        <div class="task">
-            <strong>Task:</strong> Leverage Python's Altair library to create programmatic visualizations that can be embedded in web portfolios.
-        </div>
-        <div class="chart-description">
-            <h3>Shiller P/E Ratio Analysis</h3>
-            <p>The Shiller Price-to-Earnings (P/E) ratio, also known as the cyclically adjusted price-to-earnings ratio (CAPE), is a valuation metric that smooths out short-term earnings fluctuations. This chart reveals historical market valuations and can signal periods of overvaluation or undervaluation in equity markets.</p>
-            <p>Python and Altair enable sophisticated data processing and visualization workflows. By generating chart specifications programmatically, we can create reproducible, data-driven visualizations that update dynamically with new data.</p>
-        </div>
-        <figure id="Location5"></figure>
-    </section>
+   <section>
+    <h2>Challenge 4: Replication</h2>
+    <div class="task">
+        <strong>Task:</strong> Find a published chart, replicate it in Vega-Lite, then improve upon the original design.
+    </div>
+    
+    <div class="chart-description">
+        <h3>Green Bond Issuance: China vs Western Nations</h3>
+        
+        <h4>Original Chart</h4>
+        <p>This chart was published by the Financial Times, analyzing the global green bond market. The FT's distinctive cream background and clean design makes their charts immediately recognizable. The original visualization effectively shows China's dominance in sustainable finance, but has room for design improvements.</p>
+    </div>
+    
+    <!-- Original FT Chart (screenshot) -->
+    <figure>
+        <img src="images/ft_green_bonds_original.png" alt="Original FT Chart - Green Bonds" style="max-width: 100%; height: auto;">
+    </figure>
+    <p class="source"><em>Source: Financial Times | Data: LSEG</em></p>
+    
+    <div class="chart-description">
+        <h4>My Replication</h4>
+        <p>This replication matches the Financial Times' visual style, including their signature cream background color, grouped bar layout, title positioning, and color palette. The data was traced from the original chart, as the assignment permits approximation when exact data isn't publicly available.</p>
+    </div>
+    
+    <!-- Replication Chart -->
+    <figure id="Location5"></figure>
+    <p class="source"><em>Source: Financial Times (replicated) | Data: LSEG (approximated)</em></p>
+    
+    <div class="chart-description">
+        <h4>Improved Version</h4>
+        <p><strong>Key improvements made:</strong></p>
+        <ul>
+            <li>Changed from grouped bars to line chart for clearer trend visualization</li>
+            <li>Emphasized China with dark green color (thematically appropriate for "green" bonds) and thicker line</li>
+            <li>Western nations shown in muted pastel colors at reduced opacity to provide context without competing for attention</li>
+            <li>Added data points at each year for precision</li>
+            <li>Changed grid lines to dotted for less visual clutter</li>
+            <li>Added country labels at line endpoints to reduce legend dependency</li>
+            <li>Updated title to emphasize the key finding: China's market dominance</li>
+        </ul>
+        <p><strong>Summary (25 words):</strong> Emphasized China using thematic green color and transparency. Converted to line chart for trend clarity. Added endpoint labels for better readability.</p>
+    </div>
+    
+    <!-- Improved Chart -->
+    <figure id="Location5a"></figure>
+    <p class="source"><em>Source: Financial Times (improved design) | Data: LSEG</em></p>
+</section>
 
-    <section>
-        <h2>Challenge 5: Using a World Bank API</h2>
-        <div class="task">
-            <strong>Task:</strong> Leverage Python's Altair library to create programmatic visualizations that can be embedded in web portfolios.
-        </div>
-        <div class="chart-description">
-            <h3>Shiller P/E Ratio Analysis</h3>
-            <p>The Shiller Price-to-Earnings (P/E) ratio, also known as the cyclically adjusted price-to-earnings ratio (CAPE), is a valuation metric that smooths out short-term earnings fluctuations. This chart reveals historical market valuations and can signal periods of overvaluation or undervaluation in equity markets.</p>
-        <figure id="Location6"></figure>
-    </section>
+   <section>
+    <h2>Challenge 5: Accessing Data - API & Web Scraping</h2>
+    
+    <!-- API Task -->
+    <div class="task">
+        <strong>Task (API):</strong> Add a chart that uses a live link to an API.
+    </div>
+    <div class="chart-description">
+        <h3>World Bank Development Indicators - Fertility Rate Comparison</h3>
+        <p>This visualization demonstrates real-time data integration using the World Bank API, which provides access to thousands of development indicators across countries and time periods. By connecting directly to the API, the chart automatically updates when new data becomes available, ensuring the visualization remains current without manual intervention.</p>
+        <p><strong>API Details:</strong></p>
+        <ul>
+            <li><strong>Base URL:</strong> https://api.worldbank.org/v2/</li>
+            <li><strong>Endpoint structure:</strong> country/[country_codes]/indicator/[indicator_code]</li>
+            <li><strong>Format parameter:</strong> ?format=json</li>
+            <li><strong>Full URL used:</strong> https://api.worldbank.org/v2/country/kor;prk/indicator/SP.DYN.TFRT.IN?format=json&date=1950:2025&per_page=160</li>
+        </ul>
+        <p>The API returns data in JSON format, which Vega-Lite can parse directly to create dynamic, data-driven visualizations. This chart compares fertility rates between South Korea and North Korea over time.</p>
+    </div>
+    <figure id="Location6"></figure>
+    <p class="source"><em>Source: World Bank API - <a href="https://datahelpdesk.worldbank.org/knowledgebase/topics/125589" target="_blank">API Documentation</a></em></p>
+    
+    <!-- Web Scraping Task -->
+    <div class="task" style="margin-top: 40px;">
+        <strong>Task (Web Scraping):</strong> Scrape data from a website using Python, clean it, then create a visualization.
+    </div>
+    <div class="chart-description">
+        <h3>Grand Slam Tennis Champions by Country (Open Era)</h3>
+        <p>Using BeautifulSoup, I scraped Wikipedia's Grand Slam singles champions tables to analyze tennis dominance by country across all four major tournaments since 1968. The data required extracting country information from flag images and handling historical country name changes like Yugoslavia variants.</p>
+        <p><strong>Python Notebook:</strong> <a href="https://colab.research.google.com/drive/14uy6Y_yXF18eKbtORGoEfN2KzRIi5E0o?usp=sharing" target="_blank">View data collection and cleaning process</a></p>
+    </div>
+    <figure id="Location6a"></figure>
+    <p class="source"><em>Source: Wikipedia - <a href="https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions" target="_blank">Men's Champions</a> & <a href="https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions" target="_blank">Women's Champions</a></em></p>
+ </section>
+
+ <section>
+    <div class="chart-description">
+        <h2>Challenge 6: Building a dashboard with loops</h2>
+        <p>Using a loop to batch download 6 different crime datasets from UK Police API as JSON files. Using another loop in JavaScript to embed all 6 charts dynamically.</p>
+        <p><strong>Python Notebook:</strong> <a href="https://colab.research.google.com/drive/1Y6oX1Yk9n0b0YI3Y6b2Yc1F7Z3KX1Y2z?usp=sharing" target="_blank">View data download process</a></p>
+    </div>
+    <div id="chartGrid2x3">
+        <figure id="CC6_Location1"></figure>
+        <figure id="CC6_Location2"></figure>
+        <figure id="CC6_Location3"></figure>
+        <figure id="CC6_Location4"></figure>
+        <figure id="CC6_Location5"></figure>
+        <figure id="CC6_Location6"></figure>
+    </div>
+    <figcaption style="font-size: 15px; font-weight: normal;">
+        <small>Source: UK Police Data API (data.police.uk)</small>
+    </figcaption>
+</section>
 
     <footer>
         <p>&copy; 2025 Trisha Punamiya | Built with Vega-Lite and HTML/CSS</p>
@@ -91,16 +181,20 @@
 
     <script>
         // Chart specifications
-        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
-        let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig3_prize-category.json";
-        let figure_3_spec = "wk1_chart2.json";
-        let figure_4_spec = "cpi_linechart.json";
-        let figure_5_spec = "shiller_pe_ratio_chart.json";
-        let figure_6_spec = "world_bank_api_chart.json";
+        let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartLine2.json";
+        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartArea1.json";
+        let figure_3_spec = "charts/wk1_chart2.json";
+        let figure_3a_spec = "charts/wk1_chart1.json";
+        let figure_4_spec = "charts/poverty_WDL.json";
+        let figure_4a_spec = "charts/poverty_india.json";
+        let figure_5_spec = "charts/green_bonds_ft_replication.json";
+        let figure_5a_spec = "charts/green_bonds_improved.json";
+        let figure_6_spec = "charts/world_bank_api_chart.json";
+        let figure_6a_spec = "charts/tennis_scraper.json"; // Add your scraper chart
         
         // Configuration for consistent chart sizing
         const embedConfig = {
-            actions: false,
+            actions: true,
             width: 650,
             height: 400
         };
@@ -109,9 +203,30 @@
         vegaEmbed('#Location1', figure_1_spec, embedConfig);
         vegaEmbed('#Location2', figure_2_spec, embedConfig);
         vegaEmbed('#Location3', figure_3_spec, embedConfig);
-        vegaEmbed('#cpi_linechart', figure_4_spec, embedConfig);
+        vegaEmbed('#Location3a', figure_3a_spec, embedConfig);
+        vegaEmbed('#Location4', figure_4_spec, embedConfig);
+        vegaEmbed('#Location4a', figure_4a_spec, embedConfig);
         vegaEmbed('#Location5', figure_5_spec, embedConfig);
+        vegaEmbed('#Location5a', figure_5a_spec, embedConfig);
         vegaEmbed('#Location6', figure_6_spec, embedConfig);
-    </script>
+        vegaEmbed('#Location6a', figure_6a_spec, embedConfig);
+        
+       // ===== CHALLENGE 6: LOOP TO EMBED CRIME CHARTS =====
+const cities = ['bristol', 'london', 'newcastle', 'birmingham', 'leeds', 'liverpool'];
+const locationIds = ['CC6_Location1', 'CC6_Location2', 'CC6_Location3', 'CC6_Location4', 'CC6_Location5', 'CC6_Location6'];
+
+// Configuration for smaller crime charts
+const crimeChartConfig = {
+    actions: false,
+    width: 280,
+    height: 200
+};
+
+// Loop to embed all 6 crime charts
+for (let i = 0; i < cities.length; i++) {
+    let spec = `charts/cc6_${cities[i]}.json`;
+    vegaEmbed(`#${locationIds[i]}`, spec, crimeChartConfig);
+}
+</script>
 </body>
 </html>

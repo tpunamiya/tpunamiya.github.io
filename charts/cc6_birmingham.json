@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Birmingham Crime Statistics",
+  "width": 300,
+  "height": 250,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/data/CC6/birmingham_crime.json",
+    "format": {"type": "json", "property": "crimes"}
+  },
+  "transform": [
+    {"aggregate": [{"op": "count", "as": "count"}], "groupby": ["category"]},
+    {"calculate": "replace(datum.category, '-', ' ')", "as": "category_clean"},
+    {
+      "window": [{"op": "rank", "as": "rank"}],
+      "sort": [{"field": "count", "order": "descending"}]
+    },
+    {"filter": "datum.rank <= 8"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "category_clean",
+      "type": "nominal",
+      "sort": "-x",
+      "axis": {"title": null, "labelLimit": 150},
+      "title": "Crime Category"
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "axis": {"title": "Number of Crimes"}
+    },
+    "color": {"value": "#9b59b6"},
+    "tooltip": [
+      {"field": "category_clean", "type": "nominal", "title": "Crime Type"},
+      {"field": "count", "type": "quantitative", "title": "Count"}
+    ]
+  },
+  "config": {}
+}

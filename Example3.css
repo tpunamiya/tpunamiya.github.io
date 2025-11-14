@@ -1,5 +1,3 @@
-/* Enhanced Example3.css - Building on the original with portfolio improvements */
-
 /* Base body styling - keeping your original approach */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -126,7 +124,7 @@ section {
 
 /* NEW: Chart description area */
 .chart-description {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .chart-description p {
@@ -136,7 +134,7 @@ section {
 
 /* Figure/chart spacing and alignment */
 figure {
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
     max-width: 700px;
 }
@@ -150,6 +148,19 @@ figure .vega-embed canvas,
 figure .vega-embed svg {
     margin: 0 auto;
     display: block;
+}
+
+/* Source citation styling */
+.source {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.source a {
+    color: #065f46;
 }
 
 /* NEW: Chart grid for side-by-side charts */

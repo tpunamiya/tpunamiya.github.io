@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Disparities Across India | Trisha Punamiya</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" type="text/css" href="Example3.css">
+    
+    <!-- Vega-Lite -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <header>
+        <h1 class="big">Educational Disparities Across India</h1>
+        <p class="subtitle">Trisha Punamiya</p>
+        <div class="links">
+            <a href="index.html">← Back to Portfolio</a> |
+            <a href="https://www.linkedin.com/in/trisha-punamiya-16b25214b/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/tpunamiya" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <div class="intro">
+        <h2>Project Overview</h2>
+        <p>This project examines educational disparities across India using data from UDISE+ (Unified District Information System for Education Plus) and other sources. Through a series of data visualizations, we explore patterns of inequality across geographic, gender, and socioeconomic dimensions to understand the challenges facing India's education system.</p>
+        <p><strong>Key Questions:</strong> How do enrollment rates vary across Indian states? What gender disparities exist in education access? How do rural and urban areas compare in educational outcomes?</p>
+    </div>
+
+    <!-- Chart 1: Gender Gap by State -->
+    <section>
+        <h2>Gender Gap in School Enrollment</h2>
+        <div class="chart-description">
+            <p>This diverging bar chart reveals significant gender disparities in school enrollment across Indian states. States like Haryana and Punjab show substantial gaps favoring boys (blue bars extending left), indicating fewer girls enrolled relative to boys. In contrast, some states approach gender parity or show slight advantages for girls (red bars extending right).</p>
+            <p><strong>Key Finding:</strong> Northern states exhibit the most pronounced gender gaps, while southern and northeastern states demonstrate greater gender parity in education access.</p>
+        </div>
+        <figure id="gender_gap_chart"></figure>
+        <p class="source"><em>Source: UDISE+ India, School Enrollment Data</em></p>
+        </div>
+    <figure id="enrollment_pyramid_chart"></figure>
+    <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2021-2024)</em></p>
+</section>
+    </section>
+
+    <!-- Chart 3: Placeholder for your second chart -->
+    <section>
+        <h2>Rural vs Urban Educational Access</h2>
+        <div class="chart-description">
+            <p>[Description of your rural vs urban chart - what does it show about disparities between rural and urban areas?]</p>
+        </div>
+        <figure id="chart2"></figure>
+        <p class="source"><em>Source: [Your data source]</em></p>
+    </section>
+
+    <!-- Chart 4: Placeholder -->
+    <section>
+        <h2>Enrollment by Social Category</h2>
+        <div class="chart-description">
+            <p>[Description of enrollment patterns across SC/ST/OBC categories]</p>
+        </div>
+        <figure id="chart3"></figure>
+        <p class="source"><em>Source: [Your data source]</em></p>
+    </section>
+
+    <!-- Chart 5: Placeholder -->
+    <section>
+        <h2>State-wise Literacy Rates</h2>
+        <div class="chart-description">
+            <p>[Description of literacy rate variations across states]</p>
+        </div>
+        <figure id="chart4"></figure>
+        <p class="source"><em>Source: [Your data source]</em></p>
+    </section>
+
+    <!-- Chart 6: Placeholder -->
+    <section>
+        <h2>Dropout Rates Across Education Levels</h2>
+        <div class="chart-description">
+            <p>[Description of dropout patterns from primary to secondary education]</p>
+        </div>
+        <figure id="chart5"></figure>
+        <p class="source"><em>Source: [Your data source]</em></p>
+    </section>
+
+    <!-- Add more sections as needed for charts 6-8 -->
+
+    <section>
+        <h2>Conclusion</h2>
+        <div class="chart-description">
+            <p>The data reveals persistent educational disparities across India's states, with significant variations in gender parity, rural-urban access, and enrollment across social categories. Addressing these inequalities requires targeted policy interventions that account for regional differences and systemic barriers to education access.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Trisha Punamiya | Educational Disparities Across India | Data: UDISE+ & World Bank</p>
+    </footer>
+
+    <script>
+        // Chart specifications
+        let gender_gap_spec = "education_GenderGap.json";
+        let gender_gap_spec2 = "education_dropout_byStateGender.json";  // Add your chart specs
+        let chart3_spec = "chart3.json";
+        let chart4_spec = "chart4.json";
+        let chart5_spec = "chart5.json";
+        
+        // Configuration for consistent chart sizing
+        const embedConfig = {
+            actions: false,
+            width: 650,
+            height: 700
+        };
+        
+        // Embed charts
+        vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfig);
+        vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
+        // vegaEmbed('#chart3', chart3_spec, embedConfig);
+        // vegaEmbed('#chart4', chart4_spec, embedConfig);
+        // vegaEmbed('#chart5', chart5_spec, embedConfig);
+    </script>
+</body>
+</html>

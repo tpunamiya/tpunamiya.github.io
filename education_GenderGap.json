@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Gender Gap in School Enrollment by State",
+    "fontSize": 16,
+    "subtitle": "Percentage point difference (Girls % - Boys %) | Data: UDISE+ India",
+    "subtitleFontSize": 11
+  },
+  "width": 650,
+  "height": 700,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/Project_JSON/gender_gap_by_state.json"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "axis": {"title": null, "labelLimit": 200},
+      "sort": {"field": "gender_gap", "order": "ascending"}
+    },
+    "x": {
+      "field": "gender_gap",
+      "type": "quantitative",
+      "axis": {
+        "title": "Gender Gap (percentage points)",
+        "grid": false,
+        "format": "d"
+      },
+      "scale": {"domain": [-8, 8]}
+    },
+    "color": {
+      "field": "gender_gap",
+      "type": "quantitative",
+      "scale": {
+        "domain": [-8, 0, 8],
+        "range": ["#7B68A6", "#E0E0E0", "#D4936A"]
+      },
+      "legend": {
+        "title": "Gender Gap (pp)",
+        "orient": "bottom",
+        "direction": "horizontal",
+        "gradientLength": 300
+      }
+    },
+    "tooltip": [
+      {"field": "state", "type": "nominal", "title": "State"},
+      {
+        "field": "total_boys",
+        "type": "quantitative",
+        "title": "Total Boys",
+        "format": ","
+      },
+      {
+        "field": "total_girls",
+        "type": "quantitative",
+        "title": "Total Girls",
+        "format": ","
+      },
+      {
+        "field": "girls_percentage",
+        "type": "quantitative",
+        "title": "Girls %",
+        "format": ".2f"
+      },
+      {
+        "field": "boys_percentage",
+        "type": "quantitative",
+        "title": "Boys %",
+        "format": ".2f"
+      },
+      {
+        "field": "gender_gap",
+        "type": "quantitative",
+        "title": "Gender Gap (pp)",
+        "format": "+.2f"
+      }
+    ]
+  },
+  "config": {}
+}

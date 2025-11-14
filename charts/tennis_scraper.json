@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Grand Slam Singles Champions by Country (Open Era 1968-Present)",
+    "fontSize": 16,
+    "subtitle": "Number of titles won at each tournament, separated by gender",
+    "subtitleFontSize": 12
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/grand_slam_heatmap_data.json"
+  },
+  "facet": {
+    "column": {
+      "field": "Gender",
+      "type": "nominal",
+      "header": {"titleFontSize": 14, "labelFontSize": 12}
+    }
+  },
+  "spec": {
+    "width": 300,
+    "height": 400,
+    "mark": "rect",
+    "encoding": {
+      "x": {
+        "field": "Tournament",
+        "type": "nominal",
+        "axis": {"title": null, "labelAngle": -45},
+        "sort": ["Australian Open", "French Open", "Wimbledon", "US Open"]
+      },
+      "y": {
+        "field": "Country",
+        "type": "nominal",
+        "axis": {"title": null},
+        "sort": "-color"
+      },
+      "color": {
+        "field": "Titles",
+        "type": "quantitative",
+        "scale": {"scheme": "greens"},
+        "legend": {"title": "Titles Won"}
+      },
+      "tooltip": [
+        {"field": "Country", "type": "nominal"},
+        {"field": "Tournament", "type": "nominal"},
+        {"field": "Gender", "type": "nominal"},
+        {"field": "Titles", "type": "quantitative", "title": "Titles Won"}
+      ]
+    }
+  },
+  "config": {}
+}

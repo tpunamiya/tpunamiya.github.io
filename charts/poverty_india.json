@@ -1,0 +1,180 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Distribution of population between different poverty lines - India",
+    "fontSize": 16,
+    "subtitle": "Adjusted for inflation and living costs",
+    "subtitleFontSize": 12
+  },
+  "width": 650,
+  "height": 400,
+  "resolve": {"scale": {"x": "shared"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/data/distribution-of-population-poverty-thresholds.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {"filter": "datum.Entity == 'India'"},
+    {"filter": "datum.Year >= 1977 && datum.Year <= 2022"},
+    {
+      "calculate": "toNumber(datum['Number of people in poverty ($3 a day, 2021 prices)']) || 0",
+      "as": "below_3"
+    },
+    {
+      "calculate": "toNumber(datum['Number of people in poverty (between $3 and $4.20 a day, 2021 prices)']) || 0",
+      "as": "level_3_4"
+    },
+    {
+      "calculate": "toNumber(datum['Number of people in poverty (between $4.20 and $8.30 a day, 2021 prices)']) || 0",
+      "as": "level_4_8"
+    },
+    {
+      "calculate": "toNumber(datum['Number of people in poverty (between $8.30 and $10 a day, 2021 prices)']) || 0",
+      "as": "level_8_10"
+    },
+    {
+      "calculate": "toNumber(datum['Number of people not in poverty (above $10 a day, 2021 prices)']) || 0",
+      "as": "above_10"
+    },
+    {"calculate": "datum.below_3", "as": "Below $3"},
+    {"calculate": "datum.below_3 + datum.level_3_4", "as": "$3-$4.20"},
+    {
+      "calculate": "datum.below_3 + datum.level_3_4 + datum.level_4_8",
+      "as": "$4.20-$8.30"
+    },
+    {
+      "calculate": "datum.below_3 + datum.level_3_4 + datum.level_4_8 + datum.level_8_10",
+      "as": "$8.30-$10"
+    },
+    {
+      "calculate": "datum.below_3 + datum.level_3_4 + datum.level_4_8 + datum.level_8_10 + datum.above_10",
+      "as": "Above $10"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "area", "color": "#7EB6D4"},
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "quantitative",
+          "scale": {"zero": false, "nice": false},
+          "axis": {"title": null, "format": "d", "grid": false}
+        },
+        "y": {
+          "field": "Above $10",
+          "type": "quantitative",
+          "axis": {
+            "title": null,
+            "format": ".2~s",
+            "labelExpr": "replace(datum.label, 'G', 'B')",
+            "grid": false
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11,
+        "color": "#333"
+      },
+      "encoding": {
+        "x": {"datum": 2022},
+        "y": {"datum": 1400000000},
+        "text": {"value": "Above $10 a day"}
+      }
+    },
+    {
+      "mark": {"type": "area", "color": "#A8D08D"},
+      "encoding": {
+        "x": {"field": "Year", "type": "quantitative"},
+        "y": {"field": "$8.30-$10", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11,
+        "color": "#333"
+      },
+      "encoding": {
+        "x": {"datum": 2022},
+        "y": {"datum": 1250000000},
+        "text": {"value": "$8.30-$10 a day"}
+      }
+    },
+    {
+      "mark": {"type": "area", "color": "#F7E896"},
+      "encoding": {
+        "x": {"field": "Year", "type": "quantitative"},
+        "y": {"field": "$4.20-$8.30", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11,
+        "color": "#333"
+      },
+      "encoding": {
+        "x": {"datum": 2022},
+        "y": {"datum": 900000000},
+        "text": {"value": "$4.20-$8.30 a day"}
+      }
+    },
+    {
+      "mark": {"type": "area", "color": "#FFAA91"},
+      "encoding": {
+        "x": {"field": "Year", "type": "quantitative"},
+        "y": {"field": "$3-$4.20", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11,
+        "color": "#333"
+      },
+      "encoding": {
+        "x": {"datum": 2022},
+        "y": {"datum": 300000000},
+        "text": {"value": "$3-$4.20 a day"}
+      }
+    },
+    {
+      "mark": {"type": "area", "color": "#FF8A65"},
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "quantitative",
+          "scale": {"domain": [1977, 2022]}
+        },
+        "y": {"field": "Below $3", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11,
+        "color": "#333"
+      },
+      "encoding": {
+        "x": {"datum": 2022},
+        "y": {"datum": 50000000},
+        "text": {"value": "Below $3 a day"}
+      }
+    }
+  ],
+  "config": {}
+}

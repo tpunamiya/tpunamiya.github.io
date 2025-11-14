@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Newcastle Crime Statistics",
+  "width": 280,
+  "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/data/CC6/newcastle_crime.json",
+    "format": {"type": "json", "property": "crimes"}
+  },
+  "transform": [
+    {"aggregate": [{"op": "count", "as": "count"}], "groupby": ["category"]},
+    {
+      "window": [{"op": "rank", "as": "rank"}],
+      "sort": [{"field": "count", "order": "descending"}]
+    },
+    {"filter": "datum.rank <= 8"}
+  ],
+  "mark": {"type": "bar", "color": "#1abc9c"},
+  "encoding": {
+    "y": {
+      "field": "category",
+      "type": "nominal",
+      "sort": "-x",
+      "axis": {"title": null, "labelLimit": 150}
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "axis": {"title": "Crimes"}
+    },
+    "tooltip": [
+      {"field": "category", "type": "nominal", "title": "Crime Type"},
+      {"field": "count", "type": "quantitative", "title": "Count"}
+    ]
+  },
+  "config": {}
+}
