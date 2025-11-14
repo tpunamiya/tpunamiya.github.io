@@ -15,7 +15,7 @@
     },
     {"filter": "datum.rank <= 8"}
   ],
-  "mark": {"type": "bar", "color": "#1abc9c"},
+  "mark": {"type": "bar", "color": "#f38181"},
   "encoding": {
     "y": {
       "field": "category",
