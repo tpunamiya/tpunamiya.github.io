@@ -1509,7 +1509,7 @@
     "crsCode":"GLQ",
     "iataAirportCode":null,
     "constituentCountry":"scotland",
-    "is_major":true
+    "is_major":false
   },
   {
     "stationName":"Gleneagles",
