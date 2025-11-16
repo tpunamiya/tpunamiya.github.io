@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Railway Stations in Scotland",
+    "fontSize": 16,
+    "subtitle": "Major cities highlighted in red | 363 stations total",
+    "subtitleFontSize": 11
+  },
+  "width": 400,
+  "height": 600,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/scotland.topojson",
+        "format": {"type": "topojson", "feature": "data"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#E8F5E9",
+        "stroke": "#80b983",
+        "strokeWidth": 1.5
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/scotland_train_stations.json"
+      },
+      "transform": [
+        {"filter": "datum.is_major == false"},
+        {"calculate": "'Regular Station'", "as": "type"}
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 30,
+        "color": "#ff912a",
+        "opacity": 0.6,
+        "stroke": "white",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "longitude": {"field": "long", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "color": {
+          "field": "type",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Regular Station", "Major City"],
+            "range": ["#ff912a", "#C62828"]
+          },
+          "legend": {
+            "title": "Station Type",
+            "orient": "bottom-right",
+            "symbolSize": 70,
+            "symbolStrokeWidth": 0
+          }
+        },
+        "tooltip": [
+          {"field": "stationName", "type": "nominal", "title": "Station"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/scotland_train_stations.json"
+      },
+      "transform": [{"filter": "datum.is_major == true"}],
+      "mark": {
+        "type": "circle",
+        "size": 30,
+        "color": "#C62828",
+        "opacity": 0.9,
+        "stroke": "#8B0000",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "longitude": {"field": "long", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "tooltip": [
+          {
+            "field": "stationName",
+            "type": "nominal",
+            "title": "Major City Station"
+          }
+        ]
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "scale": 2800,
+    "center": [-4, 57],
+    "translate": [200, 300]
+  },
+  "config": {}
+}
