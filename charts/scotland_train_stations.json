@@ -5,7 +5,8 @@
     "long":-2.097464,
     "crsCode":"ABD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":true
   },
   {
     "stationName":"Aberdour",
@@ -13,7 +14,8 @@
     "long":-3.300575,
     "crsCode":"AUR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Achanalt",
@@ -21,7 +23,8 @@
     "long":-4.914243,
     "crsCode":"AAT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Achnasheen",
@@ -29,7 +32,8 @@
     "long":-5.072421,
     "crsCode":"ACN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Achnashellach",
@@ -37,7 +41,8 @@
     "long":-5.333001,
     "crsCode":"ACH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Addiewell",
@@ -45,7 +50,8 @@
     "long":-3.60655,
     "crsCode":"ADW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Airbles",
@@ -53,7 +59,8 @@
     "long":-3.994447,
     "crsCode":"AIR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Airdrie",
@@ -61,7 +68,8 @@
     "long":-3.982952,
     "crsCode":"ADR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Alexandra Parade",
@@ -69,7 +77,8 @@
     "long":-4.211465,
     "crsCode":"AXP",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Alexandria",
@@ -77,7 +86,8 @@
     "long":-4.577534,
     "crsCode":"ALX",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Alloa",
@@ -85,7 +95,8 @@
     "long":-3.7872,
     "crsCode":"ALO",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Alness",
@@ -93,7 +104,8 @@
     "long":-4.249743,
     "crsCode":"ASS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Altnabreac",
@@ -101,7 +113,8 @@
     "long":-3.705279,
     "crsCode":"ABC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Anderston",
@@ -109,7 +122,8 @@
     "long":-4.271969,
     "crsCode":"AND",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Annan",
@@ -117,7 +131,8 @@
     "long":-3.262603,
     "crsCode":"ANN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Anniesland",
@@ -125,7 +140,8 @@
     "long":-4.321684,
     "crsCode":"ANL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Arbroath",
@@ -133,7 +149,8 @@
     "long":-2.588928,
     "crsCode":"ARB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Ardgay",
@@ -141,7 +158,8 @@
     "long":-4.362604,
     "crsCode":"ARD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Ardlui",
@@ -149,7 +167,8 @@
     "long":-4.721712,
     "crsCode":"AUI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Ardrossan Harbour",
@@ -157,7 +176,8 @@
     "long":-4.823461,
     "crsCode":"ADS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Ardrossan South Beach",
@@ -165,7 +185,8 @@
     "long":-4.799593,
     "crsCode":"ASB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Ardrossan Town",
@@ -173,7 +194,8 @@
     "long":-4.812212,
     "crsCode":"ADN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Argyle Street",
@@ -181,7 +203,8 @@
     "long":-4.244574,
     "crsCode":"AGS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Arisaig",
@@ -189,7 +212,8 @@
     "long":-5.839141,
     "crsCode":"ARG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Armadale",
@@ -197,7 +221,8 @@
     "long":-3.68504,
     "crsCode":"ARM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Arrochar & Tarbet",
@@ -205,7 +230,8 @@
     "long":-4.722822,
     "crsCode":"ART",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Ashfield",
@@ -213,7 +239,8 @@
     "long":-4.2433,
     "crsCode":"ASF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Attadale",
@@ -221,7 +248,8 @@
     "long":-5.456549,
     "crsCode":"ATT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Auchinleck",
@@ -229,7 +257,8 @@
     "long":-4.295389,
     "crsCode":"AUK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Aviemore",
@@ -237,7 +266,8 @@
     "long":-3.828348,
     "crsCode":"AVM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Ayr",
@@ -245,7 +275,8 @@
     "long":-4.626878,
     "crsCode":"AYR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Baillieston",
@@ -253,7 +284,8 @@
     "long":-4.11454,
     "crsCode":"BIO",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Balloch Central",
@@ -261,7 +293,8 @@
     "long":-4.583539,
     "crsCode":"BHC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Balmossie",
@@ -269,7 +302,8 @@
     "long":-2.83764,
     "crsCode":"BSI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Banavie",
@@ -277,7 +311,8 @@
     "long":-5.095477,
     "crsCode":"BNV",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Barassie",
@@ -285,7 +320,8 @@
     "long":-4.651181,
     "crsCode":"BSS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bargeddie",
@@ -293,7 +329,8 @@
     "long":-4.071789,
     "crsCode":"BGI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Barnhill",
@@ -301,7 +338,8 @@
     "long":-4.223463,
     "crsCode":"BNL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Barrhead",
@@ -309,7 +347,8 @@
     "long":-4.396411,
     "crsCode":"BRR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Barrhill",
@@ -317,7 +356,8 @@
     "long":-4.781834,
     "crsCode":"BRL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Barry Links",
@@ -325,7 +365,8 @@
     "long":-2.745444,
     "crsCode":"BYL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bathgate",
@@ -333,7 +374,8 @@
     "long":-3.644019,
     "crsCode":"BHG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bearsden",
@@ -341,7 +383,8 @@
     "long":-4.332945,
     "crsCode":"BRN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Beasdale",
@@ -349,7 +392,8 @@
     "long":-5.763864,
     "crsCode":"BSL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Beauly",
@@ -357,7 +401,8 @@
     "long":-4.4698,
     "crsCode":"BEL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bellgrove",
@@ -365,7 +410,8 @@
     "long":-4.22547,
     "crsCode":"BLG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bellshill",
@@ -373,7 +419,8 @@
     "long":-4.025222,
     "crsCode":"BLH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bishopbriggs",
@@ -381,7 +428,8 @@
     "long":-4.224958,
     "crsCode":"BBG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bishopton",
@@ -389,7 +437,8 @@
     "long":-4.501637,
     "crsCode":"BPT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Blackridge",
@@ -397,7 +446,8 @@
     "long":-3.75047,
     "crsCode":"BKR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Blair Atholl",
@@ -405,7 +455,8 @@
     "long":-3.85025,
     "crsCode":"BLA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Blairhill",
@@ -413,7 +464,8 @@
     "long":-4.04221,
     "crsCode":"BAI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Blantyre",
@@ -421,7 +473,8 @@
     "long":-4.086466,
     "crsCode":"BLT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bogston",
@@ -429,7 +482,8 @@
     "long":-4.713676,
     "crsCode":"BGS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bowling",
@@ -437,7 +491,8 @@
     "long":-4.493879,
     "crsCode":"BWG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Branchton",
@@ -445,7 +500,8 @@
     "long":-4.803598,
     "crsCode":"BCN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Breich",
@@ -453,7 +509,8 @@
     "long":-3.668147,
     "crsCode":"BRC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bridge of Allan",
@@ -461,7 +518,8 @@
     "long":-3.956166,
     "crsCode":"BEA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bridge of Orchy",
@@ -469,7 +527,8 @@
     "long":-4.763048,
     "crsCode":"BRO",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Bridgeton",
@@ -477,7 +536,8 @@
     "long":-4.226668,
     "crsCode":"BDG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Brora",
@@ -485,7 +545,8 @@
     "long":-3.853251,
     "crsCode":"BRA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Broughty Ferry",
@@ -493,7 +554,8 @@
     "long":-2.873153,
     "crsCode":"BYF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Brunstane",
@@ -501,7 +563,8 @@
     "long":-3.10064,
     "crsCode":"BSU",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Burnside",
@@ -509,7 +572,8 @@
     "long":-4.204029,
     "crsCode":"BUI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Burntisland",
@@ -517,7 +581,8 @@
     "long":-3.233214,
     "crsCode":"BTS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Busby",
@@ -525,7 +590,8 @@
     "long":-4.262551,
     "crsCode":"BUS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Caldercruix",
@@ -533,7 +599,8 @@
     "long":-3.88978,
     "crsCode":"CAC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cambuslang",
@@ -541,7 +608,8 @@
     "long":-4.173839,
     "crsCode":"CBL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Camelon",
@@ -549,7 +617,8 @@
     "long":-3.817015,
     "crsCode":"CMO",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cameron Bridge",
@@ -557,7 +626,8 @@
     "long":-3.046855,
     "crsCode":"CBX",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cardenden",
@@ -565,7 +635,8 @@
     "long":-3.261651,
     "crsCode":"CDD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cardonald",
@@ -573,7 +644,8 @@
     "long":-4.340297,
     "crsCode":"CDO",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cardross",
@@ -581,7 +653,8 @@
     "long":-4.652782,
     "crsCode":"CDR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Carfin",
@@ -589,7 +662,8 @@
     "long":-3.956112,
     "crsCode":"CRF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Carluke",
@@ -597,7 +671,8 @@
     "long":-3.848761,
     "crsCode":"CLU",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Carmyle",
@@ -605,7 +680,8 @@
     "long":-4.161873,
     "crsCode":"CML",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Carnoustie",
@@ -613,7 +689,8 @@
     "long":-2.7066,
     "crsCode":"CAN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Carntyne",
@@ -621,7 +698,8 @@
     "long":-4.17898,
     "crsCode":"CAY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Carrbridge",
@@ -629,7 +707,8 @@
     "long":-3.829541,
     "crsCode":"CAG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Carstairs",
@@ -637,7 +716,8 @@
     "long":-3.668696,
     "crsCode":"CRS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cartsdyke",
@@ -645,7 +725,8 @@
     "long":-4.731633,
     "crsCode":"CDY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cathcart",
@@ -653,7 +734,8 @@
     "long":-4.261552,
     "crsCode":"CCT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Charing Cross (Glasgow)",
@@ -661,7 +743,8 @@
     "long":-4.270689,
     "crsCode":"CHC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Chatelherault",
@@ -669,7 +752,8 @@
     "long":-4.00466,
     "crsCode":"CTE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Clarkston",
@@ -677,7 +761,8 @@
     "long":-4.275865,
     "crsCode":"CKS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cleland",
@@ -685,7 +770,8 @@
     "long":-3.909695,
     "crsCode":"CEA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Clydebank",
@@ -693,7 +779,8 @@
     "long":-4.403927,
     "crsCode":"CYK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Coatbridge Central",
@@ -701,7 +788,8 @@
     "long":-4.032443,
     "crsCode":"CBC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Coatbridge Sunnyside",
@@ -709,7 +797,8 @@
     "long":-4.027847,
     "crsCode":"CBS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Coatdyke",
@@ -717,7 +806,8 @@
     "long":-4.005343,
     "crsCode":"COA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Connel Ferry",
@@ -725,7 +815,8 @@
     "long":-5.384973,
     "crsCode":"CON",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Conon Bridge",
@@ -733,7 +824,8 @@
     "long":-4.4404,
     "crsCode":"CBD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Corkerhill",
@@ -741,7 +833,8 @@
     "long":-4.323322,
     "crsCode":"CKH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Corpach",
@@ -749,7 +842,8 @@
     "long":-5.121662,
     "crsCode":"CPA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Corrour",
@@ -757,7 +851,8 @@
     "long":-4.690966,
     "crsCode":"CRR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cowdenbeath",
@@ -765,7 +860,8 @@
     "long":-3.344314,
     "crsCode":"COW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Craigendoran",
@@ -773,7 +869,8 @@
     "long":-4.711291,
     "crsCode":"CGD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Crianlarich",
@@ -781,7 +878,8 @@
     "long":-4.617778,
     "crsCode":"CNR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Croftfoot",
@@ -789,7 +887,8 @@
     "long":-4.229643,
     "crsCode":"CFF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Crookston",
@@ -797,7 +896,8 @@
     "long":-4.36049,
     "crsCode":"CKT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Crosshill",
@@ -805,7 +905,8 @@
     "long":-4.257648,
     "crsCode":"COI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Crossmyloof",
@@ -813,7 +914,8 @@
     "long":-4.284813,
     "crsCode":"CMY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Croy",
@@ -821,7 +923,8 @@
     "long":-4.035697,
     "crsCode":"CRO",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Culrain",
@@ -829,7 +932,8 @@
     "long":-4.405676,
     "crsCode":"CUA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cumbernauld",
@@ -837,7 +941,8 @@
     "long":-3.982089,
     "crsCode":"CUB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Cupar",
@@ -845,7 +950,8 @@
     "long":-3.008772,
     "crsCode":"CUP",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Curriehill",
@@ -853,7 +959,8 @@
     "long":-3.317849,
     "crsCode":"CUH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dalgety Bay",
@@ -861,7 +968,8 @@
     "long":-3.354809,
     "crsCode":"DAG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dalmally",
@@ -869,7 +977,8 @@
     "long":-4.9832,
     "crsCode":"DAL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dalmarnock",
@@ -877,7 +986,8 @@
     "long":-4.21647,
     "crsCode":"DAK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dalmeny",
@@ -885,7 +995,8 @@
     "long":-3.381645,
     "crsCode":"DAM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dalmuir",
@@ -893,7 +1004,8 @@
     "long":-4.427038,
     "crsCode":"DMR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dalreoch",
@@ -901,7 +1013,8 @@
     "long":-4.578226,
     "crsCode":"DLR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dalry",
@@ -909,7 +1022,8 @@
     "long":-4.711899,
     "crsCode":"DLY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dalwhinnie",
@@ -917,7 +1031,8 @@
     "long":-4.246498,
     "crsCode":"DLW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dingwall",
@@ -925,7 +1040,8 @@
     "long":-4.422611,
     "crsCode":"DIN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Drem",
@@ -933,7 +1049,8 @@
     "long":-2.785752,
     "crsCode":"DRM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Drumchapel",
@@ -941,7 +1058,8 @@
     "long":-4.364204,
     "crsCode":"DMC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Drumfrochar",
@@ -949,7 +1067,8 @@
     "long":-4.774822,
     "crsCode":"DFR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Drumgelloch",
@@ -957,7 +1076,8 @@
     "long":-3.95114,
     "crsCode":"DRU",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Drumry",
@@ -965,7 +1085,8 @@
     "long":-4.386583,
     "crsCode":"DMY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Duirinish",
@@ -973,7 +1094,8 @@
     "long":-5.692103,
     "crsCode":"DRN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Duke Street",
@@ -981,7 +1103,8 @@
     "long":-4.212814,
     "crsCode":"DST",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dumbarton Central",
@@ -989,7 +1112,8 @@
     "long":-4.56697,
     "crsCode":"DBC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dumbarton East",
@@ -997,7 +1121,8 @@
     "long":-4.55387,
     "crsCode":"DBE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dumbreck",
@@ -1005,7 +1130,8 @@
     "long":-4.309216,
     "crsCode":"DUM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dumfries",
@@ -1013,7 +1139,8 @@
     "long":-3.605261,
     "crsCode":"DMF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dunbar",
@@ -1021,7 +1148,8 @@
     "long":-2.514625,
     "crsCode":"DUN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dunblane",
@@ -1029,7 +1157,8 @@
     "long":-3.967296,
     "crsCode":"DBL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Duncraig",
@@ -1037,7 +1166,8 @@
     "long":-5.637282,
     "crsCode":"DCG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dundee",
@@ -1045,7 +1175,8 @@
     "long":-2.970576,
     "crsCode":"DEE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":true
   },
   {
     "stationName":"Dunfermline City",
@@ -1053,7 +1184,8 @@
     "long":-3.452033,
     "crsCode":"DFE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dunfermline Queen Margaret",
@@ -1061,7 +1193,8 @@
     "long":-3.42164,
     "crsCode":"DFL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dunkeld & Birnam",
@@ -1069,7 +1202,8 @@
     "long":-3.578097,
     "crsCode":"DKD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dunlop",
@@ -1077,7 +1211,8 @@
     "long":-4.532435,
     "crsCode":"DNL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dunrobin Castle",
@@ -1085,7 +1220,8 @@
     "long":-3.946595,
     "crsCode":"DNO",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Dyce",
@@ -1093,7 +1229,8 @@
     "long":-2.191978,
     "crsCode":"DYC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"East Kilbride",
@@ -1101,7 +1238,8 @@
     "long":-4.18199,
     "crsCode":"EKL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"East Linton",
@@ -1109,7 +1247,8 @@
     "long":-2.6579,
     "crsCode":"ELT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Easterhouse",
@@ -1117,7 +1256,8 @@
     "long":-4.107389,
     "crsCode":"EST",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Edinburgh Gateway",
@@ -1125,7 +1265,8 @@
     "long":-3.32,
     "crsCode":"EGY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Edinburgh Park",
@@ -1133,7 +1274,8 @@
     "long":-3.307829,
     "crsCode":"EDP",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Edinburgh Waverley",
@@ -1141,7 +1283,8 @@
     "long":-3.188236,
     "crsCode":"EDB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":true
   },
   {
     "stationName":"Elgin",
@@ -1149,7 +1292,8 @@
     "long":-3.31163,
     "crsCode":"ELG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Eskbank",
@@ -1157,7 +1301,8 @@
     "long":-3.07845,
     "crsCode":"EKB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Exhibition Centre",
@@ -1165,7 +1310,8 @@
     "long":-4.283207,
     "crsCode":"EXG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Fairlie",
@@ -1173,7 +1319,8 @@
     "long":-4.853834,
     "crsCode":"FRL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Falkirk Grahamston",
@@ -1181,7 +1328,8 @@
     "long":-3.786359,
     "crsCode":"FKG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Falkirk High",
@@ -1189,7 +1337,8 @@
     "long":-3.792276,
     "crsCode":"FKK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Falls of Cruachan",
@@ -1197,7 +1346,8 @@
     "long":-5.114992,
     "crsCode":"FOC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Fauldhouse",
@@ -1205,7 +1355,8 @@
     "long":-3.719006,
     "crsCode":"FLD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Fearn",
@@ -1213,7 +1364,8 @@
     "long":-3.994245,
     "crsCode":"FRN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Forres",
@@ -1221,7 +1373,8 @@
     "long":-3.62847,
     "crsCode":"FOR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Forsinard",
@@ -1229,7 +1382,8 @@
     "long":-3.896903,
     "crsCode":"FRS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Fort Matilda",
@@ -1237,7 +1391,8 @@
     "long":-4.7953,
     "crsCode":"FTM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Fort William",
@@ -1245,7 +1400,8 @@
     "long":-5.106721,
     "crsCode":"FTW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Galashiels",
@@ -1253,7 +1409,8 @@
     "long":-2.809693,
     "crsCode":"GAL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Garelochhead",
@@ -1261,7 +1418,8 @@
     "long":-4.826544,
     "crsCode":"GCH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Garrowhill",
@@ -1269,7 +1427,8 @@
     "long":-4.129497,
     "crsCode":"GAR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Garscadden",
@@ -1277,7 +1436,8 @@
     "long":-4.364757,
     "crsCode":"GRS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Gartcosh",
@@ -1285,7 +1445,8 @@
     "long":-4.078,
     "crsCode":"GRH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Garve",
@@ -1293,7 +1454,8 @@
     "long":-4.688429,
     "crsCode":"GVE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Georgemas Junction",
@@ -1301,7 +1463,8 @@
     "long":-3.45212,
     "crsCode":"GGJ",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Giffnock",
@@ -1309,7 +1472,8 @@
     "long":-4.294289,
     "crsCode":"GFN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Gilshochill",
@@ -1317,7 +1481,8 @@
     "long":-4.28201,
     "crsCode":"GSC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Girvan",
@@ -1325,7 +1490,8 @@
     "long":-4.848927,
     "crsCode":"GIR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Glasgow Central",
@@ -1333,7 +1499,8 @@
     "long":-4.259208,
     "crsCode":"GLC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":true
   },
   {
     "stationName":"Glasgow Queen Street",
@@ -1341,7 +1508,8 @@
     "long":-4.251385,
     "crsCode":"GLQ",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":true
   },
   {
     "stationName":"Gleneagles",
@@ -1349,7 +1517,8 @@
     "long":-3.7312,
     "crsCode":"GLE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Glenfinnan",
@@ -1357,7 +1526,8 @@
     "long":-5.449219,
     "crsCode":"GLF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Glengarnock",
@@ -1365,7 +1535,8 @@
     "long":-4.674364,
     "crsCode":"GLG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Glenrothes with Thornton",
@@ -1373,7 +1544,8 @@
     "long":-3.143189,
     "crsCode":"GLT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Golf Street",
@@ -1381,7 +1553,8 @@
     "long":-2.719541,
     "crsCode":"GOF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Golspie",
@@ -1389,7 +1562,8 @@
     "long":-3.98806,
     "crsCode":"GOL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Gorebridge",
@@ -1397,7 +1571,8 @@
     "long":-3.046099,
     "crsCode":"GBG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Gourock",
@@ -1405,7 +1580,8 @@
     "long":-4.818021,
     "crsCode":"GRK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Greenfaulds",
@@ -1413,7 +1589,8 @@
     "long":-3.999232,
     "crsCode":"GRL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Greenock Central",
@@ -1421,7 +1598,8 @@
     "long":-4.752692,
     "crsCode":"GKC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Greenock West",
@@ -1429,7 +1607,8 @@
     "long":-4.768866,
     "crsCode":"GKW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Gretna Green",
@@ -1437,7 +1616,8 @@
     "long":-3.064608,
     "crsCode":"GEA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hairmyres",
@@ -1445,7 +1625,8 @@
     "long":-4.220047,
     "crsCode":"HMY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hamilton Central",
@@ -1453,7 +1634,8 @@
     "long":-4.038928,
     "crsCode":"HNC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hamilton West",
@@ -1461,7 +1643,8 @@
     "long":-4.056781,
     "crsCode":"HNW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hartwood",
@@ -1469,7 +1652,8 @@
     "long":-3.839792,
     "crsCode":"HTW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hawkhead",
@@ -1477,7 +1661,8 @@
     "long":-4.398792,
     "crsCode":"HKH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Haymarket",
@@ -1485,7 +1670,8 @@
     "long":-3.218458,
     "crsCode":"HYM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Helensburgh Central",
@@ -1493,7 +1679,8 @@
     "long":-4.732803,
     "crsCode":"HLC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Helensburgh Upper",
@@ -1501,7 +1688,8 @@
     "long":-4.73184,
     "crsCode":"HLU",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Helmsdale",
@@ -1509,7 +1697,8 @@
     "long":-3.660068,
     "crsCode":"HMS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"High Street",
@@ -1517,7 +1706,8 @@
     "long":-4.239953,
     "crsCode":"HST",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hillfoot",
@@ -1525,7 +1715,8 @@
     "long":-4.32032,
     "crsCode":"HLF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hillington East",
@@ -1533,7 +1724,8 @@
     "long":-4.354768,
     "crsCode":"HLE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hillington West",
@@ -1541,7 +1733,8 @@
     "long":-4.370778,
     "crsCode":"HLW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Holytown",
@@ -1549,7 +1742,8 @@
     "long":-3.973967,
     "crsCode":"HLY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Howwood",
@@ -1557,7 +1751,8 @@
     "long":-4.56,
     "crsCode":"HOZ",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Huntly",
@@ -1565,7 +1760,8 @@
     "long":-2.776354,
     "crsCode":"HNT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Hyndland",
@@ -1573,7 +1769,8 @@
     "long":-4.314715,
     "crsCode":"HYN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Insch",
@@ -1581,7 +1778,8 @@
     "long":-2.616279,
     "crsCode":"INS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Invergordon",
@@ -1589,7 +1787,8 @@
     "long":-4.175563,
     "crsCode":"IGD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Invergowrie",
@@ -1597,7 +1796,8 @@
     "long":-3.057897,
     "crsCode":"ING",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Inverkeithing",
@@ -1605,7 +1805,8 @@
     "long":-3.39621,
     "crsCode":"INK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Inverkip",
@@ -1613,7 +1814,8 @@
     "long":-4.873089,
     "crsCode":"INP",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Inverness",
@@ -1621,7 +1823,8 @@
     "long":-4.223199,
     "crsCode":"INV",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":true
   },
   {
     "stationName":"Inverness Airport",
@@ -1629,7 +1832,8 @@
     "long":-4.0552,
     "crsCode":"IVA",
     "iataAirportCode":"INV",
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Invershin",
@@ -1637,7 +1841,8 @@
     "long":-4.399288,
     "crsCode":"INH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Inverurie",
@@ -1645,7 +1850,8 @@
     "long":-2.373224,
     "crsCode":"INR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Irvine",
@@ -1653,7 +1859,8 @@
     "long":-4.675196,
     "crsCode":"IRV",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Johnstone",
@@ -1661,7 +1868,8 @@
     "long":-4.50369,
     "crsCode":"JHN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Jordanhill",
@@ -1669,7 +1877,8 @@
     "long":-4.326053,
     "crsCode":"JOR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Keith",
@@ -1677,7 +1886,8 @@
     "long":-2.954062,
     "crsCode":"KEH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kelvindale",
@@ -1685,7 +1895,8 @@
     "long":-4.3106,
     "crsCode":"KVD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kennishead",
@@ -1693,7 +1904,8 @@
     "long":-4.325119,
     "crsCode":"KNS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kildonan",
@@ -1701,7 +1913,8 @@
     "long":-3.869993,
     "crsCode":"KIL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kilmarnock",
@@ -1709,7 +1922,8 @@
     "long":-4.499048,
     "crsCode":"KMK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kilmaurs",
@@ -1717,7 +1931,8 @@
     "long":-4.532331,
     "crsCode":"KLM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kilpatrick",
@@ -1725,7 +1940,8 @@
     "long":-4.453454,
     "crsCode":"KPT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kilwinning",
@@ -1733,7 +1949,8 @@
     "long":-4.710071,
     "crsCode":"KWN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kinbrace",
@@ -1741,7 +1958,8 @@
     "long":-3.941063,
     "crsCode":"KBC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kinghorn",
@@ -1749,7 +1967,8 @@
     "long":-3.174161,
     "crsCode":"KGH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kings Park",
@@ -1757,7 +1976,8 @@
     "long":-4.247294,
     "crsCode":"KGP",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kingsknowe",
@@ -1765,7 +1985,8 @@
     "long":-3.265634,
     "crsCode":"KGE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kingussie",
@@ -1773,7 +1994,8 @@
     "long":-4.052227,
     "crsCode":"KIN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kintore",
@@ -1781,7 +2003,8 @@
     "long":-2.350278,
     "crsCode":"KTR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kirkcaldy",
@@ -1789,7 +2012,8 @@
     "long":-3.167445,
     "crsCode":"KDY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kirkconnel",
@@ -1797,7 +2021,8 @@
     "long":-3.998533,
     "crsCode":"KRK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kirkhill",
@@ -1805,7 +2030,8 @@
     "long":-4.168751,
     "crsCode":"KKH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kirknewton",
@@ -1813,7 +2039,8 @@
     "long":-3.432526,
     "crsCode":"KKN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kirkwood",
@@ -1821,7 +2048,8 @@
     "long":-4.048037,
     "crsCode":"KWD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Kyle of Lochalsh",
@@ -1829,7 +2057,8 @@
     "long":-5.713067,
     "crsCode":"KYL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Ladybank",
@@ -1837,7 +2066,8 @@
     "long":-3.122284,
     "crsCode":"LDY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Lairg",
@@ -1845,7 +2075,8 @@
     "long":-4.401,
     "crsCode":"LRG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Lanark",
@@ -1853,7 +2084,8 @@
     "long":-3.772901,
     "crsCode":"LNK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Langbank",
@@ -1861,7 +2093,8 @@
     "long":-4.586326,
     "crsCode":"LGB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Langside",
@@ -1869,7 +2102,8 @@
     "long":-4.277696,
     "crsCode":"LGS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Larbert",
@@ -1877,7 +2111,8 @@
     "long":-3.830604,
     "crsCode":"LBT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Largs",
@@ -1885,7 +2120,8 @@
     "long":-4.867942,
     "crsCode":"LAR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Larkhall",
@@ -1893,7 +2129,8 @@
     "long":-3.974445,
     "crsCode":"LRH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Laurencekirk",
@@ -1901,7 +2138,8 @@
     "long":-2.466345,
     "crsCode":"LAU",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Lenzie",
@@ -1909,7 +2147,8 @@
     "long":-4.153932,
     "crsCode":"LNZ",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Leuchars",
@@ -1917,7 +2156,8 @@
     "long":-2.893734,
     "crsCode":"LEU",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Leven",
@@ -1925,7 +2165,8 @@
     "long":-3.002,
     "crsCode":"LEV",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Linlithgow",
@@ -1933,7 +2174,8 @@
     "long":-3.596,
     "crsCode":"LIN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Livingston North",
@@ -1941,7 +2183,8 @@
     "long":-3.543357,
     "crsCode":"LSN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Livingston South",
@@ -1949,7 +2192,8 @@
     "long":-3.503823,
     "crsCode":"LVG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Loch Awe",
@@ -1957,7 +2201,8 @@
     "long":-5.040117,
     "crsCode":"LHA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Loch Eil Outward Bound",
@@ -1965,7 +2210,8 @@
     "long":-5.191638,
     "crsCode":"LHE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Lochailort",
@@ -1973,7 +2219,8 @@
     "long":-5.663456,
     "crsCode":"LCL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Locheilside",
@@ -1981,7 +2228,8 @@
     "long":-5.290086,
     "crsCode":"LCS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Lochgelly",
@@ -1989,7 +2237,8 @@
     "long":-3.312958,
     "crsCode":"LCG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Lochluichart",
@@ -1997,7 +2246,8 @@
     "long":-4.809628,
     "crsCode":"LCC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Lochwinnoch",
@@ -2005,7 +2255,8 @@
     "long":-4.617038,
     "crsCode":"LHW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Lockerbie",
@@ -2013,7 +2264,8 @@
     "long":-3.353242,
     "crsCode":"LOC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Longniddry",
@@ -2021,7 +2273,8 @@
     "long":-2.889308,
     "crsCode":"LND",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Mallaig",
@@ -2029,7 +2282,8 @@
     "long":-5.8306,
     "crsCode":"MLG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Markinch",
@@ -2037,7 +2291,8 @@
     "long":-3.131414,
     "crsCode":"MNC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Maryhill",
@@ -2045,7 +2300,8 @@
     "long":-4.301396,
     "crsCode":"MYH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Maxwell Park",
@@ -2053,7 +2309,8 @@
     "long":-4.289813,
     "crsCode":"MAX",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Maybole",
@@ -2061,7 +2318,8 @@
     "long":-4.686269,
     "crsCode":"MAY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Merryton",
@@ -2069,7 +2327,8 @@
     "long":-3.978667,
     "crsCode":"MEY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Milliken Park",
@@ -2077,7 +2336,8 @@
     "long":-4.533405,
     "crsCode":"MIN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Milngavie",
@@ -2085,7 +2345,8 @@
     "long":-4.315152,
     "crsCode":"MLN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Monifieth",
@@ -2093,7 +2354,8 @@
     "long":-2.818249,
     "crsCode":"MON",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Montrose",
@@ -2101,7 +2363,8 @@
     "long":-2.47207,
     "crsCode":"MTS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Morar",
@@ -2109,7 +2372,8 @@
     "long":-5.821991,
     "crsCode":"MRR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Mosspark",
@@ -2117,7 +2381,8 @@
     "long":-4.336232,
     "crsCode":"MPK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Motherwell",
@@ -2125,7 +2390,8 @@
     "long":-3.995234,
     "crsCode":"MTH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Mount Florida",
@@ -2133,7 +2399,8 @@
     "long":-4.262067,
     "crsCode":"MFL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Mount Vernon",
@@ -2141,7 +2408,8 @@
     "long":-4.136638,
     "crsCode":"MTV",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Muir of Ord",
@@ -2149,7 +2417,8 @@
     "long":-4.460981,
     "crsCode":"MOO",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Muirend",
@@ -2157,7 +2426,8 @@
     "long":-4.273888,
     "crsCode":"MUI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Musselburgh",
@@ -2165,7 +2435,8 @@
     "long":-3.062719,
     "crsCode":"MUB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Nairn",
@@ -2173,7 +2444,8 @@
     "long":-3.873024,
     "crsCode":"NRN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Neilston",
@@ -2181,7 +2453,8 @@
     "long":-4.426945,
     "crsCode":"NEI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"New Cumnock",
@@ -2189,7 +2462,8 @@
     "long":-4.182457,
     "crsCode":"NCK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Newcraighall",
@@ -2197,7 +2471,8 @@
     "long":-3.091582,
     "crsCode":"NEW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Newton",
@@ -2205,7 +2480,8 @@
     "long":-4.133907,
     "crsCode":"NTN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Newton-On-Ayr",
@@ -2213,7 +2489,8 @@
     "long":-4.62632,
     "crsCode":"NOA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Newtongrange",
@@ -2221,7 +2498,8 @@
     "long":-3.066151,
     "crsCode":"NEG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Newtonmore",
@@ -2229,7 +2507,8 @@
     "long":-4.118831,
     "crsCode":"NWR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Nitshill",
@@ -2237,7 +2516,8 @@
     "long":-4.360126,
     "crsCode":"NIT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"North Berwick",
@@ -2245,7 +2525,8 @@
     "long":-2.728989,
     "crsCode":"NBW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"North Queensferry",
@@ -2253,7 +2534,8 @@
     "long":-3.395426,
     "crsCode":"NQU",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Oban",
@@ -2261,7 +2543,8 @@
     "long":-5.473841,
     "crsCode":"OBN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Paisley Canal",
@@ -2269,7 +2552,8 @@
     "long":-4.422606,
     "crsCode":"PCN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Paisley Gilmour Street",
@@ -2277,7 +2561,8 @@
     "long":-4.424646,
     "crsCode":"PYG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Paisley St James",
@@ -2285,7 +2570,8 @@
     "long":-4.442486,
     "crsCode":"PYJ",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Partick",
@@ -2293,7 +2579,8 @@
     "long":-4.310921,
     "crsCode":"PTK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Patterton",
@@ -2301,7 +2588,8 @@
     "long":-4.334935,
     "crsCode":"PTT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Perth",
@@ -2309,7 +2597,8 @@
     "long":-3.440068,
     "crsCode":"PTH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Pitlochry",
@@ -2317,7 +2606,8 @@
     "long":-3.736085,
     "crsCode":"PIT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Plockton",
@@ -2325,7 +2615,8 @@
     "long":-5.666848,
     "crsCode":"PLK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Pollokshaws East",
@@ -2333,7 +2624,8 @@
     "long":-4.287476,
     "crsCode":"PWE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Pollokshaws West",
@@ -2341,7 +2633,8 @@
     "long":-4.301826,
     "crsCode":"PWW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Pollokshields East",
@@ -2349,7 +2642,8 @@
     "long":-4.269287,
     "crsCode":"PLE",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Pollokshields West",
@@ -2357,7 +2651,8 @@
     "long":-4.277043,
     "crsCode":"PLW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Polmont",
@@ -2365,7 +2660,8 @@
     "long":-3.716614,
     "crsCode":"PMT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Port Glasgow",
@@ -2373,7 +2669,8 @@
     "long":-4.689432,
     "crsCode":"PTG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Portlethen",
@@ -2381,7 +2678,8 @@
     "long":-2.128577,
     "crsCode":"PLN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Possilpark & Parkhouse",
@@ -2389,7 +2687,8 @@
     "long":-4.259381,
     "crsCode":"PPK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Prestonpans",
@@ -2397,7 +2696,8 @@
     "long":-2.973665,
     "crsCode":"PST",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Prestwick International Airport",
@@ -2405,7 +2705,8 @@
     "long":-4.616166,
     "crsCode":"PRA",
     "iataAirportCode":"PIK",
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Prestwick Town",
@@ -2413,7 +2714,8 @@
     "long":-4.613935,
     "crsCode":"PTW",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Priesthill & Darnley",
@@ -2421,7 +2723,8 @@
     "long":-4.344246,
     "crsCode":"PTL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Queens Park (Glasgow)",
@@ -2429,7 +2732,8 @@
     "long":-4.267368,
     "crsCode":"QPK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Rannoch",
@@ -2437,7 +2741,8 @@
     "long":-4.576208,
     "crsCode":"RAN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Renton",
@@ -2445,7 +2750,8 @@
     "long":-4.586181,
     "crsCode":"RTN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Reston",
@@ -2453,7 +2759,8 @@
     "long":-2.1972,
     "crsCode":"RSN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Robroyston",
@@ -2461,7 +2768,8 @@
     "long":-4.172291,
     "crsCode":"RRN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Rogart",
@@ -2469,7 +2777,8 @@
     "long":-4.158224,
     "crsCode":"ROG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Rosyth",
@@ -2477,7 +2786,8 @@
     "long":-3.427114,
     "crsCode":"ROS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Roy Bridge",
@@ -2485,7 +2795,8 @@
     "long":-4.83645,
     "crsCode":"RYB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Rutherglen",
@@ -2493,7 +2804,8 @@
     "long":-4.212766,
     "crsCode":"RUT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Saltcoats",
@@ -2501,7 +2813,8 @@
     "long":-4.784804,
     "crsCode":"SLT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Sanquhar",
@@ -2509,7 +2822,8 @@
     "long":-3.923437,
     "crsCode":"SQH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Scotscalder",
@@ -2517,7 +2831,8 @@
     "long":-3.553764,
     "crsCode":"SCT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Scotstounhill",
@@ -2525,7 +2840,8 @@
     "long":-4.351765,
     "crsCode":"SCH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Shawfair",
@@ -2533,7 +2849,8 @@
     "long":-3.07872,
     "crsCode":"SFI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Shawlands",
@@ -2541,7 +2858,8 @@
     "long":-4.292521,
     "crsCode":"SHL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Shettleston",
@@ -2549,7 +2867,8 @@
     "long":-4.159731,
     "crsCode":"SLS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Shieldmuir",
@@ -2557,7 +2876,8 @@
     "long":-3.952944,
     "crsCode":"SDM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Shotts",
@@ -2565,7 +2885,8 @@
     "long":-3.80024,
     "crsCode":"SHS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Singer",
@@ -2573,7 +2894,8 @@
     "long":-4.405983,
     "crsCode":"SIN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Slateford",
@@ -2581,7 +2903,8 @@
     "long":-3.243476,
     "crsCode":"SLA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"South Gyle",
@@ -2589,7 +2912,8 @@
     "long":-3.298234,
     "crsCode":"SGL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Spean Bridge",
@@ -2597,7 +2921,8 @@
     "long":-4.920321,
     "crsCode":"SBR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Springburn",
@@ -2605,7 +2930,8 @@
     "long":-4.230064,
     "crsCode":"SPR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Springfield",
@@ -2613,7 +2939,8 @@
     "long":-3.051808,
     "crsCode":"SPF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Stepps",
@@ -2621,7 +2948,8 @@
     "long":-4.147389,
     "crsCode":"SPS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Stevenston",
@@ -2629,7 +2957,8 @@
     "long":-4.749829,
     "crsCode":"STV",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Stewarton",
@@ -2637,7 +2966,8 @@
     "long":-4.519346,
     "crsCode":"STT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Stirling",
@@ -2645,7 +2975,8 @@
     "long":-3.934915,
     "crsCode":"STG",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":true
   },
   {
     "stationName":"Stonehaven",
@@ -2653,7 +2984,8 @@
     "long":-2.225286,
     "crsCode":"STN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Stow",
@@ -2661,7 +2993,8 @@
     "long":-2.857782,
     "crsCode":"SOI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Stranraer",
@@ -2669,7 +3002,8 @@
     "long":-5.024806,
     "crsCode":"STR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Strathcarron",
@@ -2677,7 +3011,8 @@
     "long":-5.429166,
     "crsCode":"STC",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Stromeferry",
@@ -2685,7 +3020,8 @@
     "long":-5.550702,
     "crsCode":"STF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Summerston",
@@ -2693,7 +3029,8 @@
     "long":-4.283814,
     "crsCode":"SUM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Tain",
@@ -2701,7 +3038,8 @@
     "long":-4.051826,
     "crsCode":"TAI",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Taynuilt",
@@ -2709,7 +3047,8 @@
     "long":-5.23868,
     "crsCode":"TAY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Thornliebank",
@@ -2717,7 +3056,8 @@
     "long":-4.312201,
     "crsCode":"THB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Thorntonhall",
@@ -2725,7 +3065,8 @@
     "long":-4.250674,
     "crsCode":"THT",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Thurso",
@@ -2733,7 +3074,8 @@
     "long":-3.527548,
     "crsCode":"THS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Troon",
@@ -2741,7 +3083,8 @@
     "long":-4.654731,
     "crsCode":"TRN",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Tulloch",
@@ -2749,7 +3092,8 @@
     "long":-4.701509,
     "crsCode":"TUL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Tweedbank",
@@ -2757,7 +3101,8 @@
     "long":-2.764936,
     "crsCode":"TWB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Tyndrum Lower",
@@ -2765,7 +3110,8 @@
     "long":-4.714873,
     "crsCode":"TYL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Uddingston",
@@ -2773,7 +3119,8 @@
     "long":-4.086266,
     "crsCode":"UDD",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Uphall",
@@ -2781,7 +3128,8 @@
     "long":-3.499279,
     "crsCode":"UHA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Upper Tyndrum",
@@ -2789,7 +3137,8 @@
     "long":-4.7036,
     "crsCode":"UTY",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Wallyford",
@@ -2797,7 +3146,8 @@
     "long":-3.013417,
     "crsCode":"WAF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Wemyss Bay",
@@ -2805,7 +3155,8 @@
     "long":-4.888525,
     "crsCode":"WMS",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"West Calder",
@@ -2813,7 +3164,8 @@
     "long":-3.567045,
     "crsCode":"WCL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"West Kilbride",
@@ -2821,7 +3173,8 @@
     "long":-4.851365,
     "crsCode":"WKB",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Wester Hailes",
@@ -2829,7 +3182,8 @@
     "long":-3.284654,
     "crsCode":"WTA",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Westerton",
@@ -2837,7 +3191,8 @@
     "long":-4.335444,
     "crsCode":"WES",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Whifflet",
@@ -2845,7 +3200,8 @@
     "long":-4.022313,
     "crsCode":"WFF",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Whinhill",
@@ -2853,7 +3209,8 @@
     "long":-4.746744,
     "crsCode":"WNL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Whitecraigs",
@@ -2861,7 +3218,8 @@
     "long":-4.310977,
     "crsCode":"WCR",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Wick",
@@ -2869,7 +3227,8 @@
     "long":-3.097965,
     "crsCode":"WCK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Williamwood",
@@ -2877,7 +3236,8 @@
     "long":-4.290462,
     "crsCode":"WLM",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Wishaw",
@@ -2885,7 +3245,8 @@
     "long":-3.927267,
     "crsCode":"WSH",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Woodhall",
@@ -2893,7 +3254,8 @@
     "long":-4.655614,
     "crsCode":"WDL",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   },
   {
     "stationName":"Yoker",
@@ -2901,6 +3263,7 @@
     "long":-4.387464,
     "crsCode":"YOK",
     "iataAirportCode":null,
-    "constituentCountry":"scotland"
+    "constituentCountry":"scotland",
+    "is_major":false
   }
 ]
