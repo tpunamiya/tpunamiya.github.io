@@ -102,7 +102,7 @@
         // Chart specifications
         let gender_gap_spec = "education_GenderGap.json";
         let gender_gap_spec2 = "education_dropout_byStateGender.json";  // Add your chart specs
-        let chart3_spec = "chart3.json";
+        let chart3_spec = "charts/infra_india.json";
         let chart4_spec = "chart4.json";
         let chart5_spec = "chart5.json";
         
@@ -116,7 +116,7 @@
         // Embed charts
         vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfig);
         vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
-        // vegaEmbed('#chart3', chart3_spec, embedConfig);
+        vegaEmbed('#chart3', chart3_spec, embedConfig);
         // vegaEmbed('#chart4', chart4_spec, embedConfig);
         // vegaEmbed('#chart5', chart5_spec, embedConfig);
     </script>

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "School Infrastructure Index by State",
+    "fontSize": 16,
+    "subtitle": "Composite score: Electricity, Internet, Libraries, Girls' toilets",
+    "subtitleFontSize": 11
+  },
+  "width": 600,
+  "height": 700,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/india_states.json",
+    "format": {"type": "json", "property": "features"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.state",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/Project_JSON/state_infrastructure_index.json"
+        },
+        "key": "state",
+        "fields": [
+          "infrastructure_index",
+          "pct_electricity_functional",
+          "pct_internet",
+          "pct_library",
+          "pct_girls_toilets"
+        ]
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 1.5},
+  "encoding": {
+    "color": {
+      "field": "infrastructure_index",
+      "type": "quantitative",
+      "scale": {
+        "range": ["#E8F5E9", "#77ba99", "#2f4a3d"],
+        "domain": [30, 65, 100]
+      },
+      "legend": {
+        "title": "Infrastructure Index (%)",
+        "orient": "right",
+        "direction": "vertical",
+        "gradientLength": 300
+      }
+    },
+    "tooltip": [
+      {"field": "properties.state", "type": "nominal", "title": "State"},
+      {
+        "field": "infrastructure_index",
+        "type": "quantitative",
+        "title": "Overall Index",
+        "format": ".1f"
+      },
+      {
+        "field": "pct_electricity_functional",
+        "type": "quantitative",
+        "title": "Electricity %",
+        "format": ".1f"
+      },
+      {
+        "field": "pct_internet",
+        "type": "quantitative",
+        "title": "Internet %",
+        "format": ".1f"
+      },
+      {
+        "field": "pct_library",
+        "type": "quantitative",
+        "title": "Library %",
+        "format": ".1f"
+      },
+      {
+        "field": "pct_girls_toilets",
+        "type": "quantitative",
+        "title": "Girls' Toilets %",
+        "format": ".1f"
+      }
+    ]
+  },
+  "config": {}
+}

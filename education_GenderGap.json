@@ -34,7 +34,7 @@
       "type": "quantitative",
       "scale": {
         "domain": [-8, 0, 8],
-        "range": ["#7B68A6", "#E0E0E0", "#D4936A"]
+        "range": ["#ba7798", "#E0E0E0", "#77ba99"]
       },
       "legend": {
         "title": "Gender Gap (pp)",
