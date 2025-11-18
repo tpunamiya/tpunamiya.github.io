@@ -1,0 +1,146 @@
+[
+  {
+    "Class":"Class 1",
+    "Class_Order":0,
+    "Gender":"Boys",
+    "Enrollment":16188656
+  },
+  {
+    "Class":"Class 1",
+    "Class_Order":0,
+    "Gender":"Girls",
+    "Enrollment":14927581
+  },
+  {
+    "Class":"Class 2",
+    "Class_Order":1,
+    "Gender":"Boys",
+    "Enrollment":15949508
+  },
+  {
+    "Class":"Class 2",
+    "Class_Order":1,
+    "Gender":"Girls",
+    "Enrollment":14845877
+  },
+  {
+    "Class":"Class 3",
+    "Class_Order":2,
+    "Gender":"Boys",
+    "Enrollment":18388657
+  },
+  {
+    "Class":"Class 3",
+    "Class_Order":2,
+    "Gender":"Girls",
+    "Enrollment":17179376
+  },
+  {
+    "Class":"Class 4",
+    "Class_Order":3,
+    "Gender":"Boys",
+    "Enrollment":19004651
+  },
+  {
+    "Class":"Class 4",
+    "Class_Order":3,
+    "Gender":"Girls",
+    "Enrollment":17746035
+  },
+  {
+    "Class":"Class 5",
+    "Class_Order":4,
+    "Gender":"Boys",
+    "Enrollment":18598138
+  },
+  {
+    "Class":"Class 5",
+    "Class_Order":4,
+    "Gender":"Girls",
+    "Enrollment":17449295
+  },
+  {
+    "Class":"Class 6",
+    "Class_Order":5,
+    "Gender":"Boys",
+    "Enrollment":17764849
+  },
+  {
+    "Class":"Class 6",
+    "Class_Order":5,
+    "Gender":"Girls",
+    "Enrollment":16960720
+  },
+  {
+    "Class":"Class 7",
+    "Class_Order":6,
+    "Gender":"Boys",
+    "Enrollment":17170058
+  },
+  {
+    "Class":"Class 7",
+    "Class_Order":6,
+    "Gender":"Girls",
+    "Enrollment":16409553
+  },
+  {
+    "Class":"Class 8",
+    "Class_Order":7,
+    "Gender":"Boys",
+    "Enrollment":17222730
+  },
+  {
+    "Class":"Class 8",
+    "Class_Order":7,
+    "Gender":"Girls",
+    "Enrollment":16481371
+  },
+  {
+    "Class":"Class 9",
+    "Class_Order":8,
+    "Gender":"Boys",
+    "Enrollment":15471176
+  },
+  {
+    "Class":"Class 9",
+    "Class_Order":8,
+    "Gender":"Girls",
+    "Enrollment":14820093
+  },
+  {
+    "Class":"Class 10",
+    "Class_Order":9,
+    "Gender":"Boys",
+    "Enrollment":14246123
+  },
+  {
+    "Class":"Class 10",
+    "Class_Order":9,
+    "Gender":"Girls",
+    "Enrollment":13935601
+  },
+  {
+    "Class":"Class 11",
+    "Class_Order":10,
+    "Gender":"Boys",
+    "Enrollment":10501416
+  },
+  {
+    "Class":"Class 11",
+    "Class_Order":10,
+    "Gender":"Girls",
+    "Enrollment":10937872
+  },
+  {
+    "Class":"Class 12",
+    "Class_Order":11,
+    "Gender":"Boys",
+    "Enrollment":9668560
+  },
+  {
+    "Class":"Class 12",
+    "Class_Order":11,
+    "Gender":"Girls",
+    "Enrollment":9975979
+  }
+]
