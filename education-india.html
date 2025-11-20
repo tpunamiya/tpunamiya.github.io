@@ -51,7 +51,7 @@
         <div class="chart-description">
             <p>[Description of your rural vs urban chart - what does it show about disparities between rural and urban areas?]</p>
         </div>
-        <figure id="chart2"></figure>
+        <figure id="chart4"></figure>
         <p class="source"><em>Source: [Your data source]</em></p>
     </section>
 
@@ -71,7 +71,7 @@
         <div class="chart-description">
             <p>[Description of literacy rate variations across states]</p>
         </div>
-        <figure id="chart4"></figure>
+        <figure id="chart5"></figure>
         <p class="source"><em>Source: [Your data source]</em></p>
     </section>
 
@@ -103,7 +103,7 @@
         let gender_gap_spec = "education_GenderGap.json";
         let gender_gap_spec2 = "education_dropout_byStateGender.json";  // Add your chart specs
         let chart3_spec = "charts/infra_india.json";
-        let chart4_spec = "chart4.json";
+        let chart4_spec = "Project_JSON/enrollment_chart.json";
         let chart5_spec = "chart5.json";
         
         // Configuration for consistent chart sizing
@@ -117,7 +117,7 @@
         vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfig);
         vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
         vegaEmbed('#chart3', chart3_spec, embedConfig);
-        // vegaEmbed('#chart4', chart4_spec, embedConfig);
+        vegaEmbed('#chart4', chart4_spec, embedConfig);
         // vegaEmbed('#chart5', chart5_spec, embedConfig);
     </script>
 </body>
