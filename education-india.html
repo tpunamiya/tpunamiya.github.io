@@ -104,7 +104,7 @@
         let gender_gap_spec2 = "education_dropout_byStateGender.json";  // Add your chart specs
         let chart3_spec = "charts/infra_india.json";
         let chart4_spec = "Project_JSON/enrollment_chart.json";
-        let chart5_spec = "chart5.json";
+        let chart5_spec = "Project_JSON/aser_learning_outcomes_heatmap.json";
         
         // Configuration for consistent chart sizing
         const embedConfig = {
@@ -118,6 +118,7 @@
         vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
         vegaEmbed('#chart3', chart3_spec, embedConfig);
         vegaEmbed('#chart4', chart4_spec, embedConfig);
+        vegaEmbed('#chart5', chart5_spec, embedConfig);
         // vegaEmbed('#chart5', chart5_spec, embedConfig);
     </script>
 </body>
