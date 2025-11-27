@@ -1,6 +1,6 @@
 [
   {
-    "state":"MEGHALAYA",
+    "state":"Meghalaya",
     "pct_electricity_functional":28.0729416604,
     "pct_internet":26.4482073079,
     "pct_library":18.5644752177,
@@ -9,7 +9,7 @@
     "infrastructure_index":35.3756769726
   },
   {
-    "state":"MANIPUR",
+    "state":"Manipur",
     "pct_electricity_functional":63.266180883,
     "pct_internet":36.6266609516,
     "pct_library":23.7676810973,
@@ -18,7 +18,7 @@
     "infrastructure_index":49.3945563652
   },
   {
-    "state":"ARUNACHAL PRADESH",
+    "state":"Arunachal Pradesh",
     "pct_electricity_functional":62.3412821307,
     "pct_internet":33.6327036234,
     "pct_library":30.2880148653,
@@ -27,7 +27,7 @@
     "infrastructure_index":49.8993496439
   },
   {
-    "state":"TRIPURA",
+    "state":"Tripura",
     "pct_electricity_functional":79.95144649,
     "pct_internet":41.6548654663,
     "pct_library":33.1984624722,
@@ -36,7 +36,7 @@
     "infrastructure_index":57.3993526199
   },
   {
-    "state":"JAMMU & KASHMIR",
+    "state":"Jammu and Kashmir",
     "pct_electricity_functional":87.1899801587,
     "pct_internet":49.1195436508,
     "pct_library":55.7498346561,
@@ -45,7 +45,7 @@
     "infrastructure_index":68.9143105159
   },
   {
-    "state":"MIZORAM",
+    "state":"Mizoram",
     "pct_electricity_functional":80.3472571716,
     "pct_internet":64.9219929542,
     "pct_library":53.4725717162,
@@ -54,7 +54,7 @@
     "infrastructure_index":69.155762456
   },
   {
-    "state":"WEST BENGAL",
+    "state":"West Bengal",
     "pct_electricity_functional":97.1007842928,
     "pct_internet":18.610681321,
     "pct_library":69.956783866,
@@ -63,7 +63,7 @@
     "infrastructure_index":71.0822707144
   },
   {
-    "state":"NAGALAND",
+    "state":"Nagaland",
     "pct_electricity_functional":78.1818181818,
     "pct_internet":58.9818181818,
     "pct_library":69.9636363636,
@@ -72,7 +72,7 @@
     "infrastructure_index":71.9090909091
   },
   {
-    "state":"LADAKH",
+    "state":"Ladakh",
     "pct_electricity_functional":76.3787721124,
     "pct_internet":50.7804370447,
     "pct_library":90.4266389178,
@@ -81,7 +81,7 @@
     "infrastructure_index":75.7804370447
   },
   {
-    "state":"UTTAR PRADESH",
+    "state":"Uttar Pradesh",
     "pct_electricity_functional":86.0316819003,
     "pct_internet":45.9162670854,
     "pct_library":78.4935088696,
@@ -90,7 +90,7 @@
     "infrastructure_index":75.7821373848
   },
   {
-    "state":"SIKKIM",
+    "state":"Sikkim",
     "pct_electricity_functional":97.0281124498,
     "pct_internet":51.6465863454,
     "pct_library":69.3975903614,
@@ -99,7 +99,7 @@
     "infrastructure_index":77.1887550201
   },
   {
-    "state":"MADHYA PRADESH",
+    "state":"Madhya Pradesh",
     "pct_electricity_functional":87.7857844743,
     "pct_internet":45.7459875532,
     "pct_library":97.7227317393,
@@ -108,7 +108,7 @@
     "infrastructure_index":79.6091958729
   },
   {
-    "state":"RAJASTHAN",
+    "state":"Rajasthan",
     "pct_electricity_functional":91.3200127937,
     "pct_internet":69.9497657617,
     "pct_library":74.1312487065,
@@ -117,7 +117,7 @@
     "infrastructure_index":80.3150458129
   },
   {
-    "state":"BIHAR",
+    "state":"Bihar",
     "pct_electricity_functional":97.0743806909,
     "pct_internet":84.8376599286,
     "pct_library":53.629993958,
@@ -126,7 +126,7 @@
     "infrastructure_index":83.3173448945
   },
   {
-    "state":"TELANGANA",
+    "state":"Telangana",
     "pct_electricity_functional":95.1452935997,
     "pct_internet":63.2826620939,
     "pct_library":87.7091347268,
@@ -135,7 +135,7 @@
     "infrastructure_index":84.3797793947
   },
   {
-    "state":"CHHATTISGARH",
+    "state":"Chhattisgarh",
     "pct_electricity_functional":90.9422203444,
     "pct_internet":64.2776662794,
     "pct_library":95.9209182775,
@@ -144,7 +144,7 @@
     "infrastructure_index":84.651948875
   },
   {
-    "state":"JHARKHAND",
+    "state":"Jharkhand",
     "pct_electricity_functional":92.6514332071,
     "pct_internet":57.9479899045,
     "pct_library":92.8857941229,
@@ -153,7 +153,7 @@
     "infrastructure_index":84.6933026861
   },
   {
-    "state":"KARNATAKA",
+    "state":"Karnataka",
     "pct_electricity_functional":98.2780961541,
     "pct_internet":50.6565676806,
     "pct_library":97.3430048491,
@@ -162,7 +162,7 @@
     "infrastructure_index":85.9893266007
   },
   {
-    "state":"ASSAM",
+    "state":"Assam",
     "pct_electricity_functional":88.8012589765,
     "pct_internet":87.1895519418,
     "pct_library":81.6887650815,
@@ -171,7 +171,7 @@
     "infrastructure_index":86.5881012246
   },
   {
-    "state":"MAHARASHTRA",
+    "state":"Maharashtra",
     "pct_electricity_functional":88.8683602771,
     "pct_internet":72.1330254042,
     "pct_library":93.3727482679,
@@ -180,7 +180,7 @@
     "infrastructure_index":86.7512702079
   },
   {
-    "state":"UTTARAKHAND",
+    "state":"Uttarakhand",
     "pct_electricity_functional":94.3034028149,
     "pct_internet":72.3142704436,
     "pct_library":91.8537324069,
@@ -189,7 +189,7 @@
     "infrastructure_index":87.1637270622
   },
   {
-    "state":"ANDAMAN & NICOBAR ISLANDS",
+    "state":"Andaman and Nicobar",
     "pct_electricity_functional":92.1568627451,
     "pct_internet":64.7058823529,
     "pct_library":99.0196078431,
@@ -198,7 +198,7 @@
     "infrastructure_index":88.7867647059
   },
   {
-    "state":"HIMACHAL PRADESH",
+    "state":"Himachal Pradesh",
     "pct_electricity_functional":99.0363531448,
     "pct_internet":63.5372186959,
     "pct_library":98.1015579919,
@@ -207,7 +207,7 @@
     "infrastructure_index":89.8615118292
   },
   {
-    "state":"PUNJAB",
+    "state":"Punjab",
     "pct_electricity_functional":99.9266889044,
     "pct_internet":88.8860379018,
     "pct_library":78.5931600748,
@@ -216,7 +216,7 @@
     "infrastructure_index":91.1366885378
   },
   {
-    "state":"TAMIL NADU",
+    "state":"Tamil Nadu",
     "pct_electricity_functional":99.5926469319,
     "pct_internet":84.9417450591,
     "pct_library":96.3752481229,
@@ -225,7 +225,7 @@
     "infrastructure_index":93.3826702339
   },
   {
-    "state":"HARYANA",
+    "state":"Haryana",
     "pct_electricity_functional":99.9531795352,
     "pct_internet":78.9095088108,
     "pct_library":96.9694390057,
@@ -234,7 +234,7 @@
     "infrastructure_index":93.4238528986
   },
   {
-    "state":"ODISHA",
+    "state":"Odisha",
     "pct_electricity_functional":96.9138309104,
     "pct_internet":83.7943636807,
     "pct_library":99.8002111589,
@@ -243,7 +243,7 @@
     "infrastructure_index":94.4721026557
   },
   {
-    "state":"GUJARAT",
+    "state":"Gujarat",
     "pct_electricity_functional":99.8912941617,
     "pct_internet":96.5495267548,
     "pct_library":93.6800674726,
@@ -252,7 +252,7 @@
     "infrastructure_index":95.9699184706
   },
   {
-    "state":"DELHI",
+    "state":"Delhi",
     "pct_electricity_functional":100.0,
     "pct_internet":100.0,
     "pct_library":99.9820014399,
@@ -261,7 +261,7 @@
     "infrastructure_index":96.2293016559
   },
   {
-    "state":"KERALA",
+    "state":"Kerala",
     "pct_electricity_functional":99.7461445707,
     "pct_internet":91.6545027607,
     "pct_library":96.6110300184,
@@ -270,7 +270,7 @@
     "infrastructure_index":96.7823824332
   },
   {
-    "state":"GOA",
+    "state":"Goa",
     "pct_electricity_functional":100.0,
     "pct_internet":93.2386747803,
     "pct_library":100.0,
@@ -279,7 +279,7 @@
     "infrastructure_index":98.1406355646
   },
   {
-    "state":"PUDUCHERRY",
+    "state":"Puducherry",
     "pct_electricity_functional":100.0,
     "pct_internet":99.6068152031,
     "pct_library":100.0,
@@ -288,7 +288,7 @@
     "infrastructure_index":99.0170380079
   },
   {
-    "state":"ANDHRA PRADESH",
+    "state":"Andhra Pradesh",
     "pct_electricity_functional":99.6509940147,
     "pct_internet":99.0443107132,
     "pct_library":99.9527047964,
@@ -297,7 +297,7 @@
     "infrastructure_index":99.0390103886
   },
   {
-    "state":"DADRA & NAGAR HAVELI AND DAMAN & DIU",
+    "state":"Dadra and Nagar Haveli and Daman and Diu",
     "pct_electricity_functional":100.0,
     "pct_internet":99.5381062356,
     "pct_library":99.5381062356,
@@ -306,7 +306,7 @@
     "infrastructure_index":99.5958429561
   },
   {
-    "state":"CHANDIGARH",
+    "state":"Chandigarh",
     "pct_electricity_functional":100.0,
     "pct_internet":100.0,
     "pct_library":100.0,
@@ -315,7 +315,7 @@
     "infrastructure_index":99.8792270531
   },
   {
-    "state":"LAKSHADWEEP",
+    "state":"Lakshadweep",
     "pct_electricity_functional":100.0,
     "pct_internet":100.0,
     "pct_library":100.0,
