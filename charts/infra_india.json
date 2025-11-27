@@ -9,15 +9,15 @@
   "width": 600,
   "height": 700,
   "data": {
-    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/india_states.json",
+    "url": "https://raw.githubusercontent.com/rheapy/rheapy.github.io/refs/heads/main/India_states.json",
     "format": {"type": "json", "property": "features"}
   },
   "transform": [
     {
-      "lookup": "properties.state",
+      "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/Project_JSON/state_infrastructure_index.json"
+          "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/state_infrastructure_index.json"
         },
         "key": "state",
         "fields": [
@@ -48,7 +48,7 @@
       }
     },
     "tooltip": [
-      {"field": "properties.state", "type": "nominal", "title": "State"},
+      {"field": "properties.name", "type": "nominal", "title": "State"},
       {
         "field": "infrastructure_index",
         "type": "quantitative",
