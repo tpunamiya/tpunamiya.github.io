@@ -1,95 +1,43 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Railway Stations in Scotland",
-    "fontSize": 16,
-    "subtitle": "Major cities highlighted in red | 363 stations total",
-    "subtitleFontSize": 11
+  "description": "Choropleth map of Wales showing 2023 population density by Local Authority District.",
+  "title": "Wales Population Density by Local Authority (2023)",
+  "width": 350,
+  "height": 450,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_WLS_2025_05.topojson",
+    "format": {"type": "topojson", "feature": "object_name"}
   },
-  "width": 400,
-  "height": 600,
-  "layer": [
+  "transform": [
     {
-      "data": {
-        "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/scotland.topojson",
-        "format": {"type": "topojson", "feature": "data"}
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "#E8F5E9",
-        "stroke": "#80b983",
-        "strokeWidth": 1.5
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/scotland_train_stations.json"
-      },
-      "transform": [
-        {"filter": "datum.is_major == false"},
-        {"calculate": "'Regular Station'", "as": "type"}
-      ],
-      "mark": {
-        "type": "circle",
-        "size": 30,
-        "color": "#ff912a",
-        "opacity": 0.6,
-        "stroke": "white",
-        "strokeWidth": 0.5
-      },
-      "encoding": {
-        "longitude": {"field": "long", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
-        "color": {
-          "field": "type",
-          "type": "nominal",
-          "scale": {
-            "domain": ["Regular Station", "Major City"],
-            "range": ["#ff912a", "#C62828"]
-          },
-          "legend": {
-            "title": "Station Type",
-            "orient": "bottom-right",
-            "symbolSize": 70,
-            "symbolStrokeWidth": 0
-          }
+      "lookup": "properties.LAD25CD",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/data/wales_pop.csv"
         },
-        "tooltip": [
-          {"field": "stationName", "type": "nominal", "title": "Station"}
-        ]
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/scotland_train_stations.json"
-      },
-      "transform": [{"filter": "datum.is_major == true"}],
-      "mark": {
-        "type": "circle",
-        "size": 30,
-        "color": "#C62828",
-        "opacity": 0.9,
-        "stroke": "#8B0000",
-        "strokeWidth": 2
-      },
-      "encoding": {
-        "longitude": {"field": "long", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
-        "tooltip": [
-          {
-            "field": "stationName",
-            "type": "nominal",
-            "title": "Major City Station"
-          }
-        ]
+        "key": "geo_id",
+        "fields": ["value"]
       }
     }
   ],
-  "projection": {
-    "type": "mercator",
-    "scale": 2800,
-    "center": [-4, 57],
-    "translate": [200, 300]
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 0.5
   },
-  "config": {}
+  "encoding": {
+    "color": {
+      "field": "value",
+      "type": "quantitative",
+      "scale": {"scheme": "oranges"},
+      "title": "Density (per km²)"
+    },
+    "tooltip": [
+      {"field": "properties.LAD25NM", "type": "nominal", "title": "Local Authority"},
+      {"field": "value", "type": "quantitative", "title": "Population Density", "format": ",.1f"}
+    ]
+  },
+  "projection": {
+    "type": "mercator"
+  }
 }

@@ -180,12 +180,12 @@
  <section>
         <h2>Challenge 7: Maps</h2>
         <div class="task">
-            <strong>Task:</strong> Create visualizations that support or refute a policy debate, with commentary limited to 25 words per chart.
+            <strong>Task:</strong> Produce Two Maps.
         </div>
         <div class="chart-description">
-            <h3>Poverty</h3>
-            <p><strong>Policy question:</strong> Have international development efforts successfully reduced extreme poverty?</p>
+            <p><strong>Poduce one choropleth and one coordinates map (Wales and Scotland)</p>
         </div>
+        <figure id="Location7"></figure>
         <figure id="Location7a"></figure>
         <p class="source"><em>Source: </em></p>
     </section>
@@ -206,6 +206,7 @@
         let figure_5a_spec = "charts/green_bonds_improved.json";
         let figure_6_spec = "charts/world_bank_api_chart.json";
         let figure_6a_spec = "charts/tennis_scraper.json"; // Add your scraper chart
+        let figure_7_spec = "charts/CC7_Map1.json";
         let figure_7a_spec = "charts/CC7_Maps2.json";
         
         // Configuration for consistent chart sizing
@@ -226,6 +227,7 @@
         vegaEmbed('#Location5a', figure_5a_spec, embedConfig);
         vegaEmbed('#Location6', figure_6_spec, embedConfig);
         vegaEmbed('#Location6a', figure_6a_spec, embedConfig);
+        vegaEmbed('#Location7', figure_7_spec, embedConfig);
         vegaEmbed('#Location7a', figure_7a_spec, embedConfig);
         
        // ===== CHALLENGE 6: LOOP TO EMBED CRIME CHARTS =====
