@@ -112,12 +112,17 @@
             width: 650,
             height: 700
         };
+
+        // Configuration for enrollment chart (no width/height override)
+    const embedConfigNoSize = {
+        actions: false
+    };
         
         // Embed charts
         vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfig);
         vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
         vegaEmbed('#chart3', chart3_spec, embedConfig);
-        vegaEmbed('#chart4', chart4_spec, embedConfig);
+        vegaEmbed('#chart4', chart4_spec, embedConfigNoSize);
         vegaEmbed('#chart5', chart5_spec, embedConfig);
         // vegaEmbed('#chart5', chart5_spec, embedConfig);
     </script>
