@@ -190,6 +190,19 @@
         <p class="source"><em>Source: </em></p>
     </section>
 
+     <section>
+        <h2>Challenge 8: Big Data</h2>
+        <div class="task">
+            <strong>Task:</strong> Produce Two Maps.
+        </div>
+        <div class="chart-description">
+            <p><strong>Poduce one choropleth and one coordinates map (Wales and Scotland)</p>
+        </div>
+        <figure id="Location8"></figure>
+        <figure id="Location8a"></figure>
+        <p class="source"><em>Source: </em></p>
+    </section>
+
     <footer>
         <p>&copy; 2025 Trisha Punamiya | Built with Vega-Lite and HTML/CSS</p>
     </footer>
@@ -208,6 +221,8 @@
         let figure_6a_spec = "charts/tennis_scraper.json"; // Add your scraper chart
         let figure_7_spec = "charts/CC7_Map1.json";
         let figure_7a_spec = "charts/CC7_Maps2.json";
+        let figure_8_spec = "charts/clothing_price_comparison.json";
+        let figure_8a_spec = "charts/health_club_fees_by_region.json";
         
         // Configuration for consistent chart sizing
         const embedConfig = {
@@ -229,6 +244,8 @@
         vegaEmbed('#Location6a', figure_6a_spec, embedConfig);
         vegaEmbed('#Location7', figure_7_spec, embedConfig);
         vegaEmbed('#Location7a', figure_7a_spec, embedConfig);
+        vegaEmbed('#Location8', figure_8_spec, embedConfig);
+        vegaEmbed('#Location8a', figure_8a_spec, embedConfig);
         
        // ===== CHALLENGE 6: LOOP TO EMBED CRIME CHARTS =====
 const cities = ['bristol', 'london', 'newcastle', 'birmingham', 'leeds', 'liverpool'];

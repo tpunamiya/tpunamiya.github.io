@@ -198,3 +198,14 @@ footer {
         font-size: 2em;
     }
 }
+
+/* Style for Vega-Lite dropdown labels */
+.vega-bind label {
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+
+/* Optional: also style the dropdown itself */
+.vega-bind select {
+    font-size: 13px !important;
+}
