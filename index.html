@@ -173,35 +173,53 @@
         <figure id="CC6_Location6"></figure>
     </div>
     <figcaption style="font-size: 15px; font-weight: normal;">
-    <p class="source"><em>Source: UK Police Data API (data.police.uk)</small>
+    <p class="source"><em>Source: UK Police Data API (data.police.uk)</em></p>
     </figcaption>
 </section>
 
- <section>
-        <h2>Challenge 7: Maps</h2>
-        <div class="task">
-            <strong>Task:</strong> Produce Two Maps.
-        </div>
-        <div class="chart-description">
-            <p><strong>Poduce one choropleth and one coordinates map (Wales and Scotland)</p>
-        </div>
-        <figure id="Location7"></figure>
-        <figure id="Location7a"></figure>
-        <p class="source"><em>Source: </em></p>
-    </section>
+<section>
+    <h2>Challenge 7: Maps - Base Maps and Choropleths</h2>
+    <div class="task">
+        <strong>Task:</strong> Produce two maps - one of Scotland (coordinates map) and one of Wales (choropleth map).
+    </div>
+    
+    <div class="chart-description">
+        <h3>Scotland: Major Cities</h3>
+        <p>This coordinates map displays Scotland's major cities using latitude and longitude coordinates.</p>
+    </div>
+    <figure id="Location7"></figure>
+    <p class="source"><em>Source: [Add your data source]</em></p>
+    
+    <div class="chart-description">
+        <h3>Wales: Regional Data</h3>
+        <p>This choropleth map shows regional variations across Wales with color-coded areas.</p>
+    </div>
+    <figure id="Location7a"></figure>
+    <p class="source"><em>Source: [Add your data source]</em></p>
+</section>
 
-     <section>
-        <h2>Challenge 8: Big Data</h2>
-        <div class="task">
-            <strong>Task:</strong> Produce Two Maps.
-        </div>
-        <div class="chart-description">
-            <p><strong>Poduce one choropleth and one coordinates map (Wales and Scotland)</p>
-        </div>
-        <figure id="Location8"></figure>
-        <figure id="Location8a"></figure>
-        <p class="source"><em>Source: </em></p>
-    </section>
+<section>
+    <h2>Challenge 8: Big Data</h2>
+    <div class="task">
+        <strong>Task:</strong> Produce two charts using the UK prices datasets (LRPD or AutoCPI). Explain in no more than 50 words what you have done.
+    </div>
+    
+    <div class="chart-description">
+        <h3>Gender Price Gap in UK Clothing</h3>
+        <p>Using the Long Run Prices Database (LRPD), I analyzed price differences between men's and women's clothing across three categories: jeans, casual shirts, and jackets. The data was grouped by date and gender, with multiple product variants averaged within each category to create comparable trends from overlapping time periods.</p>
+    </div>
+    <figure id="Location8"></figure>
+    <p class="source"><em>Source: Long Run Prices Database (LRPD) - Davies (2021) | <a href="https://richarddavies.io/prices" target="_blank">Read more about the database</a></em></p>
+    
+    <div class="chart-description">
+        <h3>Private Health Club Fees: Regional Price Distribution</h3>
+        <p>This visualization shows the distribution of private health club annual membership fees across UK regions, displaying decile bands from the 10th to 90th percentile. The layered area chart reveals both central tendencies and price variation over time, with darker bands representing the middle 50% of prices.</p>
+        
+        <p><strong>Python Notebook:</strong> <a href="https://drive.google.com/file/d/1LPMk21KFetYZlCh94TAYT3hpb0H3Dh6f/view?usp=share_link" target="_blank">View data processing and analysis</a></p>
+    </div>
+    <figure id="Location8a"></figure>
+    <p class="source"><em>Source: Long Run Prices Database (LRPD) - Davies (2021)</em></p>
+</section>
 
     <footer>
         <p>&copy; 2025 Trisha Punamiya | Built with Vega-Lite and HTML/CSS</p>

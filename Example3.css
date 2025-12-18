@@ -122,14 +122,15 @@ section {
     font-style: normal;
 }
 
-/* NEW: Chart description area */
+/* Chart description area */
 .chart-description {
     margin-bottom: 10px;
 }
 
 .chart-description p {
     margin-bottom: 15px;
-    color: #555;
+    color: #333;  /* Match body text color */
+    font-style: normal;  /* Ensure not italic */
 }
 
 /* Figure/chart spacing and alignment */
