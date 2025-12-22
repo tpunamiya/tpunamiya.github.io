@@ -221,7 +221,26 @@
     <p class="source"><em>Source: Long Run Prices Database (LRPD) - Davies (2021)</em></p>
 </section>
 
-    <footer>
+<section>
+    <h2>Challenge 9: Interactivity</h2>
+    <div class="task">
+        <strong>Task:</strong> Produce two interactive maps.
+    </div>
+    
+    <div class="chart-description">
+        <h3>Enrollment in Higher Education (1970-2022)</h3>
+    </div>
+    <figure id="Location9"></figure>
+    <p class="source"><em>Source: </em></p>
+    
+    <div class="chart-description">
+        <h3>GDP per Capita vs Inflation Rate (2022)</h3>
+    </div>
+    <figure id="Location9a"></figure>
+    <p class="source"><em>Source: World Bank</em></p>
+</section>
+
+<footer>
         <p>&copy; 2025 Trisha Punamiya | Built with Vega-Lite and HTML/CSS</p>
     </footer>
 
@@ -241,6 +260,8 @@
         let figure_7a_spec = "charts/CC7_Maps2.json";
         let figure_8_spec = "charts/clothing_price_comparison.json";
         let figure_8a_spec = "charts/health_club_fees_by_region.json";
+        let figure_9_spec = "charts/CC9_1.json";
+        let figure_9a_spec = "charts/CC9_2.json";
         
         // Configuration for consistent chart sizing
         const embedConfig = {
@@ -264,6 +285,8 @@
         vegaEmbed('#Location7a', figure_7a_spec, embedConfig);
         vegaEmbed('#Location8', figure_8_spec, embedConfig);
         vegaEmbed('#Location8a', figure_8a_spec, embedConfig);
+        vegaEmbed('#Location9', figure_9_spec, embedConfig);
+        vegaEmbed('#Location9a', figure_9a_spec, embedConfig);
         
        // ===== CHALLENGE 6: LOOP TO EMBED CRIME CHARTS =====
 const cities = ['bristol', 'london', 'newcastle', 'birmingham', 'leeds', 'liverpool'];
