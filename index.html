@@ -231,13 +231,46 @@
         <h3>Enrollment in Higher Education (1970-2022)</h3>
     </div>
     <figure id="Location9"></figure>
-    <p class="source"><em>Source: </em></p>
+    <p class="source"><em>Source: World Development Indicators, World Bank</em></p>
     
     <div class="chart-description">
         <h3>GDP per Capita vs Inflation Rate (2022)</h3>
     </div>
     <figure id="Location9a"></figure>
     <p class="source"><em>Source: World Bank</em></p>
+</section>
+
+<section>
+    <h2>Challenge 10: Advanced Analytics</h2>
+    <div class="task">
+        <strong>Task:</strong> Conduct an applied machine learning analysis using supervised or unsupervised learning techniques.
+    </div>
+    
+    <div class="chart-description">
+        <h3>Relationship between GDP and Access to Drinking Water</h3>
+    </div>
+    <figure id="Location10"></figure>
+    <p class="source"><em>Source: World Development Indicators, World Bank</em></p>
+    
+    <!-- ADD YOUR LDA VISUALIZATION HERE -->
+    <div class="chart-description" style="margin-top: 40px;">
+        <h3>Topic Modeling: Narendra Modi Speech Analysis</h3>
+        <p><strong>Hypothesis:</strong> Modi's speeches contain distinct thematic clusters reflecting key policy priorities such as economic development, national security, and social welfare programs.</p>
+        <p>Using Latent Dirichlet Allocation (LDA), an unsupervised machine learning technique, I analyzed thematic patterns in a collection of speeches delivered by Prime Minister Modi over 2014-18. The interactive visualization below shows 5 distinct topics extracted from the corpus. Use the lambda (λ) slider to adjust between term frequency and term exclusivity.</p>
+        <p><strong>Python Notebook:</strong> <a href="https://colab.research.google.com/drive/1b0sGA4mo0N_4woO4KmEo0QG-2xQMRZ3_?usp=sharing" target="_blank">View LDA analysis code</a></p>
+        <p><strong>Findings:</strong> Five distinct topics emerged: international relations, regional development, global economics, geopolitics, and domestic governance.</p>
+    </div>
+    
+    <!-- IFRAME FOR PYLDAVIS -->
+<figure style="margin: 20px 0;">
+    <iframe src="charts/modi_lda_visualization.html" 
+            width="840" 
+            height="800" 
+            frameborder="0"
+            style="border: 1px solid #ddd; border-radius: 4px;">
+    </iframe>
+</figure>
+    <p class="source"><em>Source: <a href="https://github.com/pratikratadiya/Narendra_Modi_speeches" target="_blank">Modi English Speeches Dataset</a></em></p>
 </section>
 
 <footer>
@@ -262,6 +295,8 @@
         let figure_8a_spec = "charts/health_club_fees_by_region.json";
         let figure_9_spec = "charts/CC9_1.json";
         let figure_9a_spec = "charts/CC9_2.json";
+        let figure_10_spec = "charts/CC10_1.json";
+        let figure_10a_spec = "charts/modi_lda_topics.json";
         
         // Configuration for consistent chart sizing
         const embedConfig = {
@@ -287,6 +322,7 @@
         vegaEmbed('#Location8a', figure_8a_spec, embedConfig);
         vegaEmbed('#Location9', figure_9_spec, embedConfig);
         vegaEmbed('#Location9a', figure_9a_spec, embedConfig);
+        vegaEmbed('#Location10', figure_10_spec, embedConfig);
         
        // ===== CHALLENGE 6: LOOP TO EMBED CRIME CHARTS =====
 const cities = ['bristol', 'london', 'newcastle', 'birmingham', 'leeds', 'liverpool'];
