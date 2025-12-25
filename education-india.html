@@ -75,17 +75,29 @@
         <p class="source"><em>Source: [Your data source]</em></p>
     </section>
 
-    <!-- Chart 6: Placeholder -->
+    <!--Correlation Charts -->
     <section>
-        <h2>Dropout Rates Across Education Levels</h2>
+        <h2>Infrastructure & Class Size: Do They Matter for Learning?</h2>
         <div class="chart-description">
-            <p>[Description of dropout patterns from primary to secondary education]</p>
+            <p>We examine whether better school infrastructure and lower student-teacher ratios correlate with improved learning outcomes across Indian states. Surprisingly, the data reveals weak correlations, suggesting that simply investing in facilities or reducing class sizes does not automatically translate to better educational results.</p>
+            <p><strong>Key Finding:</strong> Neither infrastructure quality nor student-teacher ratios show significant correlation with learning outcomes (all r < 0.22, p > 0.28). States with the highest infrastructure scores do not necessarily achieve the best results, pointing to other factors—such as teacher quality, curriculum effectiveness, and socioeconomic conditions—as more critical determinants of educational success.</p>
         </div>
-        <figure id="chart5"></figure>
-        <p class="source"><em>Source: [Your data source]</em></p>
+
+        <h3>School Infrastructure vs Learning Outcomes (2024)</h3>
+        <div class="chart-row">
+            <figure id="infra_reading_chart"></figure>
+            <figure id="infra_math_chart"></figure>
+        </div>
+        <p class="source"><em>Source: UDISE+ 2024 (Infrastructure), ASER 2024 (Learning Outcomes)</em></p>
+
+        <h3>Student-Teacher Ratio vs Learning Outcomes (2024)</h3>
+        <div class="chart-row">
+            <figure id="str_reading_chart"></figure>
+            <figure id="str_math_chart"></figure>
+        </div>
+        <p class="source"><em>Source: UDISE+ 2024 (Enrollment & Teachers), ASER 2024 (Learning Outcomes)</em></p>
     </section>
 
-    <!-- Add more sections as needed for charts 6-8 -->
 
     <section>
         <h2>Conclusion</h2>
@@ -106,6 +118,12 @@
         let chart4_spec = "Project_JSON/enrollment_chart.json";
         let chart5_spec = "Project_JSON/aser_learning_outcomes_heatmap.json";
         
+         // NEW: Correlation chart specifications
+        let infra_reading_spec = "charts/infrastructure_vs_reading_2024.json";
+        let infra_math_spec = "charts/infrastructure_vs_math_2024.json";
+        let str_reading_spec = "charts/str_vs_reading_2024.json";
+        let str_math_spec = "charts/str_vs_math_2024.json";
+
         // Configuration for consistent chart sizing
         const embedConfig = {
             actions: false,
@@ -117,6 +135,13 @@
     const embedConfigNoSize = {
         actions: false
     };
+
+    //  Configuration for correlation charts (side by side)
+const correlationConfig = {
+    actions: false,
+    width: 450,   // CHANGED from 550 to 450
+    height: 400   // CHANGED from 450 to 400
+    };
         
         // Embed charts
         vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfig);
@@ -125,6 +150,12 @@
         vegaEmbed('#chart4', chart4_spec, embedConfigNoSize);
         vegaEmbed('#chart5', chart5_spec, embedConfig);
         // vegaEmbed('#chart5', chart5_spec, embedConfig);
+
+         // NEW: Embed correlation charts
+        vegaEmbed('#infra_reading_chart', infra_reading_spec, correlationConfig);
+        vegaEmbed('#infra_math_chart', infra_math_spec, correlationConfig);
+        vegaEmbed('#str_reading_chart', str_reading_spec, correlationConfig);
+        vegaEmbed('#str_math_chart', str_math_spec, correlationConfig);
     </script>
 </body>
 </html>
