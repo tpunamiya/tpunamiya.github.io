@@ -73,174 +73,259 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-image: url('images/IMG_2121.png'); 
+            background-size: 110%;
+            background-position: 92% 50%;
+            background-repeat: no-repeat;
             color: white;
             padding: 2rem;
+            position: relative;
+            filter: brightness(1.3) contrast(0.95);
+        }
+
+        .hero > * {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h5 {
+            color: #cecece;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
         }
 
         .hero h1 {
             font-size: 4rem;
-            margin-bottom: 0.5rem;
-            animation: fadeInUp 0.8s ease-out;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
+            font-weight: 700;
         }
 
-        .hero .subtitle {
+        .hero .intro-position {
             font-size: 1.5rem;
             margin-bottom: 1rem;
-            opacity: 0.95;
-            animation: fadeInUp 0.8s ease-out 0.2s both;
+            text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
         }
 
-        .hero-buttons {
-            display: flex;
-            gap: 1.5rem;
+        .hero .intro-position span {
+            display: inline-block;
+            margin: 0 1rem;
+        }
+
+        .hero-links {
             margin-top: 2rem;
-            animation: fadeInUp 0.8s ease-out 0.4s both;
+            display: flex;
+            gap: 2rem;
+            font-size: 1.2rem;
         }
 
-        .btn {
+        .hero-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .hero-links a:hover {
+            opacity: 0.7;
+        }
+
+        .btn-scroll {
+            margin-top: 3rem;
             padding: 1rem 2.5rem;
+            border: 2px solid white;
             border-radius: 50px;
+            color: white;
             text-decoration: none;
             font-weight: 600;
-            font-size: 1.1rem;
             transition: all 0.3s;
         }
 
-        .btn-primary {
+        .btn-scroll:hover {
             background: white;
             color: #667eea;
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: white;
-            border: 2px solid white;
-        }
-
-        .btn-secondary:hover {
-            background: white;
-            color: #667eea;
-        }
-
-        .social-links {
-            margin-top: 3rem;
-            display: flex;
-            gap: 2rem;
-            animation: fadeInUp 0.8s ease-out 0.6s both;
-        }
-
-        .social-links a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-            transition: transform 0.3s;
-        }
-
-        .social-links a:hover {
-            transform: translateY(-3px);
         }
 
         /* About Section */
         .about-section {
-            min-height: 100vh;
+            padding: 5rem 2rem;
+            background: #f5f5f5;
+        }
+
+        .about-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about-section h5 {
+            color: #808080;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        .about-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 2rem auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+        }
+
+        .button-section {
             display: flex;
-            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .button-primary {
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+
+        .button-primary:hover {
+            transform: translateY(-3px);
+        }
+
+        /* More Section */
+        .more-section {
             padding: 5rem 2rem;
             background: white;
         }
 
-        .about-container {
+        .more-container {
             max-width: 1200px;
             margin: 0 auto;
+        }
+
+        .more-section h5 {
+            text-align: center;
+            color: #808080;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+        }
+
+        .services-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
         }
 
-        .about-image-container {
-            position: relative;
+        .service-item {
+            text-align: center;
         }
 
-        .about-image {
-            width: 100%;
-            border-radius: 15px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-            transition: transform 0.3s;
-        }
-
-        .about-image:hover {
-            transform: scale(1.02);
-        }
-
-        .about-text h2 {
-            font-size: 2.5rem;
-            color: #2c3e50;
+        .service-icon {
+            font-size: 3rem;
+            color: #808080;
             margin-bottom: 1.5rem;
         }
 
-        .about-text p {
-            font-size: 1.1rem;
-            color: #555;
-            line-height: 1.8;
+        .service-item h3 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .service-item ul {
+            list-style: none;
+            color: #666;
+            line-height: 2;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 5rem 2rem;
+            background: #f5f5f5;
+            text-align: center;
+        }
+
+        .contact-section h5 {
+            color: #808080;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
             margin-bottom: 1rem;
         }
 
-        .about-text .highlight {
+        .contact-section h1 {
+            color: #2c3e50;
+            margin-bottom: 2rem;
+        }
+
+        .contact-section h3 {
+            color: #808080;
+            font-size: 1rem;
+            font-weight: normal;
+        }
+
+        .contact-section a {
+            color: #808080;
+            text-decoration: none;
+        }
+
+        .contact-section a:hover {
             color: #3498db;
-            font-weight: 600;
         }
 
+        /* Footer */
         footer {
-            background: #2c3e50;
-            color: white;
+            padding: 2rem;
+            background: white;
             text-align: center;
-            padding: 1.5rem;
-            font-size: 0.9rem;
         }
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        .back-to-top {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: background 0.3s;
         }
 
-        @media (max-width: 968px) {
-            .about-container {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-                text-align: center;
-            }
-
-            .about-image {
-                max-width: 500px;
-                margin: 0 auto;
-            }
+        .back-to-top:hover {
+            background: #764ba2;
         }
 
+        /* Responsive */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.5rem;
             }
 
-            .hero .subtitle {
+            .hero .intro-position {
                 font-size: 1.2rem;
             }
 
-            .hero-buttons {
-                flex-direction: column;
-                gap: 1rem;
+            .hero .intro-position span {
+                display: block;
+                margin: 0.5rem 0;
             }
 
             .nav-links {
@@ -252,76 +337,118 @@
                 padding: 0 1rem;
             }
 
-            .about-text h2 {
-                font-size: 2rem;
+            .services-grid {
+                grid-template-columns: 1fr;
             }
 
-            .about-text p {
-                font-size: 1rem;
-            }
-
-            .about-section {
-                padding: 3rem 1.5rem;
+            .button-section {
+                flex-direction: column;
+                align-items: center;
             }
         }
     </style>
 </head>
-<body>
+<body id="top">
     <nav>
         <div class="nav-container">
             <div class="logo">Trisha Punamiya</div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="education-india.html">Project</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing">CV</a></li>
+                <li><a href="#top">Home</a></li>
+                <li><a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing" target="_blank">CV</a></li>
+                <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+                <li><a href="education-india.html" target="_blank">Project</a></li>
             </ul>
         </div>
     </nav>
 
-    <section class="hero" id="home">
+    <section class="hero" id="intro">
+        <h5>WELCOME!</h5>
         <h1>Trisha Punamiya</h1>
-        <div class="subtitle">Data Science | Visualization | Economics</div>
         
-        <div class="hero-buttons">
-            <a href="education-india.html" class="btn btn-primary">Project</a>
-            <a href="portfolio.html" class="btn btn-secondary">Portfolio</a>
-        </div>
+        <p class="intro-position">
+            <span>Data Science | Public Policy | Economics</span>
+            <br><br>
+            <span class="hero-links">
+                <a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing" target="_blank">CV</a>
+                <a href="https://www.linkedin.com/in/trisha-punamiya-16b25214b/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/tpunamiya" target="_blank">GitHub</a>
+            </span>
+        </p>
 
-        <div class="social-links">
-            <a href="https://github.com/tpunamiya" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/trisha-punamiya-16b25214b/" target="_blank">LinkedIn</a>
-            <a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing">CV</a>
-        </div>
+        <a class="btn-scroll" href="#about">Scroll down</a>
     </section>
 
     <section class="about-section" id="about">
         <div class="about-container">
-            <div class="about-image-container">
-                <!-- Replace 'images/header-photo.jpg' with your actual image path -->
-                <img src="images/header-photo.jpg" alt="Trisha Punamiya" class="about-image">
+            <h5>About me</h5>
+            
+            <img src="images/FullSizeRender.jpeg" alt="Trisha Punamiya" class="about-image">
+            
+            <p class="about-text">
+                Hi! I am Trisha, a MPA - Data Science student at LSE. 
+                My expertise lies at the interesection of Data Science and Public Policy.
+                In this website, you will find my personal projects. I hope you enjoy them!
+            </p>
+
+            <div class="button-section">
+                <a href="portfolio.html" target="_blank" class="button-primary">Portfolio</a>
+                <a href="education-india.html" target="_blank" class="button-primary">Project</a>
             </div>
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>
-                    Hi! I'm Trisha, a <span class="highlight">data science student at LSE</span> with a passion for transforming complex data into compelling visual narratives.
-                </p>
-                <p>
-                    My expertise lies in <span class="highlight">data visualization, statistical analysis, and machine learning</span>. I enjoy working on end-to-end data science projects that begin from data collection through APIs and web scraping, and culminate in interactive visualizations and predictive models.
-                </p>
-                <p>
-                    Through my coursework in Automated Data Visualization, I've developed progressive mastery of visualization techniques—from basic chart embedding to advanced analytics, including geospatial mapping, topic modeling, and interactive dashboards.
-                </p>
-                <p>
-                    I believe that data has the power to tell stories and drive meaningful decisions. Welcome to my portfolio!
-                </p>
+        </div>
+    </section>
+
+    <section class="more-section" id="more">
+        <div class="more-container">
+            <h5>MORE</h5>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">💻</div>
+                    <h3>Softwares</h3>
+                    <ul>
+                        <li>Python (advanced)</li>
+                        <li>R (advanced)</li>
+                        <li>SQL (intermediate)</li>
+                        <li>GitHub (intermediate)</li>
+                        <li>Power BI (advanced)</li>
+                        <li>Excel (advanced)</li>
+                    </ul>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">💡</div>
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Public Policy</li>
+                        <li>Data Visualization</li>
+                        <li>Machine Learning</li>
+                        <li>Education Analytics</li>
+                        <li>Economic Development</li>
+                    </ul>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🌍</div>
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English (Fluent)</li>
+                        <li>Hindi (Native)</li>
+                        <li>Gujarati (Intermediate)</li>
+                    </ul>
+                </div>
             </div>
-        </div> 
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h5>Contact</h5>
+            <h1>t.n.punamiya@lse.ac.uk</h1>
+        </div>
     </section>
 
     <footer>
-        <p> Contact: t.n.punamiya@lse.ac.uk</p>
+        <a href="#top" class="back-to-top">↑</a>
     </footer>
 </body>
 </html>
