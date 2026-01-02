@@ -2,194 +2,242 @@
   {
     "state":"Haryana",
     "Gender":"Boys",
-    "Percentage":53.7365682705,
-    "gender_gap":-7.4731365409
+    "Percentage":54.3125210965,
+    "gender_gap":-8.625042193
   },
   {
     "state":"Haryana",
     "Gender":"Girls",
-    "Percentage":46.2634317295,
-    "gender_gap":-7.4731365409
+    "Percentage":45.6874789035,
+    "gender_gap":-8.625042193
   },
   {
     "state":"Punjab",
     "Gender":"Boys",
-    "Percentage":53.7314035722,
-    "gender_gap":-7.4628071443
+    "Percentage":53.9706400867,
+    "gender_gap":-7.9412801734
   },
   {
     "state":"Punjab",
     "Gender":"Girls",
-    "Percentage":46.2685964278,
-    "gender_gap":-7.4628071443
+    "Percentage":46.0293599133,
+    "gender_gap":-7.9412801734
   },
   {
     "state":"Rajasthan",
     "Gender":"Boys",
-    "Percentage":52.9415104594,
-    "gender_gap":-5.8830209188
+    "Percentage":53.1016482318,
+    "gender_gap":-6.2032964635
   },
   {
     "state":"Rajasthan",
     "Gender":"Girls",
-    "Percentage":47.0584895406,
-    "gender_gap":-5.8830209188
-  },
-  {
-    "state":"Gujarat",
-    "Gender":"Boys",
-    "Percentage":52.7492293229,
-    "gender_gap":-5.4984586457
-  },
-  {
-    "state":"Gujarat",
-    "Gender":"Girls",
-    "Percentage":47.2507706771,
-    "gender_gap":-5.4984586457
+    "Percentage":46.8983517682,
+    "gender_gap":-6.2032964635
   },
   {
     "state":"Chandigarh",
     "Gender":"Boys",
-    "Percentage":52.5973312742,
-    "gender_gap":-5.1946625483
+    "Percentage":53.010272424,
+    "gender_gap":-6.020544848
   },
   {
     "state":"Chandigarh",
     "Gender":"Girls",
-    "Percentage":47.4026687258,
-    "gender_gap":-5.1946625483
+    "Percentage":46.989727576,
+    "gender_gap":-6.020544848
+  },
+  {
+    "state":"Gujarat",
+    "Gender":"Boys",
+    "Percentage":52.9144350085,
+    "gender_gap":-5.828870017
+  },
+  {
+    "state":"Gujarat",
+    "Gender":"Girls",
+    "Percentage":47.0855649915,
+    "gender_gap":-5.828870017
   },
   {
     "state":"Maharashtra",
     "Gender":"Boys",
-    "Percentage":52.1652678858,
-    "gender_gap":-4.3305357716
+    "Percentage":52.3462455409,
+    "gender_gap":-4.6924910817
   },
   {
     "state":"Maharashtra",
     "Gender":"Girls",
-    "Percentage":47.8347321142,
-    "gender_gap":-4.3305357716
-  },
-  {
-    "state":"Uttar Pradesh",
-    "Gender":"Boys",
-    "Percentage":52.1489952029,
-    "gender_gap":-4.2979904059
-  },
-  {
-    "state":"Uttar Pradesh",
-    "Gender":"Girls",
-    "Percentage":47.8510047971,
-    "gender_gap":-4.2979904059
+    "Percentage":47.6537544591,
+    "gender_gap":-4.6924910817
   },
   {
     "state":"Dadra & Nagar Haveli And Daman & Diu",
     "Gender":"Boys",
-    "Percentage":52.1281718215,
-    "gender_gap":-4.2563436429
+    "Percentage":52.2767833104,
+    "gender_gap":-4.5535666208
   },
   {
     "state":"Dadra & Nagar Haveli And Daman & Diu",
     "Gender":"Girls",
-    "Percentage":47.8718281785,
-    "gender_gap":-4.2563436429
+    "Percentage":47.7232166896,
+    "gender_gap":-4.5535666208
   },
   {
-    "state":"Uttarakhand",
+    "state":"Uttar Pradesh",
     "Gender":"Boys",
-    "Percentage":51.9986287529,
-    "gender_gap":-3.9972575058
+    "Percentage":52.2468780992,
+    "gender_gap":-4.4937561983
   },
   {
-    "state":"Uttarakhand",
+    "state":"Uttar Pradesh",
     "Gender":"Girls",
-    "Percentage":48.0013712471,
-    "gender_gap":-3.9972575058
+    "Percentage":47.7531219008,
+    "gender_gap":-4.4937561983
   },
   {
     "state":"Delhi",
     "Gender":"Boys",
-    "Percentage":51.9634737488,
-    "gender_gap":-3.9269474975
+    "Percentage":52.1873612846,
+    "gender_gap":-4.3747225691
   },
   {
     "state":"Delhi",
     "Gender":"Girls",
-    "Percentage":48.0365262512,
-    "gender_gap":-3.9269474975
+    "Percentage":47.8126387154,
+    "gender_gap":-4.3747225691
+  },
+  {
+    "state":"Uttarakhand",
+    "Gender":"Boys",
+    "Percentage":52.0740476562,
+    "gender_gap":-4.1480953125
+  },
+  {
+    "state":"Uttarakhand",
+    "Gender":"Girls",
+    "Percentage":47.9259523438,
+    "gender_gap":-4.1480953125
   },
   {
     "state":"Himachal Pradesh",
     "Gender":"Boys",
-    "Percentage":51.928003584,
-    "gender_gap":-3.8560071679
+    "Percentage":52.0515889002,
+    "gender_gap":-4.1031778004
   },
   {
     "state":"Himachal Pradesh",
     "Gender":"Girls",
-    "Percentage":48.071996416,
-    "gender_gap":-3.8560071679
+    "Percentage":47.9484110998,
+    "gender_gap":-4.1031778004
   },
   {
     "state":"Madhya Pradesh",
     "Gender":"Boys",
-    "Percentage":51.6835684163,
-    "gender_gap":-3.3671368326
+    "Percentage":51.8489839027,
+    "gender_gap":-3.6979678055
   },
   {
     "state":"Madhya Pradesh",
     "Gender":"Girls",
-    "Percentage":48.3164315837,
-    "gender_gap":-3.3671368326
+    "Percentage":48.1510160973,
+    "gender_gap":-3.6979678055
   },
   {
     "state":"Jammu & Kashmir",
     "Gender":"Boys",
-    "Percentage":51.6030861909,
-    "gender_gap":-3.2061723818
+    "Percentage":51.832001325,
+    "gender_gap":-3.6640026499
   },
   {
     "state":"Jammu & Kashmir",
     "Gender":"Girls",
-    "Percentage":48.3969138091,
-    "gender_gap":-3.2061723818
+    "Percentage":48.167998675,
+    "gender_gap":-3.6640026499
   },
   {
     "state":"Andhra Pradesh",
     "Gender":"Boys",
-    "Percentage":51.4333019477,
-    "gender_gap":-2.8666038953
+    "Percentage":51.7040929619,
+    "gender_gap":-3.4081859238
   },
   {
     "state":"Andhra Pradesh",
     "Gender":"Girls",
-    "Percentage":48.5666980523,
-    "gender_gap":-2.8666038953
+    "Percentage":48.2959070381,
+    "gender_gap":-3.4081859238
   },
   {
     "state":"Goa",
     "Gender":"Boys",
-    "Percentage":51.2609869721,
-    "gender_gap":-2.5219739442
+    "Percentage":51.3707564166,
+    "gender_gap":-2.7415128331
   },
   {
     "state":"Goa",
     "Gender":"Girls",
-    "Percentage":48.7390130279,
-    "gender_gap":-2.5219739442
+    "Percentage":48.6292435834,
+    "gender_gap":-2.7415128331
+  },
+  {
+    "state":"Tamilnadu",
+    "Gender":"Boys",
+    "Percentage":51.2836924488,
+    "gender_gap":-2.5673848975
+  },
+  {
+    "state":"Tamilnadu",
+    "Gender":"Girls",
+    "Percentage":48.7163075512,
+    "gender_gap":-2.5673848975
   },
   {
     "state":"Telangana",
     "Gender":"Boys",
-    "Percentage":51.0860757728,
-    "gender_gap":-2.1721515457
+    "Percentage":51.241021156,
+    "gender_gap":-2.482042312
   },
   {
     "state":"Telangana",
     "Gender":"Girls",
-    "Percentage":48.9139242272,
-    "gender_gap":-2.1721515457
+    "Percentage":48.758978844,
+    "gender_gap":-2.482042312
+  },
+  {
+    "state":"Odisha",
+    "Gender":"Boys",
+    "Percentage":51.107928033,
+    "gender_gap":-2.215856066
+  },
+  {
+    "state":"Odisha",
+    "Gender":"Girls",
+    "Percentage":48.892071967,
+    "gender_gap":-2.215856066
+  },
+  {
+    "state":"Andaman & Nicobar Islands",
+    "Gender":"Boys",
+    "Percentage":50.9958472959,
+    "gender_gap":-1.9916945919
+  },
+  {
+    "state":"Andaman & Nicobar Islands",
+    "Gender":"Girls",
+    "Percentage":49.0041527041,
+    "gender_gap":-1.9916945919
+  },
+  {
+    "state":"Manipur",
+    "Gender":"Boys",
+    "Percentage":50.9797662568,
+    "gender_gap":-1.9595325135
+  },
+  {
+    "state":"Manipur",
+    "Gender":"Girls",
+    "Percentage":49.0202337432,
+    "gender_gap":-1.9595325135
   },
   {
     "state":"Tamil Nadu",
@@ -204,231 +252,195 @@
     "gender_gap":-1.9543759978
   },
   {
-    "state":"Manipur",
-    "Gender":"Boys",
-    "Percentage":50.9505068277,
-    "gender_gap":-1.9010136554
-  },
-  {
-    "state":"Manipur",
-    "Gender":"Girls",
-    "Percentage":49.0494931723,
-    "gender_gap":-1.9010136554
-  },
-  {
-    "state":"Odisha",
-    "Gender":"Boys",
-    "Percentage":50.9111355195,
-    "gender_gap":-1.8222710391
-  },
-  {
-    "state":"Odisha",
-    "Gender":"Girls",
-    "Percentage":49.0888644805,
-    "gender_gap":-1.8222710391
-  },
-  {
     "state":"Kerala",
     "Gender":"Boys",
-    "Percentage":50.9058558443,
-    "gender_gap":-1.8117116886
+    "Percentage":50.9499661988,
+    "gender_gap":-1.8999323975
   },
   {
     "state":"Kerala",
     "Gender":"Girls",
-    "Percentage":49.0941441557,
-    "gender_gap":-1.8117116886
+    "Percentage":49.0500338012,
+    "gender_gap":-1.8999323975
   },
   {
     "state":"Sikkim",
     "Gender":"Boys",
-    "Percentage":50.8705550687,
-    "gender_gap":-1.7411101374
+    "Percentage":50.8041139943,
+    "gender_gap":-1.6082279886
   },
   {
     "state":"Sikkim",
     "Gender":"Girls",
-    "Percentage":49.1294449313,
-    "gender_gap":-1.7411101374
-  },
-  {
-    "state":"Andaman & Nicobar Islands",
-    "Gender":"Boys",
-    "Percentage":50.7942073022,
-    "gender_gap":-1.5884146045
-  },
-  {
-    "state":"Andaman & Nicobar Islands",
-    "Gender":"Girls",
-    "Percentage":49.2057926978,
-    "gender_gap":-1.5884146045
-  },
-  {
-    "state":"Lakshadweep",
-    "Gender":"Boys",
-    "Percentage":50.5288530724,
-    "gender_gap":-1.0577061448
-  },
-  {
-    "state":"Lakshadweep",
-    "Gender":"Girls",
-    "Percentage":49.4711469276,
-    "gender_gap":-1.0577061448
-  },
-  {
-    "state":"Nagaland",
-    "Gender":"Boys",
-    "Percentage":50.4660202992,
-    "gender_gap":-0.9320405984
-  },
-  {
-    "state":"Nagaland",
-    "Gender":"Girls",
-    "Percentage":49.5339797008,
-    "gender_gap":-0.9320405984
+    "Percentage":49.1958860057,
+    "gender_gap":-1.6082279886
   },
   {
     "state":"Karnataka",
     "Gender":"Boys",
-    "Percentage":50.4515535302,
-    "gender_gap":-0.9031070603
+    "Percentage":50.7178127675,
+    "gender_gap":-1.4356255349
   },
   {
     "state":"Karnataka",
     "Gender":"Girls",
-    "Percentage":49.5484464698,
-    "gender_gap":-0.9031070603
+    "Percentage":49.2821872325,
+    "gender_gap":-1.4356255349
   },
   {
-    "state":"Puducherry",
+    "state":"Lakshadweep",
     "Gender":"Boys",
-    "Percentage":50.3645753383,
-    "gender_gap":-0.7291506765
+    "Percentage":50.7011017313,
+    "gender_gap":-1.4022034626
   },
   {
-    "state":"Puducherry",
+    "state":"Lakshadweep",
     "Gender":"Girls",
-    "Percentage":49.6354246617,
-    "gender_gap":-0.7291506765
-  },
-  {
-    "state":"Mizoram",
-    "Gender":"Boys",
-    "Percentage":50.3549755411,
-    "gender_gap":-0.7099510823
-  },
-  {
-    "state":"Mizoram",
-    "Gender":"Girls",
-    "Percentage":49.6450244589,
-    "gender_gap":-0.7099510823
+    "Percentage":49.2988982687,
+    "gender_gap":-1.4022034626
   },
   {
     "state":"Jharkhand",
     "Gender":"Boys",
-    "Percentage":50.2789988015,
-    "gender_gap":-0.557997603
+    "Percentage":50.47131359,
+    "gender_gap":-0.9426271801
   },
   {
     "state":"Jharkhand",
     "Gender":"Girls",
-    "Percentage":49.7210011985,
-    "gender_gap":-0.557997603
-  },
-  {
-    "state":"Tripura",
-    "Gender":"Boys",
-    "Percentage":50.194617985,
-    "gender_gap":-0.3892359701
-  },
-  {
-    "state":"Tripura",
-    "Gender":"Girls",
-    "Percentage":49.805382015,
-    "gender_gap":-0.3892359701
-  },
-  {
-    "state":"Arunachal Pradesh",
-    "Gender":"Boys",
-    "Percentage":49.8436679028,
-    "gender_gap":0.3126641944
-  },
-  {
-    "state":"Arunachal Pradesh",
-    "Gender":"Girls",
-    "Percentage":50.1563320972,
-    "gender_gap":0.3126641944
-  },
-  {
-    "state":"Chhattisgarh",
-    "Gender":"Boys",
-    "Percentage":49.8239967911,
-    "gender_gap":0.3520064178
-  },
-  {
-    "state":"Chhattisgarh",
-    "Gender":"Girls",
-    "Percentage":50.1760032089,
-    "gender_gap":0.3520064178
+    "Percentage":49.52868641,
+    "gender_gap":-0.9426271801
   },
   {
     "state":"Assam",
     "Gender":"Boys",
-    "Percentage":49.7368134303,
-    "gender_gap":0.5263731394
+    "Percentage":50.4015500297,
+    "gender_gap":-0.8031000594
   },
   {
     "state":"Assam",
     "Gender":"Girls",
-    "Percentage":50.2631865697,
-    "gender_gap":0.5263731394
+    "Percentage":49.5984499703,
+    "gender_gap":-0.8031000594
+  },
+  {
+    "state":"Puducherry",
+    "Gender":"Boys",
+    "Percentage":50.3914755576,
+    "gender_gap":-0.7829511152
+  },
+  {
+    "state":"Puducherry",
+    "Gender":"Girls",
+    "Percentage":49.6085244424,
+    "gender_gap":-0.7829511152
+  },
+  {
+    "state":"Mizoram",
+    "Gender":"Boys",
+    "Percentage":50.3652014005,
+    "gender_gap":-0.7304028009
+  },
+  {
+    "state":"Mizoram",
+    "Gender":"Girls",
+    "Percentage":49.6347985995,
+    "gender_gap":-0.7304028009
+  },
+  {
+    "state":"Nagaland",
+    "Gender":"Boys",
+    "Percentage":50.3420193913,
+    "gender_gap":-0.6840387825
+  },
+  {
+    "state":"Nagaland",
+    "Gender":"Girls",
+    "Percentage":49.6579806087,
+    "gender_gap":-0.6840387825
+  },
+  {
+    "state":"Tripura",
+    "Gender":"Boys",
+    "Percentage":50.1500295782,
+    "gender_gap":-0.3000591564
+  },
+  {
+    "state":"Tripura",
+    "Gender":"Girls",
+    "Percentage":49.8499704218,
+    "gender_gap":-0.3000591564
   },
   {
     "state":"Bihar",
     "Gender":"Boys",
-    "Percentage":49.6364701845,
-    "gender_gap":0.727059631
+    "Percentage":50.0828951062,
+    "gender_gap":-0.1657902124
   },
   {
     "state":"Bihar",
     "Gender":"Girls",
-    "Percentage":50.3635298155,
-    "gender_gap":0.727059631
+    "Percentage":49.9171048938,
+    "gender_gap":-0.1657902124
   },
   {
-    "state":"West Bengal",
+    "state":"Chhattisgarh",
     "Gender":"Boys",
-    "Percentage":49.5320741129,
-    "gender_gap":0.9358517742
+    "Percentage":49.9051756572,
+    "gender_gap":0.1896486857
   },
   {
-    "state":"West Bengal",
+    "state":"Chhattisgarh",
     "Gender":"Girls",
-    "Percentage":50.4679258871,
-    "gender_gap":0.9358517742
+    "Percentage":50.0948243428,
+    "gender_gap":0.1896486857
   },
   {
     "state":"Ladakh",
     "Gender":"Boys",
-    "Percentage":49.5239365811,
-    "gender_gap":0.9521268379
+    "Percentage":49.7831640792,
+    "gender_gap":0.4336718416
   },
   {
     "state":"Ladakh",
     "Gender":"Girls",
-    "Percentage":50.4760634189,
-    "gender_gap":0.9521268379
+    "Percentage":50.2168359208,
+    "gender_gap":0.4336718416
+  },
+  {
+    "state":"Arunachal Pradesh",
+    "Gender":"Boys",
+    "Percentage":49.626173215,
+    "gender_gap":0.7476535701
+  },
+  {
+    "state":"Arunachal Pradesh",
+    "Gender":"Girls",
+    "Percentage":50.373826785,
+    "gender_gap":0.7476535701
+  },
+  {
+    "state":"West Bengal",
+    "Gender":"Boys",
+    "Percentage":49.4788716442,
+    "gender_gap":1.0422567116
+  },
+  {
+    "state":"West Bengal",
+    "Gender":"Girls",
+    "Percentage":50.5211283558,
+    "gender_gap":1.0422567116
   },
   {
     "state":"Meghalaya",
     "Gender":"Boys",
-    "Percentage":49.3147879619,
-    "gender_gap":1.3704240763
+    "Percentage":49.1316913288,
+    "gender_gap":1.7366173424
   },
   {
     "state":"Meghalaya",
     "Gender":"Girls",
-    "Percentage":50.6852120381,
-    "gender_gap":1.3704240763
+    "Percentage":50.8683086712,
+    "gender_gap":1.7366173424
   }
 ]

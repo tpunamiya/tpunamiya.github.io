@@ -1,147 +1,183 @@
 [
   {
     "state":"Haryana",
-    "total_boys":3803283,
-    "total_girls":3274361,
-    "total_enrollment":7077644,
-    "girls_percentage":46.2634317295,
-    "boys_percentage":53.7365682705,
-    "gender_gap":-7.4731365409
+    "total_boys":11194162,
+    "total_girls":9416485,
+    "total_enrollment":20610647,
+    "girls_percentage":45.6874789035,
+    "boys_percentage":54.3125210965,
+    "gender_gap":-8.625042193
   },
   {
     "state":"Punjab",
-    "total_boys":5334119,
-    "total_girls":4593258,
-    "total_enrollment":9927377,
-    "girls_percentage":46.2685964278,
-    "boys_percentage":53.7314035722,
-    "gender_gap":-7.4628071443
+    "total_boys":16081460,
+    "total_girls":13715222,
+    "total_enrollment":29796682,
+    "girls_percentage":46.0293599133,
+    "boys_percentage":53.9706400867,
+    "gender_gap":-7.9412801734
   },
   {
     "state":"Rajasthan",
-    "total_boys":9995633,
-    "total_girls":8884888,
-    "total_enrollment":18880521,
-    "girls_percentage":47.0584895406,
-    "boys_percentage":52.9415104594,
-    "gender_gap":-5.8830209188
-  },
-  {
-    "state":"Gujarat",
-    "total_boys":8346049,
-    "total_girls":7476076,
-    "total_enrollment":15822125,
-    "girls_percentage":47.2507706771,
-    "boys_percentage":52.7492293229,
-    "gender_gap":-5.4984586457
+    "total_boys":30846012,
+    "total_girls":27242603,
+    "total_enrollment":58088615,
+    "girls_percentage":46.8983517682,
+    "boys_percentage":53.1016482318,
+    "gender_gap":-6.2032964635
   },
   {
     "state":"Chandigarh",
-    "total_boys":158025,
-    "total_girls":142418,
-    "total_enrollment":300443,
-    "girls_percentage":47.4026687258,
-    "boys_percentage":52.5973312742,
-    "gender_gap":-5.1946625483
+    "total_boys":497054,
+    "total_girls":440602,
+    "total_enrollment":937656,
+    "girls_percentage":46.989727576,
+    "boys_percentage":53.010272424,
+    "gender_gap":-6.020544848
+  },
+  {
+    "state":"Gujarat",
+    "total_boys":25173081,
+    "total_girls":22400102,
+    "total_enrollment":47573183,
+    "girls_percentage":47.0855649915,
+    "boys_percentage":52.9144350085,
+    "gender_gap":-5.828870017
   },
   {
     "state":"Maharashtra",
-    "total_boys":14918782,
-    "total_girls":13680289,
-    "total_enrollment":28599071,
-    "girls_percentage":47.8347321142,
-    "boys_percentage":52.1652678858,
-    "gender_gap":-4.3305357716
-  },
-  {
-    "state":"Uttar Pradesh",
-    "total_boys":35659497,
-    "total_girls":32720530,
-    "total_enrollment":68380027,
-    "girls_percentage":47.8510047971,
-    "boys_percentage":52.1489952029,
-    "gender_gap":-4.2979904059
+    "total_boys":44950724,
+    "total_girls":40921192,
+    "total_enrollment":85871916,
+    "girls_percentage":47.6537544591,
+    "boys_percentage":52.3462455409,
+    "gender_gap":-4.6924910817
   },
   {
     "state":"Dadra & Nagar Haveli And Daman & Diu",
-    "total_boys":93103,
-    "total_girls":85501,
-    "total_enrollment":178604,
-    "girls_percentage":47.8718281785,
-    "boys_percentage":52.1281718215,
-    "gender_gap":-4.2563436429
+    "total_boys":271833,
+    "total_girls":248155,
+    "total_enrollment":519988,
+    "girls_percentage":47.7232166896,
+    "boys_percentage":52.2767833104,
+    "gender_gap":-4.5535666208
   },
   {
-    "state":"Uttarakhand",
-    "total_boys":1871765,
-    "total_girls":1727878,
-    "total_enrollment":3599643,
-    "girls_percentage":48.0013712471,
-    "boys_percentage":51.9986287529,
-    "gender_gap":-3.9972575058
+    "state":"Uttar Pradesh",
+    "total_boys":105685345,
+    "total_girls":96595344,
+    "total_enrollment":202280689,
+    "girls_percentage":47.7531219008,
+    "boys_percentage":52.2468780992,
+    "gender_gap":-4.4937561983
   },
   {
     "state":"Delhi",
-    "total_boys":2906156,
-    "total_girls":2686534,
-    "total_enrollment":5592690,
-    "girls_percentage":48.0365262512,
-    "boys_percentage":51.9634737488,
-    "gender_gap":-3.9269474975
+    "total_boys":8752966,
+    "total_girls":8019229,
+    "total_enrollment":16772195,
+    "girls_percentage":47.8126387154,
+    "boys_percentage":52.1873612846,
+    "gender_gap":-4.3747225691
+  },
+  {
+    "state":"Uttarakhand",
+    "total_boys":5579139,
+    "total_girls":5134718,
+    "total_enrollment":10713857,
+    "girls_percentage":47.9259523438,
+    "boys_percentage":52.0740476562,
+    "gender_gap":-4.1480953125
   },
   {
     "state":"Himachal Pradesh",
-    "total_boys":864702,
-    "total_girls":800492,
-    "total_enrollment":1665194,
-    "girls_percentage":48.071996416,
-    "boys_percentage":51.928003584,
-    "gender_gap":-3.8560071679
+    "total_boys":2547969,
+    "total_girls":2347115,
+    "total_enrollment":4895084,
+    "girls_percentage":47.9484110998,
+    "boys_percentage":52.0515889002,
+    "gender_gap":-4.1031778004
   },
   {
     "state":"Madhya Pradesh",
-    "total_boys":11600333,
-    "total_girls":10844582,
-    "total_enrollment":22444915,
-    "girls_percentage":48.3164315837,
-    "boys_percentage":51.6835684163,
-    "gender_gap":-3.3671368326
+    "total_boys":34804305,
+    "total_girls":32321996,
+    "total_enrollment":67126301,
+    "girls_percentage":48.1510160973,
+    "boys_percentage":51.8489839027,
+    "gender_gap":-3.6979678055
   },
   {
     "state":"Jammu & Kashmir",
-    "total_boys":3220529,
-    "total_girls":3020433,
-    "total_enrollment":6240962,
-    "girls_percentage":48.3969138091,
-    "boys_percentage":51.6030861909,
-    "gender_gap":-3.2061723818
+    "total_boys":9532696,
+    "total_girls":8858830,
+    "total_enrollment":18391526,
+    "girls_percentage":48.167998675,
+    "boys_percentage":51.832001325,
+    "gender_gap":-3.6640026499
   },
   {
     "state":"Andhra Pradesh",
-    "total_boys":8264771,
-    "total_girls":7804139,
-    "total_enrollment":16068910,
-    "girls_percentage":48.5666980523,
-    "boys_percentage":51.4333019477,
-    "gender_gap":-2.8666038953
+    "total_boys":25308410,
+    "total_girls":23640152,
+    "total_enrollment":48948562,
+    "girls_percentage":48.2959070381,
+    "boys_percentage":51.7040929619,
+    "gender_gap":-3.4081859238
   },
   {
     "state":"Goa",
-    "total_boys":229315,
-    "total_girls":218033,
-    "total_enrollment":447348,
-    "girls_percentage":48.7390130279,
-    "boys_percentage":51.2609869721,
-    "gender_gap":-2.5219739442
+    "total_boys":702604,
+    "total_girls":665108,
+    "total_enrollment":1367712,
+    "girls_percentage":48.6292435834,
+    "boys_percentage":51.3707564166,
+    "gender_gap":-2.7415128331
+  },
+  {
+    "state":"Tamilnadu",
+    "total_boys":15775591,
+    "total_girls":14985827,
+    "total_enrollment":30761418,
+    "girls_percentage":48.7163075512,
+    "boys_percentage":51.2836924488,
+    "gender_gap":-2.5673848975
   },
   {
     "state":"Telangana",
-    "total_boys":6498227,
-    "total_girls":6221926,
-    "total_enrollment":12720153,
-    "girls_percentage":48.9139242272,
-    "boys_percentage":51.0860757728,
-    "gender_gap":-2.1721515457
+    "total_boys":19076612,
+    "total_girls":18152568,
+    "total_enrollment":37229180,
+    "girls_percentage":48.758978844,
+    "boys_percentage":51.241021156,
+    "gender_gap":-2.482042312
+  },
+  {
+    "state":"Odisha",
+    "total_boys":21062793,
+    "total_girls":20149586,
+    "total_enrollment":41212379,
+    "girls_percentage":48.892071967,
+    "boys_percentage":51.107928033,
+    "gender_gap":-2.215856066
+  },
+  {
+    "state":"Andaman & Nicobar Islands",
+    "total_boys":159028,
+    "total_girls":152817,
+    "total_enrollment":311845,
+    "girls_percentage":49.0041527041,
+    "boys_percentage":50.9958472959,
+    "gender_gap":-1.9916945919
+  },
+  {
+    "state":"Manipur",
+    "total_boys":1910090,
+    "total_girls":1836671,
+    "total_enrollment":3746761,
+    "girls_percentage":49.0202337432,
+    "boys_percentage":50.9797662568,
+    "gender_gap":-1.9595325135
   },
   {
     "state":"Tamil Nadu",
@@ -153,174 +189,147 @@
     "gender_gap":-1.9543759978
   },
   {
-    "state":"Manipur",
-    "total_boys":652730,
-    "total_girls":628376,
-    "total_enrollment":1281106,
-    "girls_percentage":49.0494931723,
-    "boys_percentage":50.9505068277,
-    "gender_gap":-1.9010136554
-  },
-  {
-    "state":"Odisha",
-    "total_boys":7045841,
-    "total_girls":6793648,
-    "total_enrollment":13839489,
-    "girls_percentage":49.0888644805,
-    "boys_percentage":50.9111355195,
-    "gender_gap":-1.8222710391
-  },
-  {
     "state":"Kerala",
-    "total_boys":6138335,
-    "total_girls":5919875,
-    "total_enrollment":12058210,
-    "girls_percentage":49.0941441557,
-    "boys_percentage":50.9058558443,
-    "gender_gap":-1.8117116886
+    "total_boys":18508636,
+    "total_girls":17818446,
+    "total_enrollment":36327082,
+    "girls_percentage":49.0500338012,
+    "boys_percentage":50.9499661988,
+    "gender_gap":-1.8999323975
   },
   {
     "state":"Sikkim",
-    "total_boys":109711,
-    "total_girls":105956,
-    "total_enrollment":215667,
-    "girls_percentage":49.1294449313,
-    "boys_percentage":50.8705550687,
-    "gender_gap":-1.7411101374
-  },
-  {
-    "state":"Andaman & Nicobar Islands",
-    "total_boys":52156,
-    "total_girls":50525,
-    "total_enrollment":102681,
-    "girls_percentage":49.2057926978,
-    "boys_percentage":50.7942073022,
-    "gender_gap":-1.5884146045
-  },
-  {
-    "state":"Lakshadweep",
-    "total_boys":14045,
-    "total_girls":13751,
-    "total_enrollment":27796,
-    "girls_percentage":49.4711469276,
-    "boys_percentage":50.5288530724,
-    "gender_gap":-1.0577061448
-  },
-  {
-    "state":"Nagaland",
-    "total_boys":511244,
-    "total_girls":501802,
-    "total_enrollment":1013046,
-    "girls_percentage":49.5339797008,
-    "boys_percentage":50.4660202992,
-    "gender_gap":-0.9320405984
+    "total_boys":336340,
+    "total_girls":325693,
+    "total_enrollment":662033,
+    "girls_percentage":49.1958860057,
+    "boys_percentage":50.8041139943,
+    "gender_gap":-1.6082279886
   },
   {
     "state":"Karnataka",
-    "total_boys":9931521,
-    "total_girls":9753742,
-    "total_enrollment":19685263,
-    "girls_percentage":49.5484464698,
-    "boys_percentage":50.4515535302,
-    "gender_gap":-0.9031070603
+    "total_boys":30009213,
+    "total_girls":29159768,
+    "total_enrollment":59168981,
+    "girls_percentage":49.2821872325,
+    "boys_percentage":50.7178127675,
+    "gender_gap":-1.4356255349
   },
   {
-    "state":"Puducherry",
-    "total_boys":183734,
-    "total_girls":181074,
-    "total_enrollment":364808,
-    "girls_percentage":49.6354246617,
-    "boys_percentage":50.3645753383,
-    "gender_gap":-0.7291506765
-  },
-  {
-    "state":"Mizoram",
-    "total_boys":359460,
-    "total_girls":354392,
-    "total_enrollment":713852,
-    "girls_percentage":49.6450244589,
-    "boys_percentage":50.3549755411,
-    "gender_gap":-0.7099510823
+    "state":"Lakshadweep",
+    "total_boys":42522,
+    "total_girls":41346,
+    "total_enrollment":83868,
+    "girls_percentage":49.2988982687,
+    "boys_percentage":50.7011017313,
+    "gender_gap":-1.4022034626
   },
   {
     "state":"Jharkhand",
-    "total_boys":6677314,
-    "total_girls":6603209,
-    "total_enrollment":13280523,
-    "girls_percentage":49.7210011985,
-    "boys_percentage":50.2789988015,
-    "gender_gap":-0.557997603
-  },
-  {
-    "state":"Tripura",
-    "total_boys":560962,
-    "total_girls":556612,
-    "total_enrollment":1117574,
-    "girls_percentage":49.805382015,
-    "boys_percentage":50.194617985,
-    "gender_gap":-0.3892359701
-  },
-  {
-    "state":"Arunachal Pradesh",
-    "total_boys":327281,
-    "total_girls":329334,
-    "total_enrollment":656615,
-    "girls_percentage":50.1563320972,
-    "boys_percentage":49.8436679028,
-    "gender_gap":0.3126641944
-  },
-  {
-    "state":"Chhattisgarh",
-    "total_boys":5311396,
-    "total_girls":5348921,
-    "total_enrollment":10660317,
-    "girls_percentage":50.1760032089,
-    "boys_percentage":49.8239967911,
-    "gender_gap":0.3520064178
+    "total_boys":19529415,
+    "total_girls":19164674,
+    "total_enrollment":38694089,
+    "girls_percentage":49.52868641,
+    "boys_percentage":50.47131359,
+    "gender_gap":-0.9426271801
   },
   {
     "state":"Assam",
-    "total_boys":7531392,
-    "total_girls":7611098,
-    "total_enrollment":15142490,
-    "girls_percentage":50.2631865697,
-    "boys_percentage":49.7368134303,
-    "gender_gap":0.5263731394
+    "total_boys":22960035,
+    "total_girls":22594189,
+    "total_enrollment":45554224,
+    "girls_percentage":49.5984499703,
+    "boys_percentage":50.4015500297,
+    "gender_gap":-0.8031000594
+  },
+  {
+    "state":"Puducherry",
+    "total_boys":567921,
+    "total_girls":559097,
+    "total_enrollment":1127018,
+    "girls_percentage":49.6085244424,
+    "boys_percentage":50.3914755576,
+    "gender_gap":-0.7829511152
+  },
+  {
+    "state":"Mizoram",
+    "total_boys":1080186,
+    "total_girls":1064521,
+    "total_enrollment":2144707,
+    "girls_percentage":49.6347985995,
+    "boys_percentage":50.3652014005,
+    "gender_gap":-0.7304028009
+  },
+  {
+    "state":"Nagaland",
+    "total_boys":1503257,
+    "total_girls":1482831,
+    "total_enrollment":2986088,
+    "girls_percentage":49.6579806087,
+    "boys_percentage":50.3420193913,
+    "gender_gap":-0.6840387825
+  },
+  {
+    "state":"Tripura",
+    "total_boys":1664987,
+    "total_girls":1655025,
+    "total_enrollment":3320012,
+    "girls_percentage":49.8499704218,
+    "boys_percentage":50.1500295782,
+    "gender_gap":-0.3000591564
   },
   {
     "state":"Bihar",
-    "total_boys":20845949,
-    "total_girls":21151294,
-    "total_enrollment":41997243,
-    "girls_percentage":50.3635298155,
-    "boys_percentage":49.6364701845,
-    "gender_gap":0.727059631
+    "total_boys":67507149,
+    "total_girls":67283679,
+    "total_enrollment":134790828,
+    "girls_percentage":49.9171048938,
+    "boys_percentage":50.0828951062,
+    "gender_gap":-0.1657902124
   },
   {
-    "state":"West Bengal",
-    "total_boys":12311358,
-    "total_girls":12543967,
-    "total_enrollment":24855325,
-    "girls_percentage":50.4679258871,
-    "boys_percentage":49.5320741129,
-    "gender_gap":0.9358517742
+    "state":"Chhattisgarh",
+    "total_boys":15951873,
+    "total_girls":16012493,
+    "total_enrollment":31964366,
+    "girls_percentage":50.0948243428,
+    "boys_percentage":49.9051756572,
+    "gender_gap":0.1896486857
   },
   {
     "state":"Ladakh",
-    "total_boys":70531,
-    "total_girls":71887,
-    "total_enrollment":142418,
-    "girls_percentage":50.4760634189,
-    "boys_percentage":49.5239365811,
-    "gender_gap":0.9521268379
+    "total_boys":210648,
+    "total_girls":212483,
+    "total_enrollment":423131,
+    "girls_percentage":50.2168359208,
+    "boys_percentage":49.7831640792,
+    "gender_gap":0.4336718416
+  },
+  {
+    "state":"Arunachal Pradesh",
+    "total_boys":975792,
+    "total_girls":990493,
+    "total_enrollment":1966285,
+    "girls_percentage":50.373826785,
+    "boys_percentage":49.626173215,
+    "gender_gap":0.7476535701
+  },
+  {
+    "state":"West Bengal",
+    "total_boys":38141425,
+    "total_girls":38944862,
+    "total_enrollment":77086287,
+    "girls_percentage":50.5211283558,
+    "boys_percentage":49.4788716442,
+    "gender_gap":1.0422567116
   },
   {
     "state":"Meghalaya",
-    "total_boys":1341307,
-    "total_girls":1378581,
-    "total_enrollment":2719888,
-    "girls_percentage":50.6852120381,
-    "boys_percentage":49.3147879619,
-    "gender_gap":1.3704240763
+    "total_boys":3879458,
+    "total_girls":4016582,
+    "total_enrollment":7896040,
+    "girls_percentage":50.8683086712,
+    "boys_percentage":49.1316913288,
+    "gender_gap":1.7366173424
   }
 ]

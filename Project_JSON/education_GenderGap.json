@@ -9,73 +9,114 @@
   "width": 650,
   "height": 700,
   "data": {
-    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/Project_JSON/gender_gap_by_state.json"
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/gender_gap_by_state.json"
   },
-  "mark": "bar",
-  "encoding": {
-    "y": {
-      "field": "state",
-      "type": "nominal",
-      "axis": {"title": null, "labelLimit": 200},
-      "sort": {"field": "gender_gap", "order": "ascending"}
-    },
-    "x": {
-      "field": "gender_gap",
-      "type": "quantitative",
-      "axis": {
-        "title": "Gender Gap (percentage points)",
-        "grid": false,
-        "format": "d"
-      },
-      "scale": {"domain": [-8, 8]}
-    },
-    "color": {
-      "field": "gender_gap",
-      "type": "quantitative",
-      "scale": {
-        "domain": [-8, 0, 8],
-        "range": ["#77ba99", "#E0E0E0", "#ba7798"]
-      },
-      "legend": {
-        "title": "Gender Gap (pp)",
-        "orient": "bottom",
-        "direction": "horizontal",
-        "gradientLength": 300
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "axis": null,
+          "sort": {"field": "gender_gap", "order": "ascending"}
+        },
+        "x": {
+          "field": "gender_gap",
+          "type": "quantitative",
+          "axis": {
+            "title": "Gender Gap (percentage points)",
+            "grid": false,
+            "format": "d"
+          },
+          "scale": {"domain": [-8, 8]}
+        },
+        "color": {
+          "field": "gender_gap",
+          "type": "quantitative",
+          "scale": {
+            "domain": [-8, 0, 8],
+            "range": ["#77ba99", "#E0E0E0", "#ba7798"]
+          },
+          "legend": {
+            "title": "Gender Gap (pp)",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 300
+          }
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {
+            "field": "total_boys",
+            "type": "quantitative",
+            "title": "Total Boys",
+            "format": ","
+          },
+          {
+            "field": "total_girls",
+            "type": "quantitative",
+            "title": "Total Girls",
+            "format": ","
+          },
+          {
+            "field": "girls_percentage",
+            "type": "quantitative",
+            "title": "Girls %",
+            "format": ".2f"
+          },
+          {
+            "field": "boys_percentage",
+            "type": "quantitative",
+            "title": "Boys %",
+            "format": ".2f"
+          },
+          {
+            "field": "gender_gap",
+            "type": "quantitative",
+            "title": "Gender Gap (pp)",
+            "format": "+.2f"
+          }
+        ]
       }
     },
-    "tooltip": [
-      {"field": "state", "type": "nominal", "title": "State"},
-      {
-        "field": "total_boys",
-        "type": "quantitative",
-        "title": "Total Boys",
-        "format": ","
+    {
+      "mark": {
+        "type": "text",
+        "align": {"expr": "datum.gender_gap < 0 ? 'right' : 'left'"},
+        "dx": {"expr": "datum.gender_gap < 0 ? -5 : 5"},
+        "fontSize": 10
       },
-      {
-        "field": "total_girls",
-        "type": "quantitative",
-        "title": "Total Girls",
-        "format": ","
-      },
-      {
-        "field": "girls_percentage",
-        "type": "quantitative",
-        "title": "Girls %",
-        "format": ".2f"
-      },
-      {
-        "field": "boys_percentage",
-        "type": "quantitative",
-        "title": "Boys %",
-        "format": ".2f"
-      },
-      {
-        "field": "gender_gap",
-        "type": "quantitative",
-        "title": "Gender Gap (pp)",
-        "format": "+.2f"
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "sort": {"field": "gender_gap", "order": "ascending"}
+        },
+        "x": {
+          "field": "gender_gap",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "test": "true",
+            "value": 1
+          },
+          "value": 1
+        }
       }
-    ]
-  },
-  "config": {}
+    }
+  ],
+  "config": {
+    "mark": {
+      "fontCapitalize": "none"
+    },
+    "text": {
+      "fontCapitalize": "none"
+    }
+  }
 }
