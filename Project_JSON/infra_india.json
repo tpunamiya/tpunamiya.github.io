@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "School Infrastructure Index by State",
+    "text": "School Infrastructure Index by State (2022-2024)",
     "fontSize": 16,
     "subtitle": "Composite score: Electricity, Internet, Libraries, Girls' toilets",
     "subtitleFontSize": 11
@@ -22,37 +22,25 @@
     }
   ],
   "data": {
-    "url": "https://raw.githubusercontent.com/rheapy/rheapy.github.io/refs/heads/main/India_states.json",
-    "format": {"type": "json", "property": "features"}
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/state_infrastructure_2021_2024.json"
   },
   "transform": [
     {
-      "lookup": "properties.name",
-      "from": {
-        "data": {
-          "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/state_infrastructure_2021_2024.json"
-        },
-        "key": "state",
-        "fields": [
-          "year",
-          "infrastructure_index",
-          "pct_electricity_functional",
-          "pct_internet",
-          "pct_library",
-          "pct_girls_toilets"
-        ]
-      },
-      "as": [
-        "data_year",
-        "infrastructure_index",
-        "pct_electricity_functional",
-        "pct_internet",
-        "pct_library",
-        "pct_girls_toilets"
-      ]
+      "filter": "datum.year == year_select"
     },
     {
-      "filter": "datum.data_year == year_select"
+      "lookup": "state",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rheapy/rheapy.github.io/refs/heads/main/India_states.json",
+          "format": {"type": "json", "property": "features"}
+        },
+        "key": "properties.name",
+        "fields": ["type", "properties", "geometry"]
+      }
+    },
+    {
+      "filter": "datum.geometry != null"
     }
   ],
   "projection": {"type": "mercator"},
@@ -73,8 +61,8 @@
       }
     },
     "tooltip": [
-      {"field": "properties.name", "type": "nominal", "title": "State"},
-      {"field": "data_year", "type": "quantitative", "title": "Year"},
+      {"field": "state", "type": "nominal", "title": "State"},
+      {"field": "year", "type": "quantitative", "title": "Year"},
       {
         "field": "infrastructure_index",
         "type": "quantitative",
