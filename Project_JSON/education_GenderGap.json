@@ -3,11 +3,12 @@
   "title": {
     "text": "Gender Gap in School Enrollment by State",
     "fontSize": 16,
-    "subtitle": "Percentage point difference (Girls % - Boys %), 2022-2024",
+    "subtitle": "Percentage point difference (Girls % - Boys %) | Data: UDISE+ India",
     "subtitleFontSize": 11
   },
-  "width": 650,
+  "width": 1000,
   "height": 700,
+  "padding": {"left": 200, "top": 20, "right": 50, "bottom": 20},
   "params": [
     {
       "name": "yearSelect",
@@ -53,7 +54,7 @@
           "field": "gender_gap",
           "type": "quantitative",
           "scale": {
-            "domain": [-10, 0, 8],
+            "domain": [-8, 0, 8],
             "range": ["#77ba99", "#E0E0E0", "#ba7798"]
           },
           "legend": {
@@ -130,5 +131,9 @@
     "text": {
       "fontCapitalize": "none"
     }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
   }
 }

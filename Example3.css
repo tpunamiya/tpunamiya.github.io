@@ -429,3 +429,18 @@ section figure:not(.chart-row figure):not(#chartGrid2x3 figure):not(#lda-viz-fig
     max-width: none !important;
     justify-self: start !important;
 }
+.vega-embed {
+  overflow: visible !important;
+}
+.vega-embed svg,
+.vega-embed canvas {
+  overflow: visible !important;
+}
+/* Reduce white space for heatmap chart section */
+section:has(#chart5) {
+    padding-bottom: 10px !important;
+}
+
+#chart5 {
+    margin-bottom: 0 !important;
+}

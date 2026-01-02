@@ -15,17 +15,18 @@
 </head>
 <body>
     <nav>
-    <div class="nav-container">
-        <div class="logo">Trisha Punamiya</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="education-india.html">Project</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing">CV</a></li>
-        </ul>
-    </div>
-</nav>
+        <div class="nav-container">
+            <div class="logo">Trisha Punamiya</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="education-india.html">Project</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <header>
         <h1 class="big">Educational Disparities Across India</h1>
         <p class="subtitle">Analyzing UDISE+ Data to Uncover Inequalities in Access and Outcomes</p>
@@ -46,13 +47,16 @@
         </div>
         <figure id="gender_gap_chart"></figure>
         <p class="source"><em>Source: UDISE+ India, School Enrollment Data</em></p>
-        </div>
-    <figure id="enrollment_pyramid_chart"></figure>
-    <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2021-2024)</em></p>
-</section>
     </section>
 
-    <!-- Chart 3: Placeholder for your second chart -->
+    <!-- Chart 2: Enrollment Pyramid -->
+    <section>
+        <h2>Enrollment Pyramid</h2>
+        <figure id="enrollment_pyramid_chart"></figure>
+        <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2021-2024)</em></p>
+    </section>
+
+    <!-- Chart 3: Rural vs Urban -->
     <section>
         <h2>Rural vs Urban Educational Access</h2>
         <div class="chart-description">
@@ -62,7 +66,7 @@
         <p class="source"><em>Source: [Your data source]</em></p>
     </section>
 
-    <!-- Chart 4: Placeholder -->
+    <!-- Chart 4: School Infrastructure -->
     <section>
         <h2>School Infrastructure by State</h2>
         <div class="chart-description">
@@ -72,17 +76,17 @@
         <p class="source"><em>Source: [Your data source]</em></p>
     </section>
 
-    <!-- Chart 5: Placeholder -->
-    <section>
+    <!-- Chart 5: Literacy Rates -->
+    <section style="padding-bottom: 15px;">
         <h2>State-wise Literacy Rates</h2>
         <div class="chart-description">
             <p>[Description of literacy rate variations across states]</p>
         </div>
-        <figure id="chart5"></figure>
+        <figure id="chart5" style="margin-bottom: 0;"></figure>
         <p class="source"><em>Source: [Your data source]</em></p>
     </section>
 
-    <!--Correlation Charts -->
+    <!-- Correlation Charts -->
     <section>
         <h2>Infrastructure & Class Size: Do They Matter for Learning?</h2>
         <div class="chart-description">
@@ -105,7 +109,6 @@
         <p class="source"><em>Source: UDISE+ 2024 (Enrollment & Teachers), ASER 2024 (Learning Outcomes)</em></p>
     </section>
 
-
     <section>
         <h2>Conclusion</h2>
         <div class="chart-description">
@@ -120,45 +123,44 @@
     <script>
         // Chart specifications
         let gender_gap_spec = "Project_JSON/education_GenderGap.json";
-        let gender_gap_spec2 = "Project_JSON/education_dropout_byStateGender.json";  // Add your chart specs
+        let gender_gap_spec2 = "Project_JSON/education_dropout_byStateGender.json";
         let chart3_spec = "Project_JSON/infra_india.json";
         let chart4_spec = "Project_JSON/enrollment_chart.json";
         let chart5_spec = "Project_JSON/aser_learning_outcomes_heatmap.json";
         
-         // NEW: Correlation chart specifications
+        // NEW: Correlation chart specifications
         let infra_reading_spec = "charts/infrastructure_vs_reading_2024.json";
         let infra_math_spec = "charts/infrastructure_vs_math_2024.json";
         let str_reading_spec = "charts/str_vs_reading_2024.json";
         let str_math_spec = "charts/str_vs_math_2024.json";
 
-        // Configuration for consistent chart sizing
+        // Configuration for no size override (let chart use its own dimensions)
+        const embedConfigNoSize = {
+            actions: false
+        };
+
+        // Configuration for standard charts
         const embedConfig = {
             actions: false,
             width: 650,
             height: 700
         };
 
-        // Configuration for enrollment chart (no width/height override)
-    const embedConfigNoSize = {
-        actions: false
-    };
-
-    //  Configuration for correlation charts (side by side)
-const correlationConfig = {
-    actions: false,
-    width: 450,   // CHANGED from 550 to 450
-    height: 400   // CHANGED from 450 to 400
-    };
+        // Configuration for correlation charts (side by side)
+        const correlationConfig = {
+            actions: false,
+            width: 450,
+            height: 400
+        };
         
-        // Embed charts
-        vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfig);
+        // Embed charts - use embedConfigNoSize for gender gap to respect its 1000px width
+        vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfigNoSize);
         vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
         vegaEmbed('#chart3', chart3_spec, embedConfig);
         vegaEmbed('#chart4', chart4_spec, embedConfigNoSize);
-        vegaEmbed('#chart5', chart5_spec, embedConfig);
-        // vegaEmbed('#chart5', chart5_spec, embedConfig);
+        vegaEmbed('#chart5', chart5_spec, embedConfigNoSize);
 
-         // NEW: Embed correlation charts
+        // NEW: Embed correlation charts
         vegaEmbed('#infra_reading_chart', infra_reading_spec, correlationConfig);
         vegaEmbed('#infra_math_chart', infra_math_spec, correlationConfig);
         vegaEmbed('#str_reading_chart', str_reading_spec, correlationConfig);
