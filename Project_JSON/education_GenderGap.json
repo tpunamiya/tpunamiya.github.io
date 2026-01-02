@@ -47,13 +47,13 @@
             "grid": false,
             "format": "d"
           },
-          "scale": {"domain": [-8, 8]}
+          "scale": {"domain": [-10, 8]}
         },
         "color": {
           "field": "gender_gap",
           "type": "quantitative",
           "scale": {
-            "domain": [-8, 0, 8],
+            "domain": [-10, 0, 8],
             "range": ["#77ba99", "#E0E0E0", "#ba7798"]
           },
           "legend": {
