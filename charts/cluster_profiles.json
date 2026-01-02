@@ -1,0 +1,47 @@
+[
+  {
+    "cluster":0,
+    "reading_std8":77.5,
+    "math_std8":54.625,
+    "infra_index":91.7712398563,
+    "str_ratio":3.725,
+    "pct_rural":73.711697802,
+    "cluster_name":"Mixed Profile 0"
+  },
+  {
+    "cluster":1,
+    "reading_std8":69.45,
+    "math_std8":44.35,
+    "infra_index":84.2985805075,
+    "str_ratio":6.5166666667,
+    "pct_rural":88.1791140931,
+    "cluster_name":"Mixed Profile 1"
+  },
+  {
+    "cluster":2,
+    "reading_std8":58.925,
+    "math_std8":35.6,
+    "infra_index":92.5527177712,
+    "str_ratio":4.575,
+    "pct_rural":64.9105438058,
+    "cluster_name":"Infrastructure Rich, Outcome Poor"
+  },
+  {
+    "cluster":3,
+    "reading_std8":87.8,
+    "math_std8":73.05,
+    "infra_index":85.8579549306,
+    "str_ratio":1.75,
+    "pct_rural":89.8270183679,
+    "cluster_name":"High Performers"
+  },
+  {
+    "cluster":4,
+    "reading_std8":87.75,
+    "math_std8":74.35,
+    "infra_index":73.5545552647,
+    "str_ratio":3.95,
+    "pct_rural":66.8054772338,
+    "cluster_name":"High Performers"
+  }
+]

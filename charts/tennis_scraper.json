@@ -7,7 +7,7 @@
     "subtitleFontSize": 12
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/grand_slam_heatmap_data.json"
+    "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/grand_slam_heatmap_data.json"
   },
   "facet": {
     "column": {

@@ -1,0 +1,222 @@
+[
+  {
+    "state":"Andhra Pradesh",
+    "cluster":2,
+    "cluster_name":"Infrastructure Rich, Outcome Poor",
+    "reading_std8":60.8,
+    "math_std8":36.4,
+    "infra_index":99.2780590485,
+    "str_ratio":5.5,
+    "pct_rural":72.8126461767
+  },
+  {
+    "state":"Assam",
+    "cluster":1,
+    "cluster_name":"Mixed Profile 1",
+    "reading_std8":65.5,
+    "math_std8":39.7,
+    "infra_index":87.8647882251,
+    "str_ratio":6.3,
+    "pct_rural":91.1889341686
+  },
+  {
+    "state":"Bihar",
+    "cluster":1,
+    "cluster_name":"Mixed Profile 1",
+    "reading_std8":70.2,
+    "math_std8":45.8,
+    "infra_index":84.0755322883,
+    "str_ratio":7.7,
+    "pct_rural":89.5379130249
+  },
+  {
+    "state":"Goa",
+    "cluster":0,
+    "cluster_name":"Mixed Profile 0",
+    "reading_std8":79.8,
+    "math_std8":68.5,
+    "infra_index":98.6987550977,
+    "str_ratio":2.9,
+    "pct_rural":73.7819274522
+  },
+  {
+    "state":"Gujarat",
+    "cluster":0,
+    "cluster_name":"Mixed Profile 0",
+    "reading_std8":71.5,
+    "math_std8":48.9,
+    "infra_index":96.131819375,
+    "str_ratio":5.1,
+    "pct_rural":69.9563355123
+  },
+  {
+    "state":"Haryana",
+    "cluster":0,
+    "cluster_name":"Mixed Profile 0",
+    "reading_std8":82.7,
+    "math_std8":56.4,
+    "infra_index":94.1866705878,
+    "str_ratio":3.5,
+    "pct_rural":70.3253317649
+  },
+  {
+    "state":"Himachal Pradesh",
+    "cluster":3,
+    "cluster_name":"High Performers",
+    "reading_std8":88.5,
+    "math_std8":72.3,
+    "infra_index":91.4339210983,
+    "str_ratio":2.2,
+    "pct_rural":91.410635909
+  },
+  {
+    "state":"Jharkhand",
+    "cluster":1,
+    "cluster_name":"Mixed Profile 1",
+    "reading_std8":68.2,
+    "math_std8":42.8,
+    "infra_index":86.130313711,
+    "str_ratio":7.9,
+    "pct_rural":88.7624870991
+  },
+  {
+    "state":"Karnataka",
+    "cluster":2,
+    "cluster_name":"Infrastructure Rich, Outcome Poor",
+    "reading_std8":61.4,
+    "math_std8":38.7,
+    "infra_index":87.5288803334,
+    "str_ratio":5.6,
+    "pct_rural":65.116163745
+  },
+  {
+    "state":"Kerala",
+    "cluster":0,
+    "cluster_name":"Mixed Profile 0",
+    "reading_std8":82.0,
+    "math_std8":54.8,
+    "infra_index":97.2615046207,
+    "str_ratio":3.5,
+    "pct_rural":78.0085517862
+  },
+  {
+    "state":"Madhya Pradesh",
+    "cluster":0,
+    "cluster_name":"Mixed Profile 0",
+    "reading_std8":72.3,
+    "math_std8":48.5,
+    "infra_index":81.7738699835,
+    "str_ratio":3.7,
+    "pct_rural":77.4932121414
+  },
+  {
+    "state":"Maharashtra",
+    "cluster":0,
+    "cluster_name":"Mixed Profile 0",
+    "reading_std8":73.2,
+    "math_std8":52.3,
+    "infra_index":89.8196576077,
+    "str_ratio":4.3,
+    "pct_rural":66.8762775694
+  },
+  {
+    "state":"Mizoram",
+    "cluster":4,
+    "cluster_name":"High Performers",
+    "reading_std8":90.2,
+    "math_std8":78.5,
+    "infra_index":70.9967530794,
+    "str_ratio":4.5,
+    "pct_rural":63.1242591352
+  },
+  {
+    "state":"Nagaland",
+    "cluster":4,
+    "cluster_name":"High Performers",
+    "reading_std8":85.3,
+    "math_std8":70.2,
+    "infra_index":76.11235745,
+    "str_ratio":3.4,
+    "pct_rural":70.4866953325
+  },
+  {
+    "state":"Orissa",
+    "cluster":1,
+    "cluster_name":"Mixed Profile 1",
+    "reading_std8":69.8,
+    "math_std8":45.3,
+    "infra_index":95.1507826527,
+    "str_ratio":5.6,
+    "pct_rural":89.0511135835
+  },
+  {
+    "state":"Punjab",
+    "cluster":0,
+    "cluster_name":"Mixed Profile 0",
+    "reading_std8":82.7,
+    "math_std8":56.4,
+    "infra_index":91.9930512464,
+    "str_ratio":3.4,
+    "pct_rural":75.5099528214
+  },
+  {
+    "state":"Rajasthan",
+    "cluster":0,
+    "cluster_name":"Mixed Profile 0",
+    "reading_std8":75.8,
+    "math_std8":51.2,
+    "infra_index":84.3045903319,
+    "str_ratio":3.4,
+    "pct_rural":77.7419933681
+  },
+  {
+    "state":"Sikkim",
+    "cluster":3,
+    "cluster_name":"High Performers",
+    "reading_std8":87.1,
+    "math_std8":73.8,
+    "infra_index":80.2819887629,
+    "str_ratio":1.3,
+    "pct_rural":88.2434008269
+  },
+  {
+    "state":"Tamil Nadu",
+    "cluster":2,
+    "cluster_name":"Infrastructure Rich, Outcome Poor",
+    "reading_std8":58.3,
+    "math_std8":35.2,
+    "infra_index":94.6716599448,
+    "str_ratio":3.0,
+    "pct_rural":63.8217790028
+  },
+  {
+    "state":"Telangana",
+    "cluster":2,
+    "cluster_name":"Infrastructure Rich, Outcome Poor",
+    "reading_std8":55.2,
+    "math_std8":32.1,
+    "infra_index":88.7322717581,
+    "str_ratio":4.2,
+    "pct_rural":57.8915862986
+  },
+  {
+    "state":"Uttar Pradesh",
+    "cluster":1,
+    "cluster_name":"Mixed Profile 1",
+    "reading_std8":68.5,
+    "math_std8":42.3,
+    "infra_index":77.0343634098,
+    "str_ratio":5.9,
+    "pct_rural":84.8429430485
+  },
+  {
+    "state":"West Bengal",
+    "cluster":1,
+    "cluster_name":"Mixed Profile 1",
+    "reading_std8":74.5,
+    "math_std8":50.2,
+    "infra_index":75.5357027579,
+    "str_ratio":5.7,
+    "pct_rural":85.6912936337
+  }
+]

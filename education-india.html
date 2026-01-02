@@ -12,21 +12,53 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    
+    <style>
+        /* Styled boxes for visual polish */
+        .stat-highlight {
+            background: #f0f9ff;
+            border-left: 4px solid #3498db;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .key-finding {
+            background: #f0fdf4;
+            border-left: 4px solid #065f46;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .methodology {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }
+
+        /* Chart spacing fix */
+        #chart5 {
+            margin-bottom: 0 !important;
+        }
+    </style>
 </head>
 <body>
     <nav>
-        <div class="nav-container">
-            <div class="logo">Trisha Punamiya</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="education-india.html">Project</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing">CV</a></li>
-            </ul>
-        </div>
-    </nav>
-
+    <div class="nav-container">
+        <div class="logo">Trisha Punamiya</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="education-india.html">Project</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing">CV</a></li>
+        </ul>
+    </div>
+</nav>
     <header>
         <h1 class="big">Educational Disparities Across India</h1>
         <p class="subtitle">Analyzing UDISE+ Data to Uncover Inequalities in Access and Outcomes</p>
@@ -42,51 +74,92 @@
     <section>
         <h2>Gender Gap in School Enrollment</h2>
         <div class="chart-description">
-            <p>This diverging bar chart reveals significant gender disparities in school enrollment across Indian states. States like Haryana and Punjab show substantial gaps favoring boys (blue bars extending left), indicating fewer girls enrolled relative to boys. In contrast, some states approach gender parity or show slight advantages for girls (red bars extending right).</p>
-            <p><strong>Key Finding:</strong> Northern states exhibit the most pronounced gender gaps, while southern and northeastern states demonstrate greater gender parity in education access.</p>
+            <p>This diverging bar chart reveals significant gender disparities in school enrollment across Indian states. The horizontal bars show the percentage point difference between girls' and boys' enrollment rates. States like Haryana and Punjab show substantial gaps favoring boys (green bars extending left), indicating fewer girls enrolled relative to boys. In contrast, southern states like Kerala and Tamil Nadu approach gender parity or show slight advantages for girls (purple bars extending right).</p>
+            
+            <div class="key-finding">
+                <strong>Key Finding:</strong> Northern states exhibit the most pronounced gender gaps (up to 7 percentage points), while southern and northeastern states demonstrate greater gender parity in education access. Use the year slider to observe how these patterns have evolved from 2022 to 2024.
+            </div>
         </div>
         <figure id="gender_gap_chart"></figure>
-        <p class="source"><em>Source: UDISE+ India, School Enrollment Data</em></p>
+        <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2022-2024)</em></p>
     </section>
 
     <!-- Chart 2: Enrollment Pyramid -->
     <section>
-        <h2>Enrollment Pyramid</h2>
+        <h2>Educational Progression and Dropout Patterns</h2>
+        <div class="chart-description">
+            <p>This visualization examines enrollment patterns by gender across different states, revealing where students are concentrated in the education system and how gender ratios vary by region. The chart allows comparison of boys' and girls' enrollment numbers across states, highlighting both absolute enrollment levels and gender balance.</p>
+            
+            <div class="key-finding">
+                <strong>Key Finding:</strong> Large populous states like Uttar Pradesh, Bihar, and West Bengal dominate enrollment numbers in absolute terms, but the gender composition varies significantly. States with higher overall enrollment don't necessarily have better gender parity—some high-enrollment states still show substantial gender gaps, while smaller states may achieve better balance.
+            </div>
+        </div>
         <figure id="enrollment_pyramid_chart"></figure>
+        <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2022-2024)</em></p>
+    </section>
+
+    <!-- Chart 3: Rural vs Urban Educational Access -->
+    <section>
+        <h2>School Type Distribution: Rural vs Urban Divide</h2>
+        <div class="chart-description">
+            <p>This area chart reveals stark differences in school type distribution between rural and urban areas across India. The visualization shows what percentage of total enrollment each school type (State Government, Central Government, Government Aided, Private Unaided, and Other) comprises in rural versus urban settings from 2021-2024.</p>
+            
+            <div class="key-finding">
+                <strong>Key Finding:</strong> Rural areas remain heavily dominated by state government schools (approximately 65% of enrollment), while urban areas show a much more diverse landscape with private unaided schools comprising nearly 60% of enrollment. This disparity highlights the urban-rural divide in school choice and access to private education.
+            </div>
+            
+            <div class="stat-highlight">
+                <strong>Urban Trend:</strong> Private unaided schools have grown from about 65% to 73% of urban enrollment between 2021-2024, suggesting increasing privatization of urban education. In contrast, rural private school enrollment has remained relatively stable at around 25%.
+            </div>
+            
+            <p>Use the state dropdown to explore variations across different states. Some states show dramatically different patterns—certain urban areas have almost entirely privatized, while others maintain stronger government school systems.</p>
+        </div>
+        <figure id="chart4"></figure>
         <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2021-2024)</em></p>
     </section>
 
-    <!-- Chart 3: Rural vs Urban -->
+    <!-- Chart 4: School Infrastructure by State -->
     <section>
-        <h2>Rural vs Urban Educational Access</h2>
+        <h2>School Infrastructure Quality Across States</h2>
         <div class="chart-description">
-            <p>[Description of your rural vs urban chart - what does it show about disparities between rural and urban areas?]</p>
-        </div>
-        <figure id="chart4"></figure>
-        <p class="source"><em>Source: [Your data source]</em></p>
-    </section>
-
-    <!-- Chart 4: School Infrastructure -->
-    <section>
-        <h2>School Infrastructure by State</h2>
-        <div class="chart-description">
-            <p>[Description of enrollment patterns across SC/ST/OBC categories]</p>
+            <p>This choropleth map visualizes the composite infrastructure index across Indian states for 2022-2024. The index combines four key metrics: electricity availability, internet connectivity, library access, and functional girls' toilets. Darker shades of green indicate better infrastructure, while lighter shades reveal states with significant infrastructure gaps.</p>
+            
+            <div class="key-finding">
+                <strong>Key Finding:</strong> A clear geographic pattern emerges, with southern states (Kerala, Karnataka, Tamil Nadu, Telangana) and western states (Gujarat, Maharashtra) showing infrastructure scores above 80%, while several northeastern states lag behind with scores below 50%. This geographic pattern suggests systematic regional disparities in educational investment and development.
+            </div>
+            
+            <p>The map reveals that infrastructure quality does not perfectly predict learning outcomes (as shown in our correlation analysis below). States like Himachal Pradesh achieve excellent learning outcomes despite moderate infrastructure scores, while some well-resourced states show lower student performance—suggesting that how resources are used matters as much as their availability.</p>
         </div>
         <figure id="chart3"></figure>
-        <p class="source"><em>Source: [Your data source]</em></p>
+        <p class="source"><em>Source: UDISE+ India, School Infrastructure Data (2022-2024)</em></p>
     </section>
 
-    <!-- Chart 5: Literacy Rates -->
-    <section style="padding-bottom: 15px;">
-        <h2>State-wise Literacy Rates</h2>
+    <!-- Chart 5: State-wise Literacy Rates -->
+    <section>
+        <h2>Learning Outcomes Across Standards and States</h2>
         <div class="chart-description">
-            <p>[Description of literacy rate variations across states]</p>
+            <p>This dual heatmap displays proficiency levels in reading and mathematics across three critical grade levels—Standard III, V, and VIII—for all major Indian states. The data comes from ASER 2024 (Annual Status of Education Report), which tests foundational competencies: reading comprehension at Standard II level for the reading assessment, and mathematical ability to perform subtraction (Std III) or division (Std V & VIII) for the math assessment.</p>
+            
+            <div class="key-finding">
+                <strong>Key Finding:</strong> A clear performance hierarchy emerges across states. Himachal Pradesh, Mizoram, Punjab, and Kerala consistently achieve the highest proficiency rates (70-90% at Std VIII for reading), while states like Telangana, Karnataka, and Tamil Nadu show concerning patterns with less than 35% of Std V students achieving basic reading competency. The math proficiency crisis is even more severe—most states show fewer than 40% of Std V students able to perform basic division.
+            </div>
+            
+            <div class="stat-highlight">
+                <strong>The Learning Crisis:</strong> Even at Standard VIII (equivalent to 8th grade), states like Assam, Andhra Pradesh, and Jammu & Kashmir show reading proficiency rates below 66%, meaning one-third of eighth graders cannot read a second-grade level text. For mathematics, the situation is starker—states like Gujarat, Assam, and Meghalaya have division proficiency rates below 30% at Std VIII.
+            </div>
+            
+            <p><strong>Notable Patterns:</strong></p>
+            <ul>
+                <li><strong>Progressive vs. Stagnant Learning:</strong> Reading proficiency generally improves substantially from Std III to Std VIII (gains of 30-50 percentage points), but mathematical proficiency shows much smaller gains (10-20 points), suggesting mathematics instruction faces unique systemic challenges.</li>
+                <li><strong>Subject Disparities:</strong> Most states perform relatively better in reading than in mathematics. For instance, Haryana shows 82.7% reading proficiency at Std VIII but only 56.4% for division—a 26-point gap.</li>
+                <li><strong>Regional Patterns:</strong> Northern states (Himachal Pradesh, Punjab, Haryana) and northeastern states (Mizoram, Nagaland, Sikkim) outperform the national average, while several southern states surprisingly lag despite better infrastructure.</li>
+            </ul>
         </div>
-        <figure id="chart5" style="margin-bottom: 0;"></figure>
-        <p class="source"><em>Source: [Your data source]</em></p>
+        <figure id="chart5"></figure>
+        <p class="source"><em>Source: ASER 2024 (Annual Status of Education Report)</em></p>
     </section>
 
-    <!-- Correlation Charts -->
+    <!--Correlation Charts -->
     <section>
         <h2>Infrastructure & Class Size: Do They Matter for Learning?</h2>
         <div class="chart-description">
@@ -128,39 +201,39 @@
         let chart4_spec = "Project_JSON/enrollment_chart.json";
         let chart5_spec = "Project_JSON/aser_learning_outcomes_heatmap.json";
         
-        // NEW: Correlation chart specifications
+         // NEW: Correlation chart specifications
         let infra_reading_spec = "charts/infrastructure_vs_reading_2024.json";
         let infra_math_spec = "charts/infrastructure_vs_math_2024.json";
         let str_reading_spec = "charts/str_vs_reading_2024.json";
         let str_math_spec = "charts/str_vs_math_2024.json";
 
-        // Configuration for no size override (let chart use its own dimensions)
-        const embedConfigNoSize = {
-            actions: false
-        };
-
-        // Configuration for standard charts
+        // Configuration for consistent chart sizing
         const embedConfig = {
             actions: false,
             width: 650,
             height: 700
         };
 
-        // Configuration for correlation charts (side by side)
-        const correlationConfig = {
-            actions: false,
-            width: 450,
-            height: 400
-        };
+        // Configuration for enrollment chart (no width/height override)
+    const embedConfigNoSize = {
+        actions: false
+    };
+
+    //  Configuration for correlation charts (side by side)
+const correlationConfig = {
+    actions: false,
+    width: 450,
+    height: 400
+    };
         
-        // Embed charts - use embedConfigNoSize for gender gap to respect its 1000px width
+        // Embed charts
         vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfigNoSize);
         vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
         vegaEmbed('#chart3', chart3_spec, embedConfig);
         vegaEmbed('#chart4', chart4_spec, embedConfigNoSize);
         vegaEmbed('#chart5', chart5_spec, embedConfigNoSize);
 
-        // NEW: Embed correlation charts
+         // NEW: Embed correlation charts
         vegaEmbed('#infra_reading_chart', infra_reading_spec, correlationConfig);
         vegaEmbed('#infra_math_chart', infra_math_spec, correlationConfig);
         vegaEmbed('#str_reading_chart', str_reading_spec, correlationConfig);

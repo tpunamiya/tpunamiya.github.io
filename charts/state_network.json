@@ -1,0 +1,533 @@
+{
+  "nodes": [
+    {
+      "id": "Andhra Pradesh",
+      "cluster": 2,
+      "cluster_name": "Infrastructure Rich, Outcome Poor",
+      "reading": 56.2,
+      "math": 48.4,
+      "infrastructure": 99.27805904851002,
+      "enrollment": 15047141,
+      "str_ratio": 5.5
+    },
+    {
+      "id": "Arunachal Pradesh",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 76.0,
+      "math": 47.7,
+      "infrastructure": 58.317727840199744,
+      "enrollment": 586093,
+      "str_ratio": 2.9
+    },
+    {
+      "id": "Assam",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 65.9,
+      "math": 29.2,
+      "infrastructure": 87.864788225074,
+      "enrollment": 14142365,
+      "str_ratio": 6.3
+    },
+    {
+      "id": "Bihar",
+      "cluster": 3,
+      "cluster_name": "Emerging Systems",
+      "reading": 72.8,
+      "math": 63.6,
+      "infrastructure": 84.0755322882636,
+      "enrollment": 41463673,
+      "str_ratio": 7.7
+    },
+    {
+      "id": "Chhattisgarh",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 76.0,
+      "math": 36.7,
+      "infrastructure": 86.46648359292705,
+      "enrollment": 9861018,
+      "str_ratio": 4.9
+    },
+    {
+      "id": "Gujarat",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 75.9,
+      "math": 30.5,
+      "infrastructure": 96.131819374996,
+      "enrollment": 14529723,
+      "str_ratio": 5.1
+    },
+    {
+      "id": "Haryana",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 82.7,
+      "math": 56.4,
+      "infrastructure": 94.18667058780281,
+      "enrollment": 6577485,
+      "str_ratio": 3.5
+    },
+    {
+      "id": "Himachal Pradesh",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 88.3,
+      "math": 54.4,
+      "infrastructure": 91.4339210982954,
+      "enrollment": 1413662,
+      "str_ratio": 2.2
+    },
+    {
+      "id": "Jammu and Kashmir",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 58.5,
+      "math": 35.8,
+      "infrastructure": 71.50215219281367,
+      "enrollment": 5088218,
+      "str_ratio": 4.4
+    },
+    {
+      "id": "Jharkhand",
+      "cluster": 3,
+      "cluster_name": "Emerging Systems",
+      "reading": 69.5,
+      "math": 50.9,
+      "infrastructure": 86.13031371098086,
+      "enrollment": 12775115,
+      "str_ratio": 7.9
+    },
+    {
+      "id": "Karnataka",
+      "cluster": 2,
+      "cluster_name": "Infrastructure Rich, Outcome Poor",
+      "reading": 62.1,
+      "math": 37.9,
+      "infrastructure": 87.52888033342273,
+      "enrollment": 19242046,
+      "str_ratio": 5.6
+    },
+    {
+      "id": "Kerala",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 84.5,
+      "math": 38.2,
+      "infrastructure": 97.2615046207232,
+      "enrollment": 10860344,
+      "str_ratio": 3.5
+    },
+    {
+      "id": "Madhya Pradesh",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 66.9,
+      "math": 38.0,
+      "infrastructure": 81.77386998349841,
+      "enrollment": 20527615,
+      "str_ratio": 3.7
+    },
+    {
+      "id": "Maharashtra",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 74.2,
+      "math": 36.3,
+      "infrastructure": 89.81965760772789,
+      "enrollment": 28198940,
+      "str_ratio": 4.3
+    },
+    {
+      "id": "Meghalaya",
+      "cluster": 4,
+      "cluster_name": "Balanced Performers",
+      "reading": 75.4,
+      "math": 19.2,
+      "infrastructure": 38.454010197155526,
+      "enrollment": 2238466,
+      "str_ratio": 7.7
+    },
+    {
+      "id": "Mizoram",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 90.7,
+      "math": 60.9,
+      "infrastructure": 70.9967530794207,
+      "enrollment": 602284,
+      "str_ratio": 4.5
+    },
+    {
+      "id": "Nagaland",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 79.6,
+      "math": 40.2,
+      "infrastructure": 76.11235744999065,
+      "enrollment": 824793,
+      "str_ratio": 3.4
+    },
+    {
+      "id": "Punjab",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 82.2,
+      "math": 63.9,
+      "infrastructure": 91.99305124644191,
+      "enrollment": 8283378,
+      "str_ratio": 3.4
+    },
+    {
+      "id": "Rajasthan",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 69.1,
+      "math": 33.3,
+      "infrastructure": 84.30459033185419,
+      "enrollment": 17676931,
+      "str_ratio": 3.4
+    },
+    {
+      "id": "Sikkim",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 76.5,
+      "math": 27.6,
+      "infrastructure": 80.28198876285381,
+      "enrollment": 177304,
+      "str_ratio": 1.3
+    },
+    {
+      "id": "Tamil Nadu",
+      "cluster": 2,
+      "cluster_name": "Infrastructure Rich, Outcome Poor",
+      "reading": 64.2,
+      "math": 40.0,
+      "infrastructure": 94.67165994475222,
+      "enrollment": 14313665,
+      "str_ratio": 3.0
+    },
+    {
+      "id": "Telangana",
+      "cluster": 2,
+      "cluster_name": "Infrastructure Rich, Outcome Poor",
+      "reading": 56.4,
+      "math": 41.1,
+      "infrastructure": 88.73227175805474,
+      "enrollment": 11832826,
+      "str_ratio": 4.2
+    },
+    {
+      "id": "Tripura",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 68.8,
+      "math": 39.4,
+      "infrastructure": 64.55989217065166,
+      "enrollment": 1043409,
+      "str_ratio": 3.7
+    },
+    {
+      "id": "Uttar Pradesh",
+      "cluster": 3,
+      "cluster_name": "Emerging Systems",
+      "reading": 75.1,
+      "math": 55.2,
+      "infrastructure": 77.03436340978641,
+      "enrollment": 66500217,
+      "str_ratio": 5.9
+    },
+    {
+      "id": "Uttarakhand",
+      "cluster": 0,
+      "cluster_name": "Balanced Performers",
+      "reading": 82.2,
+      "math": 52.5,
+      "infrastructure": 89.26510146660209,
+      "enrollment": 3336953,
+      "str_ratio": 4.0
+    },
+    {
+      "id": "West Bengal",
+      "cluster": 1,
+      "cluster_name": "Emerging Systems",
+      "reading": 71.3,
+      "math": 33.7,
+      "infrastructure": 75.53570275787304,
+      "enrollment": 23275037,
+      "str_ratio": 5.7
+    }
+  ],
+  "edges": [
+    {
+      "source": "Andhra Pradesh",
+      "target": "Karnataka",
+      "similarity": 0.7466642156137471
+    },
+    {
+      "source": "Arunachal Pradesh",
+      "target": "Tripura",
+      "similarity": 0.7878647871433476
+    },
+    {
+      "source": "Assam",
+      "target": "Chhattisgarh",
+      "similarity": 0.7302799097430035
+    },
+    {
+      "source": "Assam",
+      "target": "West Bengal",
+      "similarity": 0.7905518817408085
+    },
+    {
+      "source": "Bihar",
+      "target": "Jharkhand",
+      "similarity": 0.8157547251985143
+    },
+    {
+      "source": "Bihar",
+      "target": "Uttar Pradesh",
+      "similarity": 0.7628009275117358
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "Gujarat",
+      "similarity": 0.7423943649256008
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "Kerala",
+      "similarity": 0.7486491592341427
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "Madhya Pradesh",
+      "similarity": 0.7763692771011025
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "Maharashtra",
+      "similarity": 0.7258859400090216
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "Nagaland",
+      "similarity": 0.7104638745941554
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "Rajasthan",
+      "similarity": 0.7861419713058497
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "Uttar Pradesh",
+      "similarity": 0.7087609592416024
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "Uttarakhand",
+      "similarity": 0.709931470639692
+    },
+    {
+      "source": "Chhattisgarh",
+      "target": "West Bengal",
+      "similarity": 0.8227660905195013
+    },
+    {
+      "source": "Gujarat",
+      "target": "Karnataka",
+      "similarity": 0.7096973893523557
+    },
+    {
+      "source": "Gujarat",
+      "target": "Kerala",
+      "similarity": 0.7312929083091391
+    },
+    {
+      "source": "Gujarat",
+      "target": "Maharashtra",
+      "similarity": 0.8562524659596008
+    },
+    {
+      "source": "Gujarat",
+      "target": "Rajasthan",
+      "similarity": 0.7252033163493421
+    },
+    {
+      "source": "Haryana",
+      "target": "Kerala",
+      "similarity": 0.7210890137630883
+    },
+    {
+      "source": "Haryana",
+      "target": "Punjab",
+      "similarity": 0.8664574737146737
+    },
+    {
+      "source": "Haryana",
+      "target": "Uttarakhand",
+      "similarity": 0.8825817597382134
+    },
+    {
+      "source": "Jammu and Kashmir",
+      "target": "Madhya Pradesh",
+      "similarity": 0.7478702125667784
+    },
+    {
+      "source": "Jammu and Kashmir",
+      "target": "Rajasthan",
+      "similarity": 0.7040691973499065
+    },
+    {
+      "source": "Jammu and Kashmir",
+      "target": "Tripura",
+      "similarity": 0.7887435419331693
+    },
+    {
+      "source": "Jammu and Kashmir",
+      "target": "West Bengal",
+      "similarity": 0.740959105418025
+    },
+    {
+      "source": "Jharkhand",
+      "target": "Uttar Pradesh",
+      "similarity": 0.7467201264307151
+    },
+    {
+      "source": "Karnataka",
+      "target": "Madhya Pradesh",
+      "similarity": 0.7133555503588479
+    },
+    {
+      "source": "Karnataka",
+      "target": "Maharashtra",
+      "similarity": 0.7542673441845721
+    },
+    {
+      "source": "Karnataka",
+      "target": "Tamil Nadu",
+      "similarity": 0.7335076022186835
+    },
+    {
+      "source": "Karnataka",
+      "target": "Telangana",
+      "similarity": 0.7940414141315068
+    },
+    {
+      "source": "Kerala",
+      "target": "Maharashtra",
+      "similarity": 0.7243104414035864
+    },
+    {
+      "source": "Kerala",
+      "target": "Nagaland",
+      "similarity": 0.7116951804945519
+    },
+    {
+      "source": "Kerala",
+      "target": "Uttarakhand",
+      "similarity": 0.7709122583289287
+    },
+    {
+      "source": "Madhya Pradesh",
+      "target": "Maharashtra",
+      "similarity": 0.7627265321817864
+    },
+    {
+      "source": "Madhya Pradesh",
+      "target": "Nagaland",
+      "similarity": 0.7436846416696059
+    },
+    {
+      "source": "Madhya Pradesh",
+      "target": "Rajasthan",
+      "similarity": 0.9151767671708395
+    },
+    {
+      "source": "Madhya Pradesh",
+      "target": "Tamil Nadu",
+      "similarity": 0.7234679342444931
+    },
+    {
+      "source": "Madhya Pradesh",
+      "target": "Tripura",
+      "similarity": 0.7453990851452825
+    },
+    {
+      "source": "Madhya Pradesh",
+      "target": "West Bengal",
+      "similarity": 0.7402119345120435
+    },
+    {
+      "source": "Maharashtra",
+      "target": "Nagaland",
+      "similarity": 0.7816385603945007
+    },
+    {
+      "source": "Maharashtra",
+      "target": "Rajasthan",
+      "similarity": 0.7761106063319108
+    },
+    {
+      "source": "Maharashtra",
+      "target": "Tamil Nadu",
+      "similarity": 0.7701432652703095
+    },
+    {
+      "source": "Maharashtra",
+      "target": "Uttarakhand",
+      "similarity": 0.7099313726170381
+    },
+    {
+      "source": "Nagaland",
+      "target": "Rajasthan",
+      "similarity": 0.7481828987393888
+    },
+    {
+      "source": "Nagaland",
+      "target": "Uttarakhand",
+      "similarity": 0.7515833414978843
+    },
+    {
+      "source": "Punjab",
+      "target": "Uttarakhand",
+      "similarity": 0.8318849037330137
+    },
+    {
+      "source": "Rajasthan",
+      "target": "Tamil Nadu",
+      "similarity": 0.7179564162856756
+    },
+    {
+      "source": "Rajasthan",
+      "target": "Tripura",
+      "similarity": 0.7124001539046328
+    },
+    {
+      "source": "Rajasthan",
+      "target": "West Bengal",
+      "similarity": 0.7247023913835245
+    },
+    {
+      "source": "Tamil Nadu",
+      "target": "Telangana",
+      "similarity": 0.7884195265432873
+    },
+    {
+      "source": "Tripura",
+      "target": "West Bengal",
+      "similarity": 0.7526560528989181
+    }
+  ],
+  "clusters": {
+    "0": "Balanced Performers",
+    "1": "Emerging Systems",
+    "2": "Infrastructure Rich, Outcome Poor",
+    "3": "Emerging Systems",
+    "4": "Balanced Performers"
+  }
+}
