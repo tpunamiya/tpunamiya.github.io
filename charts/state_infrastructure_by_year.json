@@ -1,0 +1,1088 @@
+{
+  "2022": [
+    {
+      "state": "Andaman and Nicobar",
+      "pct_electricity_functional": 91.30434782608695,
+      "pct_internet": 50.48309178743962,
+      "pct_library": 98.79227053140096,
+      "pct_girls_toilets": 99.27536231884058,
+      "num_schools": 414,
+      "infrastructure_index": 84.96376811594203,
+      "year": 2022
+    },
+    {
+      "state": "Andhra Pradesh",
+      "pct_electricity_functional": 99.6481841763943,
+      "pct_internet": 99.58171206225681,
+      "pct_library": 99.99351491569391,
+      "pct_girls_toilets": 97.73022049286641,
+      "num_schools": 61680,
+      "infrastructure_index": 99.23840791180287,
+      "year": 2022
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "pct_electricity_functional": 55.884843353090595,
+      "pct_internet": 26.390064916737227,
+      "pct_library": 29.55122777307367,
+      "pct_girls_toilets": 68.95286480383855,
+      "num_schools": 3543,
+      "infrastructure_index": 45.194750211685005,
+      "year": 2022
+    },
+    {
+      "state": "Assam",
+      "pct_electricity_functional": 84.57775664107616,
+      "pct_internet": 15.991235817650656,
+      "pct_library": 76.97533799850534,
+      "pct_girls_toilets": 80.1464094028127,
+      "num_schools": 58876,
+      "infrastructure_index": 64.42268496501121,
+      "year": 2022
+    },
+    {
+      "state": "Bihar",
+      "pct_electricity_functional": 82.10548186381182,
+      "pct_internet": 16.81957855369777,
+      "pct_library": 45.600183712970356,
+      "pct_girls_toilets": 92.39340820365895,
+      "num_schools": 91447,
+      "infrastructure_index": 59.22966308353472,
+      "year": 2022
+    },
+    {
+      "state": "Chandigarh",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 99.1304347826087,
+      "pct_library": 96.08695652173913,
+      "pct_girls_toilets": 99.56521739130434,
+      "num_schools": 230,
+      "infrastructure_index": 98.69565217391303,
+      "year": 2022
+    },
+    {
+      "state": "Chhattisgarh",
+      "pct_electricity_functional": 91.82362025810804,
+      "pct_internet": 60.987343120373495,
+      "pct_library": 96.58637033355227,
+      "pct_girls_toilets": 92.6206663944757,
+      "num_schools": 56333,
+      "infrastructure_index": 85.50450002662737,
+      "year": 2022
+    },
+    {
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 87.14596949891067,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 98.91067538126362,
+      "num_schools": 459,
+      "infrastructure_index": 96.51416122004358,
+      "year": 2022
+    },
+    {
+      "state": "Delhi",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 99.08892128279884,
+      "pct_girls_toilets": 84.85787172011662,
+      "num_schools": 5488,
+      "infrastructure_index": 95.98669825072886,
+      "year": 2022
+    },
+    {
+      "state": "Goa",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 94.9468085106383,
+      "pct_library": 99.93351063829788,
+      "pct_girls_toilets": 99.20212765957447,
+      "num_schools": 1504,
+      "infrastructure_index": 98.52061170212767,
+      "year": 2022
+    },
+    {
+      "state": "Gujarat",
+      "pct_electricity_functional": 99.92724287819712,
+      "pct_internet": 94.40889502453221,
+      "pct_library": 93.92384754584631,
+      "pct_girls_toilets": 93.55446523515475,
+      "num_schools": 53603,
+      "infrastructure_index": 95.4536126709326,
+      "year": 2022
+    },
+    {
+      "state": "Haryana",
+      "pct_electricity_functional": 98.35745511650609,
+      "pct_internet": 57.132549552226145,
+      "pct_library": 95.56470438436399,
+      "pct_girls_toilets": 95.23364882645049,
+      "num_schools": 23561,
+      "infrastructure_index": 86.57208946988669,
+      "year": 2022
+    },
+    {
+      "state": "Himachal Pradesh",
+      "pct_electricity_functional": 97.37570590189348,
+      "pct_internet": 35.610674343926476,
+      "pct_library": 90.12290997674675,
+      "pct_girls_toilets": 97.47536263979626,
+      "num_schools": 18062,
+      "infrastructure_index": 80.14616321559075,
+      "year": 2022
+    },
+    {
+      "state": "Jammu and Kashmir",
+      "pct_electricity_functional": 87.44954279594694,
+      "pct_internet": 40.42754757393525,
+      "pct_library": 53.06450284207925,
+      "pct_girls_toilets": 81.66241041271934,
+      "num_schools": 24278,
+      "infrastructure_index": 65.6510009061702,
+      "year": 2022
+    },
+    {
+      "state": "Jharkhand",
+      "pct_electricity_functional": 92.96797919095883,
+      "pct_internet": 47.82940174006637,
+      "pct_library": 92.56884025473137,
+      "pct_girls_toilets": 96.06242712350883,
+      "num_schools": 44596,
+      "infrastructure_index": 82.35716207731635,
+      "year": 2022
+    },
+    {
+      "state": "Karnataka",
+      "pct_electricity_functional": 98.68839532133,
+      "pct_internet": 41.207780260218165,
+      "pct_library": 96.14666841897753,
+      "pct_girls_toilets": 97.96031015902221,
+      "num_schools": 76090,
+      "infrastructure_index": 83.50078853988697,
+      "year": 2022
+    },
+    {
+      "state": "Kerala",
+      "pct_electricity_functional": 99.87448223923685,
+      "pct_internet": 97.43316179239362,
+      "pct_library": 96.1842600728003,
+      "pct_girls_toilets": 99.08372034642902,
+      "num_schools": 15934,
+      "infrastructure_index": 98.14390611271494,
+      "year": 2022
+    },
+    {
+      "state": "Ladakh",
+      "pct_electricity_functional": 79.57099080694586,
+      "pct_internet": 43.92236976506639,
+      "pct_library": 95.40347293156282,
+      "pct_girls_toilets": 87.53830439223698,
+      "num_schools": 979,
+      "infrastructure_index": 76.60878447395301,
+      "year": 2022
+    },
+    {
+      "state": "Lakshadweep",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 94.5945945945946,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 100.0,
+      "num_schools": 37,
+      "infrastructure_index": 98.64864864864865,
+      "year": 2022
+    },
+    {
+      "state": "Madhya Pradesh",
+      "pct_electricity_functional": 85.70243295346397,
+      "pct_internet": 39.75450840674492,
+      "pct_library": 98.2364951153843,
+      "pct_girls_toilets": 88.4420475528116,
+      "num_schools": 122937,
+      "infrastructure_index": 78.0338710071012,
+      "year": 2022
+    },
+    {
+      "state": "Maharashtra",
+      "pct_electricity_functional": 87.06973656305613,
+      "pct_internet": 62.552673557643544,
+      "pct_library": 91.82580151404782,
+      "pct_girls_toilets": 92.8290195572194,
+      "num_schools": 108451,
+      "infrastructure_index": 83.56930779799173,
+      "year": 2022
+    },
+    {
+      "state": "Manipur",
+      "pct_electricity_functional": 61.0114545061595,
+      "pct_internet": 27.923060298249407,
+      "pct_library": 22.087745839636913,
+      "pct_girls_toilets": 74.15171817592392,
+      "num_schools": 4627,
+      "infrastructure_index": 46.29349470499243,
+      "year": 2022
+    },
+    {
+      "state": "Meghalaya",
+      "pct_electricity_functional": 25.644365231697286,
+      "pct_internet": 22.49794351521799,
+      "pct_library": 15.98574170551138,
+      "pct_girls_toilets": 69.4063613929257,
+      "num_schools": 14588,
+      "infrastructure_index": 33.38360296133809,
+      "year": 2022
+    },
+    {
+      "state": "Mizoram",
+      "pct_electricity_functional": 82.88357748650732,
+      "pct_internet": 12.798766383962992,
+      "pct_library": 56.84913903880751,
+      "pct_girls_toilets": 83.62888717553328,
+      "num_schools": 3891,
+      "infrastructure_index": 59.04009252120278,
+      "year": 2022
+    },
+    {
+      "state": "Nagaland",
+      "pct_electricity_functional": 69.74604343025396,
+      "pct_internet": 55.465587044534416,
+      "pct_library": 67.3536989326463,
+      "pct_girls_toilets": 76.33419212366582,
+      "num_schools": 2717,
+      "infrastructure_index": 67.22488038277513,
+      "year": 2022
+    },
+    {
+      "state": "Orissa",
+      "pct_electricity_functional": 91.90350777980643,
+      "pct_internet": 73.68922783603432,
+      "pct_library": 99.04347966586417,
+      "pct_girls_toilets": 94.39013749979803,
+      "num_schools": 61891,
+      "infrastructure_index": 89.75658819537574,
+      "year": 2022
+    },
+    {
+      "state": "Puducherry",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 95.06172839506173,
+      "num_schools": 729,
+      "infrastructure_index": 98.76543209876543,
+      "year": 2022
+    },
+    {
+      "state": "Punjab",
+      "pct_electricity_functional": 99.8876485937953,
+      "pct_internet": 66.66787474630328,
+      "pct_library": 76.63090750942303,
+      "pct_girls_toilets": 95.52044070745144,
+      "num_schools": 27592,
+      "infrastructure_index": 84.67671788924326,
+      "year": 2022
+    },
+    {
+      "state": "Rajasthan",
+      "pct_electricity_functional": 90.01218711915253,
+      "pct_internet": 65.69232211493392,
+      "pct_library": 70.6065435455142,
+      "pct_girls_toilets": 84.18111934002063,
+      "num_schools": 106670,
+      "infrastructure_index": 77.62304302990532,
+      "year": 2022
+    },
+    {
+      "state": "Sikkim",
+      "pct_electricity_functional": 98.24000000000001,
+      "pct_internet": 45.6,
+      "pct_library": 60.88,
+      "pct_girls_toilets": 90.8,
+      "num_schools": 1250,
+      "infrastructure_index": 73.88,
+      "year": 2022
+    },
+    {
+      "state": "Tamil Nadu",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 61.94153052450558,
+      "pct_girls_toilets": 94.76182287188306,
+      "num_schools": 58150,
+      "infrastructure_index": 89.17583834909716,
+      "year": 2022
+    },
+    {
+      "state": "Telangana",
+      "pct_electricity_functional": 92.50635653074677,
+      "pct_internet": 30.899802241265657,
+      "pct_library": 83.7319898295508,
+      "pct_girls_toilets": 87.67303889255109,
+      "num_schools": 42476,
+      "infrastructure_index": 73.70279687352857,
+      "year": 2022
+    },
+    {
+      "state": "Tripura",
+      "pct_electricity_functional": 60.40309446254072,
+      "pct_internet": 30.028501628664493,
+      "pct_library": 28.521986970684036,
+      "pct_girls_toilets": 74.16530944625407,
+      "num_schools": 4912,
+      "infrastructure_index": 48.27972312703584,
+      "year": 2022
+    },
+    {
+      "state": "Uttar Pradesh",
+      "pct_electricity_functional": 83.47909547818745,
+      "pct_internet": 34.72245453893761,
+      "pct_library": 77.29017818028309,
+      "pct_girls_toilets": 91.67124662477,
+      "num_schools": 251094,
+      "infrastructure_index": 71.79074370554454,
+      "year": 2022
+    },
+    {
+      "state": "Uttarakhand",
+      "pct_electricity_functional": 89.91511185781236,
+      "pct_internet": 71.58899991157485,
+      "pct_library": 89.85321425413387,
+      "pct_girls_toilets": 83.41586347157131,
+      "num_schools": 22618,
+      "infrastructure_index": 83.69329737377309,
+      "year": 2022
+    },
+    {
+      "state": "West Bengal",
+      "pct_electricity_functional": 96.55939492807356,
+      "pct_internet": 15.886315967882037,
+      "pct_library": 68.65214720027119,
+      "pct_girls_toilets": 98.83265185059639,
+      "num_schools": 94402,
+      "infrastructure_index": 69.9826274867058,
+      "year": 2022
+    }
+  ],
+  "2023": [
+    {
+      "state": "Andaman and Nicobar",
+      "pct_electricity_functional": 91.99029126213593,
+      "pct_internet": 58.009708737864074,
+      "pct_library": 99.02912621359224,
+      "pct_girls_toilets": 99.51456310679612,
+      "num_schools": 412,
+      "infrastructure_index": 87.13592233009709,
+      "year": 2023
+    },
+    {
+      "state": "Andhra Pradesh",
+      "pct_electricity_functional": 99.7392990402946,
+      "pct_internet": 93.9370733058511,
+      "pct_library": 99.25863164583775,
+      "pct_girls_toilets": 97.13554820523683,
+      "num_schools": 61373,
+      "infrastructure_index": 97.51763804930506,
+      "year": 2023
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "pct_electricity_functional": 57.965616045845266,
+      "pct_internet": 30.515759312320917,
+      "pct_library": 29.799426934097422,
+      "pct_girls_toilets": 69.91404011461319,
+      "num_schools": 3490,
+      "infrastructure_index": 47.0487106017192,
+      "year": 2023
+    },
+    {
+      "state": "Assam",
+      "pct_electricity_functional": 86.26169874624757,
+      "pct_internet": 45.0114780151863,
+      "pct_library": 79.49143563482252,
+      "pct_girls_toilets": 83.0160692212608,
+      "num_schools": 56630,
+      "infrastructure_index": 73.4451704043793,
+      "year": 2023
+    },
+    {
+      "state": "Bihar",
+      "pct_electricity_functional": 78.34632363813024,
+      "pct_internet": 18.473691992480408,
+      "pct_library": 46.363770779207066,
+      "pct_girls_toilets": 91.39049067443973,
+      "num_schools": 94686,
+      "infrastructure_index": 58.643569271064365,
+      "year": 2023
+    },
+    {
+      "state": "Chandigarh",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 99.56521739130434,
+      "pct_library": 96.95652173913044,
+      "pct_girls_toilets": 99.56521739130434,
+      "num_schools": 230,
+      "infrastructure_index": 99.02173913043478,
+      "year": 2023
+    },
+    {
+      "state": "Chhattisgarh",
+      "pct_electricity_functional": 90.69504548264594,
+      "pct_internet": 61.330036209485115,
+      "pct_library": 97.04671906738497,
+      "pct_girls_toilets": 92.04627748829816,
+      "num_schools": 56615,
+      "infrastructure_index": 85.27951956195355,
+      "year": 2023
+    },
+    {
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 99.30555555555556,
+      "pct_library": 99.30555555555556,
+      "pct_girls_toilets": 99.07407407407408,
+      "num_schools": 432,
+      "infrastructure_index": 99.42129629629629,
+      "year": 2023
+    },
+    {
+      "state": "Delhi",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 99.85446607240313,
+      "pct_girls_toilets": 84.50063671093324,
+      "num_schools": 5497,
+      "infrastructure_index": 96.08877569583409,
+      "year": 2023
+    },
+    {
+      "state": "Goa",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 87.55884330867518,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 99.32750504371216,
+      "num_schools": 1487,
+      "infrastructure_index": 96.72158708809684,
+      "year": 2023
+    },
+    {
+      "state": "Gujarat",
+      "pct_electricity_functional": 99.91235594674225,
+      "pct_internet": 93.89288777831649,
+      "pct_library": 94.2378696900757,
+      "pct_girls_toilets": 93.81829709469287,
+      "num_schools": 53626,
+      "infrastructure_index": 95.46535262745682,
+      "year": 2023
+    },
+    {
+      "state": "Haryana",
+      "pct_electricity_functional": 99.37917251350086,
+      "pct_internet": 67.72122294510355,
+      "pct_library": 96.40685461580985,
+      "pct_girls_toilets": 96.44087256027555,
+      "num_schools": 23517,
+      "infrastructure_index": 89.98703065867244,
+      "year": 2023
+    },
+    {
+      "state": "Himachal Pradesh",
+      "pct_electricity_functional": 99.22584988219455,
+      "pct_internet": 48.70974980365758,
+      "pct_library": 97.66633007965892,
+      "pct_girls_toilets": 99.01267811062493,
+      "num_schools": 17826,
+      "infrastructure_index": 86.153651969034,
+      "year": 2023
+    },
+    {
+      "state": "Jammu and Kashmir",
+      "pct_electricity_functional": 85.97711557458018,
+      "pct_internet": 45.34079683898584,
+      "pct_library": 55.293052354297004,
+      "pct_girls_toilets": 82.1493249917682,
+      "num_schools": 24296,
+      "infrastructure_index": 67.19007243990781,
+      "year": 2023
+    },
+    {
+      "state": "Jharkhand",
+      "pct_electricity_functional": 92.01124227093874,
+      "pct_internet": 52.69252388982575,
+      "pct_library": 93.37605396290051,
+      "pct_girls_toilets": 96.50815064643058,
+      "num_schools": 44475,
+      "infrastructure_index": 83.6469926925239,
+      "year": 2023
+    },
+    {
+      "state": "Karnataka",
+      "pct_electricity_functional": 98.26543120378547,
+      "pct_internet": 49.199277702355374,
+      "pct_library": 97.19911953498794,
+      "pct_girls_toilets": 97.77511236473396,
+      "num_schools": 75869,
+      "infrastructure_index": 85.6097352014657,
+      "year": 2023
+    },
+    {
+      "state": "Kerala",
+      "pct_electricity_functional": 99.82349974785679,
+      "pct_internet": 92.13313161875945,
+      "pct_library": 96.48890569843671,
+      "pct_girls_toilets": 99.07337367624811,
+      "num_schools": 15864,
+      "infrastructure_index": 96.87972768532526,
+      "year": 2023
+    },
+    {
+      "state": "Ladakh",
+      "pct_electricity_functional": 73.96984924623115,
+      "pct_internet": 45.7286432160804,
+      "pct_library": 90.45226130653266,
+      "pct_girls_toilets": 85.82914572864323,
+      "num_schools": 995,
+      "infrastructure_index": 73.99497487437185,
+      "year": 2023
+    },
+    {
+      "state": "Lakshadweep",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 100.0,
+      "num_schools": 37,
+      "infrastructure_index": 100.0,
+      "year": 2023
+    },
+    {
+      "state": "Madhya Pradesh",
+      "pct_electricity_functional": 85.00145852915438,
+      "pct_internet": 43.25025119113214,
+      "pct_library": 98.26191942436716,
+      "pct_girls_toilets": 87.94444624509772,
+      "num_schools": 123412,
+      "infrastructure_index": 78.61451884743785,
+      "year": 2023
+    },
+    {
+      "state": "Maharashtra",
+      "pct_electricity_functional": 87.90709276864658,
+      "pct_internet": 67.5120337777285,
+      "pct_library": 93.03288154697562,
+      "pct_girls_toilets": 92.51827009248224,
+      "num_schools": 108237,
+      "infrastructure_index": 85.24256954645823,
+      "year": 2023
+    },
+    {
+      "state": "Manipur",
+      "pct_electricity_functional": 60.654326302195436,
+      "pct_internet": 32.264313387860525,
+      "pct_library": 23.18123116659492,
+      "pct_girls_toilets": 73.84847180370211,
+      "num_schools": 4646,
+      "infrastructure_index": 47.487085665088244,
+      "year": 2023
+    },
+    {
+      "state": "Meghalaya",
+      "pct_electricity_functional": 26.813231970412986,
+      "pct_internet": 24.518868570645846,
+      "pct_library": 17.63577837134443,
+      "pct_girls_toilets": 69.40620505444832,
+      "num_schools": 14601,
+      "infrastructure_index": 34.59352099171289,
+      "year": 2023
+    },
+    {
+      "state": "Mizoram",
+      "pct_electricity_functional": 82.06039076376554,
+      "pct_internet": 24.9175336209084,
+      "pct_library": 54.45318447094646,
+      "pct_girls_toilets": 79.59908652626237,
+      "num_schools": 3941,
+      "infrastructure_index": 60.257548845470694,
+      "year": 2023
+    },
+    {
+      "state": "Nagaland",
+      "pct_electricity_functional": 73.21100917431193,
+      "pct_internet": 56.330275229357795,
+      "pct_library": 71.81651376146789,
+      "pct_girls_toilets": 78.12844036697247,
+      "num_schools": 2725,
+      "infrastructure_index": 69.87155963302752,
+      "year": 2023
+    },
+    {
+      "state": "Orissa",
+      "pct_electricity_functional": 95.75802765305626,
+      "pct_internet": 81.98985298169971,
+      "pct_library": 99.59963042808747,
+      "pct_girls_toilets": 97.64965231063492,
+      "num_schools": 61693,
+      "infrastructure_index": 93.74929084336958,
+      "year": 2023
+    },
+    {
+      "state": "Puducherry",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 95.51020408163265,
+      "num_schools": 735,
+      "infrastructure_index": 98.87755102040816,
+      "year": 2023
+    },
+    {
+      "state": "Punjab",
+      "pct_electricity_functional": 99.87228141877098,
+      "pct_internet": 73.98190045248869,
+      "pct_library": 77.60180995475113,
+      "pct_girls_toilets": 96.4603707487958,
+      "num_schools": 27404,
+      "infrastructure_index": 86.97909064370165,
+      "year": 2023
+    },
+    {
+      "state": "Rajasthan",
+      "pct_electricity_functional": 90.29018996445707,
+      "pct_internet": 68.3333797340312,
+      "pct_library": 72.5734755050716,
+      "pct_girls_toilets": 85.34573159980326,
+      "num_schools": 107757,
+      "infrastructure_index": 79.13569420084079,
+      "year": 2023
+    },
+    {
+      "state": "Sikkim",
+      "pct_electricity_functional": 96.96969696969697,
+      "pct_internet": 46.81020733652312,
+      "pct_library": 64.67304625199361,
+      "pct_girls_toilets": 90.66985645933015,
+      "num_schools": 1254,
+      "infrastructure_index": 74.78070175438596,
+      "year": 2023
+    },
+    {
+      "state": "Tamil Nadu",
+      "pct_electricity_functional": 98.95098940771771,
+      "pct_internet": 98.95098940771771,
+      "pct_library": 98.95098940771771,
+      "pct_girls_toilets": 93.77745989578011,
+      "num_schools": 58722,
+      "infrastructure_index": 97.65760702973331,
+      "year": 2023
+    },
+    {
+      "state": "Telangana",
+      "pct_electricity_functional": 92.15402904361204,
+      "pct_internet": 39.89184401296007,
+      "pct_library": 85.60639612130252,
+      "pct_girls_toilets": 87.95366075382857,
+      "num_schools": 42901,
+      "infrastructure_index": 76.4014824829258,
+      "year": 2023
+    },
+    {
+      "state": "Tripura",
+      "pct_electricity_functional": 76.13243956936827,
+      "pct_internet": 35.263050985171645,
+      "pct_library": 31.647369490148286,
+      "pct_girls_toilets": 73.73552711761121,
+      "num_schools": 4923,
+      "infrastructure_index": 54.194596790574856,
+      "year": 2023
+    },
+    {
+      "state": "Uttar Pradesh",
+      "pct_electricity_functional": 84.66327174650218,
+      "pct_internet": 38.553905138246954,
+      "pct_library": 79.06635775245309,
+      "pct_girls_toilets": 93.17879782191957,
+      "num_schools": 255087,
+      "infrastructure_index": 73.86558311478045,
+      "year": 2023
+    },
+    {
+      "state": "Uttarakhand",
+      "pct_electricity_functional": 90.23103188328678,
+      "pct_internet": 68.537980577358,
+      "pct_library": 91.62786572657532,
+      "pct_girls_toilets": 86.098177464414,
+      "num_schools": 22551,
+      "infrastructure_index": 84.12376391290852,
+      "year": 2023
+    },
+    {
+      "state": "West Bengal",
+      "pct_electricity_functional": 97.00995263185906,
+      "pct_internet": 17.47192506253659,
+      "pct_library": 78.26387780084092,
+      "pct_girls_toilets": 98.84081111288519,
+      "num_schools": 93945,
+      "infrastructure_index": 72.89664165203044,
+      "year": 2023
+    }
+  ],
+  "2024": [
+    {
+      "state": "Andaman and Nicobar",
+      "pct_electricity_functional": 92.15686274509804,
+      "pct_internet": 64.70588235294117,
+      "pct_library": 99.01960784313727,
+      "pct_girls_toilets": 99.26470588235294,
+      "num_schools": 408,
+      "infrastructure_index": 88.78676470588236,
+      "year": 2024
+    },
+    {
+      "state": "Andhra Pradesh",
+      "pct_electricity_functional": 99.65099401471043,
+      "pct_internet": 99.04431071317904,
+      "pct_library": 99.95270479638599,
+      "pct_girls_toilets": 97.50803203026894,
+      "num_schools": 61317,
+      "infrastructure_index": 99.03901038863611,
+      "year": 2024
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "pct_electricity_functional": 62.341282130690615,
+      "pct_internet": 33.63270362341282,
+      "pct_library": 30.28801486528337,
+      "pct_girls_toilets": 73.33539795602354,
+      "num_schools": 3229,
+      "infrastructure_index": 49.89934964385259,
+      "year": 2024
+    },
+    {
+      "state": "Assam",
+      "pct_electricity_functional": 88.8012589765389,
+      "pct_internet": 87.18955194182661,
+      "pct_library": 81.68876508148979,
+      "pct_girls_toilets": 88.67282889857641,
+      "num_schools": 55283,
+      "infrastructure_index": 86.58810122460794,
+      "year": 2024
+    },
+    {
+      "state": "Bihar",
+      "pct_electricity_functional": 97.07438069091256,
+      "pct_internet": 84.83765992855552,
+      "pct_library": 53.62999395796012,
+      "pct_girls_toilets": 97.727345000477,
+      "num_schools": 94339,
+      "infrastructure_index": 83.3173448944763,
+      "year": 2024
+    },
+    {
+      "state": "Chandigarh",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 99.51690821256038,
+      "num_schools": 207,
+      "infrastructure_index": 99.8792270531401,
+      "year": 2024
+    },
+    {
+      "state": "Chhattisgarh",
+      "pct_electricity_functional": 90.94222034435407,
+      "pct_internet": 64.27766627935637,
+      "pct_library": 95.92091827752543,
+      "pct_girls_toilets": 87.46699059892258,
+      "num_schools": 56802,
+      "infrastructure_index": 84.65194887503961,
+      "year": 2024
+    },
+    {
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 99.53810623556582,
+      "pct_library": 99.53810623556582,
+      "pct_girls_toilets": 99.30715935334872,
+      "num_schools": 433,
+      "infrastructure_index": 99.59584295612008,
+      "year": 2024
+    },
+    {
+      "state": "Delhi",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 99.98200143988481,
+      "pct_girls_toilets": 84.93520518358531,
+      "num_schools": 5556,
+      "infrastructure_index": 96.22930165586753,
+      "year": 2024
+    },
+    {
+      "state": "Goa",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 93.23867478025693,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 99.32386747802569,
+      "num_schools": 1479,
+      "infrastructure_index": 98.14063556457066,
+      "year": 2024
+    },
+    {
+      "state": "Gujarat",
+      "pct_electricity_functional": 99.89129416174679,
+      "pct_internet": 96.54952675475587,
+      "pct_library": 93.68006747258926,
+      "pct_girls_toilets": 93.7587854933933,
+      "num_schools": 53355,
+      "infrastructure_index": 95.96991847062131,
+      "year": 2024
+    },
+    {
+      "state": "Haryana",
+      "pct_electricity_functional": 99.95317953520048,
+      "pct_internet": 78.9095088107602,
+      "pct_library": 96.96943900570358,
+      "pct_girls_toilets": 97.86328424278538,
+      "num_schools": 23494,
+      "infrastructure_index": 93.42385289861241,
+      "year": 2024
+    },
+    {
+      "state": "Himachal Pradesh",
+      "pct_electricity_functional": 99.03635314483554,
+      "pct_internet": 63.537218695903064,
+      "pct_library": 98.10155799192152,
+      "pct_girls_toilets": 98.77091748413156,
+      "num_schools": 17330,
+      "infrastructure_index": 89.86151182919792,
+      "year": 2024
+    },
+    {
+      "state": "Jammu and Kashmir",
+      "pct_electricity_functional": 87.18998015873017,
+      "pct_internet": 49.11954365079365,
+      "pct_library": 55.74983465608465,
+      "pct_girls_toilets": 83.5978835978836,
+      "num_schools": 24192,
+      "infrastructure_index": 68.91431051587301,
+      "year": 2024
+    },
+    {
+      "state": "Jharkhand",
+      "pct_electricity_functional": 92.651433207139,
+      "pct_internet": 57.947989904452854,
+      "pct_library": 92.88579412294933,
+      "pct_girls_toilets": 95.2879935100054,
+      "num_schools": 44376,
+      "infrastructure_index": 84.69330268613665,
+      "year": 2024
+    },
+    {
+      "state": "Karnataka",
+      "pct_electricity_functional": 98.27809615410304,
+      "pct_internet": 50.656567680572806,
+      "pct_library": 97.34300484911634,
+      "pct_girls_toilets": 97.67963771891155,
+      "num_schools": 74859,
+      "infrastructure_index": 85.98932660067594,
+      "year": 2024
+    },
+    {
+      "state": "Kerala",
+      "pct_electricity_functional": 99.746144570667,
+      "pct_internet": 91.65450276067779,
+      "pct_library": 96.61103001840452,
+      "pct_girls_toilets": 99.11785238306784,
+      "num_schools": 15757,
+      "infrastructure_index": 96.78238243320428,
+      "year": 2024
+    },
+    {
+      "state": "Ladakh",
+      "pct_electricity_functional": 76.37877211238293,
+      "pct_internet": 50.78043704474505,
+      "pct_library": 90.42663891779397,
+      "pct_girls_toilets": 85.53590010405827,
+      "num_schools": 961,
+      "infrastructure_index": 75.78043704474506,
+      "year": 2024
+    },
+    {
+      "state": "Lakshadweep",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 100.0,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 100.0,
+      "num_schools": 36,
+      "infrastructure_index": 100.0,
+      "year": 2024
+    },
+    {
+      "state": "Madhya Pradesh",
+      "pct_electricity_functional": 87.78578447428758,
+      "pct_internet": 45.745987553226335,
+      "pct_library": 97.72273173927285,
+      "pct_girls_toilets": 87.18227972486079,
+      "num_schools": 122120,
+      "infrastructure_index": 79.60919587291188,
+      "year": 2024
+    },
+    {
+      "state": "Maharashtra",
+      "pct_electricity_functional": 88.86836027713626,
+      "pct_internet": 72.13302540415705,
+      "pct_library": 93.37274826789839,
+      "pct_girls_toilets": 92.63094688221709,
+      "num_schools": 108250,
+      "infrastructure_index": 86.75127020785219,
+      "year": 2024
+    },
+    {
+      "state": "Manipur",
+      "pct_electricity_functional": 63.26618088298328,
+      "pct_internet": 36.62666095156451,
+      "pct_library": 23.767681097299615,
+      "pct_girls_toilets": 73.91770252893271,
+      "num_schools": 4666,
+      "infrastructure_index": 49.39455636519503,
+      "year": 2024
+    },
+    {
+      "state": "Meghalaya",
+      "pct_electricity_functional": 28.072941660382533,
+      "pct_internet": 26.448207307876874,
+      "pct_library": 18.56447521765956,
+      "pct_girls_toilets": 68.41708370466854,
+      "num_schools": 14587,
+      "infrastructure_index": 35.37567697264688,
+      "year": 2024
+    },
+    {
+      "state": "Mizoram",
+      "pct_electricity_functional": 80.34725717161551,
+      "pct_internet": 64.92199295420231,
+      "pct_library": 53.472571716155,
+      "pct_girls_toilets": 77.88122798188223,
+      "num_schools": 3974,
+      "infrastructure_index": 69.15576245596375,
+      "year": 2024
+    },
+    {
+      "state": "Nagaland",
+      "pct_electricity_functional": 78.18181818181819,
+      "pct_internet": 58.98181818181818,
+      "pct_library": 69.96363636363637,
+      "pct_girls_toilets": 80.5090909090909,
+      "num_schools": 2750,
+      "infrastructure_index": 71.9090909090909,
+      "year": 2024
+    },
+    {
+      "state": "Orissa",
+      "pct_electricity_functional": 96.91383091041989,
+      "pct_internet": 83.79436368066271,
+      "pct_library": 99.80021115893771,
+      "pct_girls_toilets": 97.38000487289857,
+      "num_schools": 61565,
+      "infrastructure_index": 94.47210265572971,
+      "year": 2024
+    },
+    {
+      "state": "Puducherry",
+      "pct_electricity_functional": 100.0,
+      "pct_internet": 99.60681520314549,
+      "pct_library": 100.0,
+      "pct_girls_toilets": 96.46133682830931,
+      "num_schools": 763,
+      "infrastructure_index": 99.0170380078637,
+      "year": 2024
+    },
+    {
+      "state": "Punjab",
+      "pct_electricity_functional": 99.92668890436568,
+      "pct_internet": 88.88603790183645,
+      "pct_library": 78.59316007477732,
+      "pct_girls_toilets": 97.14086727026135,
+      "num_schools": 27281,
+      "infrastructure_index": 91.1366885378102,
+      "year": 2024
+    },
+    {
+      "state": "Rajasthan",
+      "pct_electricity_functional": 91.3200127937386,
+      "pct_internet": 69.9497657616978,
+      "pct_library": 74.1312487065154,
+      "pct_girls_toilets": 85.85915598953923,
+      "num_schools": 106302,
+      "infrastructure_index": 80.31504581287277,
+      "year": 2024
+    },
+    {
+      "state": "Sikkim",
+      "pct_electricity_functional": 97.0281124497992,
+      "pct_internet": 51.64658634538153,
+      "pct_library": 69.39759036144578,
+      "pct_girls_toilets": 90.68273092369478,
+      "num_schools": 1245,
+      "infrastructure_index": 77.18875502008032,
+      "year": 2024
+    },
+    {
+      "state": "Tamil Nadu",
+      "pct_electricity_functional": 99.59264693190644,
+      "pct_internet": 84.94174505911798,
+      "pct_library": 96.37524812289635,
+      "pct_girls_toilets": 92.62104082161042,
+      "num_schools": 57935,
+      "infrastructure_index": 93.3826702338828,
+      "year": 2024
+    },
+    {
+      "state": "Telangana",
+      "pct_electricity_functional": 95.14529359966632,
+      "pct_internet": 63.28266209389628,
+      "pct_library": 87.70913472679241,
+      "pct_girls_toilets": 91.38202715854845,
+      "num_schools": 43154,
+      "infrastructure_index": 84.37977939472586,
+      "year": 2024
+    },
+    {
+      "state": "Tripura",
+      "pct_electricity_functional": 79.95144648998583,
+      "pct_internet": 41.654865466316004,
+      "pct_library": 33.19846247218288,
+      "pct_girls_toilets": 74.79263605098119,
+      "num_schools": 4943,
+      "infrastructure_index": 57.39935261986648,
+      "year": 2024
+    },
+    {
+      "state": "Uttar Pradesh",
+      "pct_electricity_functional": 86.03168190030416,
+      "pct_internet": 45.916267085432885,
+      "pct_library": 78.49350886955992,
+      "pct_girls_toilets": 92.68709168388233,
+      "num_schools": 262358,
+      "infrastructure_index": 75.78213738479482,
+      "year": 2024
+    },
+    {
+      "state": "Uttarakhand",
+      "pct_electricity_functional": 94.303402814894,
+      "pct_internet": 72.31427044361304,
+      "pct_library": 91.85373240691253,
+      "pct_girls_toilets": 90.1835025832888,
+      "num_schools": 22452,
+      "infrastructure_index": 87.16372706217709,
+      "year": 2024
+    },
+    {
+      "state": "West Bengal",
+      "pct_electricity_functional": 97.10078429280264,
+      "pct_internet": 18.61068132102652,
+      "pct_library": 69.95678386597663,
+      "pct_girls_toilets": 98.66083337779438,
+      "num_schools": 93715,
+      "infrastructure_index": 71.08227071440004,
+      "year": 2024
+    }
+  ]
+}

@@ -8,6 +8,19 @@
   },
   "width": 600,
   "height": 700,
+  "params": [
+    {
+      "name": "year_select",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2022,
+        "max": 2024,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
   "data": {
     "url": "https://raw.githubusercontent.com/rheapy/rheapy.github.io/refs/heads/main/India_states.json",
     "format": {"type": "json", "property": "features"}
@@ -17,17 +30,29 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/state_infrastructure_index.json"
+          "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/charts/state_infrastructure_2021_2024.json"
         },
         "key": "state",
         "fields": [
+          "year",
           "infrastructure_index",
           "pct_electricity_functional",
           "pct_internet",
           "pct_library",
           "pct_girls_toilets"
         ]
-      }
+      },
+      "as": [
+        "data_year",
+        "infrastructure_index",
+        "pct_electricity_functional",
+        "pct_internet",
+        "pct_library",
+        "pct_girls_toilets"
+      ]
+    },
+    {
+      "filter": "datum.data_year == year_select"
     }
   ],
   "projection": {"type": "mercator"},
@@ -49,6 +74,7 @@
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "State"},
+      {"field": "data_year", "type": "quantitative", "title": "Year"},
       {
         "field": "infrastructure_index",
         "type": "quantitative",
