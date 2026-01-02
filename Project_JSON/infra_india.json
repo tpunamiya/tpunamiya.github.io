@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "School Infrastructure Index by State (2022-2024)",
+    "text": "School Infrastructure Index by State, 2022-2024",
     "fontSize": 16,
     "subtitle": "Composite score: Electricity, Internet, Libraries, Girls' toilets",
     "subtitleFontSize": 11
