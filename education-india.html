@@ -52,16 +52,14 @@
         <div class="logo">Trisha Punamiya</div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About</a></li>
             <li><a href="education-india.html">Project</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="https://drive.google.com/file/d/1nNJHfe0q85dytv18BDmog6hjr2HVUPtz/view?usp=sharing">CV</a></li>
         </ul>
     </div>
 </nav>
     <header>
         <h1 class="big">Educational Disparities Across India</h1>
-        <p class="subtitle">Analyzing UDISE+ Data to Uncover Inequalities in Access and Outcomes</p>
+        <p class="subtitle">Analyzing UDISE+ and ASER Survey Data to Uncover Inequalities in Access and Outcomes</p>
     </header>
 
     <div class="intro">
@@ -182,16 +180,24 @@
         <p class="source"><em>Source: UDISE+ 2024 (Enrollment & Teachers), ASER 2024 (Learning Outcomes)</em></p>
     </section>
 
-    <section>
-        <h2>State Similarity Network</h2>
-        <div class="chart-description">
-            <p>We examine whether better school infrastructure and lower student-teacher ratios correlate with improved learning outcomes across Indian states. Surprisingly, the data reveals weak correlations, suggesting that simply investing in facilities or reducing class sizes does not automatically translate to better educational results.</p>
+   <section>
+    <h2>State Similarity Network: Uncovering Education System Archetypes</h2>
+    
+    <div class="chart-description">
+        <p>Using hierarchical clustering on five education metrics—reading proficiency, math proficiency, infrastructure quality, student-teacher ratio, and rural school percentage—we identified five distinct state archetypes. The network reveals which states share similar education profiles and could benefit from shared policy solutions. Edge thickness represents similarity strength, and connections appear only when states exceed 70% similarity across all dimensions.</p>
+        
+        <div class="key-finding">
+            <strong>Key Finding:</strong> Geographic neighbors often have vastly different education systems. Southern states (Andhra Pradesh, Gujarat, Karnataka, Kerala, Maharashtra, Tamil Nadu, Telangana) cluster together despite excellent infrastructure (91.8/100)—they share the challenge of converting resources into learning outcomes. Meanwhile, distant states like Himachal Pradesh and Mizoram cluster based on shared success patterns, not proximity.
         </div>
-        <div class="chart-row">
-            <figure id="network_chart"></figure>
+        
+        <div class="stat-highlight">
+            <strong>The Infrastructure Paradox:</strong> The seven southern and western states possess India's best school infrastructure yet deliver the poorest reading outcomes (67.6% vs 85.2% for top performers). In contrast, the "Best-in-Class Performers" achieve excellence with moderate resources, while Bihar, Jharkhand, and Uttar Pradesh—facing extreme overcrowding (55:1 student-teacher ratio)—outperform well-resourced states in mathematics. This suggests pedagogy and teaching quality matter more than facilities or class size.
         </div>
-        <p class="source"><em>Source: UDISE+ 2024 (Infrastructure), ASER 2024 (Learning Outcomes)</em></p>
-    </section>
+    </div>
+
+    <figure id="network_chart"></figure>
+    <p class="source"><em>Source: UDISE+ 2024 (Infrastructure & Enrollment), ASER 2024 (Learning Outcomes) | Method: Hierarchical clustering (Ward linkage), similarity threshold = 70%</em></p>
+</section>
 
     <section>
         <h2>Conclusion</h2>
