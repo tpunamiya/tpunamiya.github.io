@@ -183,6 +183,17 @@
     </section>
 
     <section>
+        <h2>Infrastructure & Class Size: Do They Matter for Learning?</h2>
+        <div class="chart-description">
+            <p>We examine whether better school infrastructure and lower student-teacher ratios correlate with improved learning outcomes across Indian states. Surprisingly, the data reveals weak correlations, suggesting that simply investing in facilities or reducing class sizes does not automatically translate to better educational results.</p>
+        </div>
+        <div class="chart-row">
+            <figure id="network_chart"></figure>
+        </div>
+        <p class="source"><em>Source: UDISE+ 2024 (Infrastructure), ASER 2024 (Learning Outcomes)</em></p>
+    </section>
+
+    <section>
         <h2>Conclusion</h2>
         <div class="chart-description">
             <p>The data reveals persistent educational disparities across India's states, with significant variations in gender parity, rural-urban access, and enrollment across social categories. Addressing these inequalities requires targeted policy interventions that account for regional differences and systemic barriers to education access.</p>
@@ -200,6 +211,7 @@
         let chart3_spec = "Project_JSON/infra_india.json";
         let chart4_spec = "Project_JSON/enrollment_chart.json";
         let chart5_spec = "Project_JSON/aser_learning_outcomes_heatmap.json";
+        let network_chart = "charts/state_network_altair.json";
         
          // NEW: Correlation chart specifications
         let infra_reading_spec = "charts/infrastructure_vs_reading_2024.json";
@@ -232,6 +244,7 @@ const correlationConfig = {
         vegaEmbed('#chart3', chart3_spec, embedConfig);
         vegaEmbed('#chart4', chart4_spec, embedConfigNoSize);
         vegaEmbed('#chart5', chart5_spec, embedConfigNoSize);
+        vegaEmbed('#network_chart', network_chart, embedConfigNoSize);
 
          // NEW: Embed correlation charts
         vegaEmbed('#infra_reading_chart', infra_reading_spec, correlationConfig);

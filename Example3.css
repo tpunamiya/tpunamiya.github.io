@@ -444,3 +444,7 @@ section:has(#chart5) {
 #chart5 {
     margin-bottom: 0 !important;
 }
+#network_chart {
+    display: flex;
+    justify-content: center;
+}
