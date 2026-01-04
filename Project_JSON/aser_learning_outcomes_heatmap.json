@@ -120,11 +120,11 @@
     "width": 300
   },
   "title": {
-    "text": "ASER 2024: Learning Outcomes Across Indian States",
-    "subtitle": "Reading: % who can read Std II text | Math: Std III = Subtraction, Std V & VIII = Division",
+    "text": "Learning Outcomes Across Indian States, 2024",
+    "subtitle": "Reading: % who can read Std II text (across all Standards) | Math: Std III = Subtraction, Std V & VIII = Division",
     "fontSize": 18,
     "fontWeight": "bold",
-    "anchor": "middle"
+    "anchor": "start"
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {

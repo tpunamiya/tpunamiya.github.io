@@ -1,262 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educational Disparities Across India | Trisha Punamiya</title>
-    
-    <!-- Link to external CSS file -->
-    <link rel="stylesheet" type="text/css" href="Example3.css">
-    
-    <!-- Vega-Lite -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    
-    <style>
-        /* Styled boxes for visual polish */
-        .stat-highlight {
-            background: #f0f9ff;
-            border-left: 4px solid #3498db;
-            padding: 15px 20px;
-            margin: 20px 0;
-            border-radius: 4px;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Educational Disparities Across India | Trisha Punamiya</title>
+<!-- Link to external CSS file -->
+<link rel="stylesheet" type="text/css" href="Example3.css">
+<!-- Vega-Lite -->
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<style>
+/* Styled boxes for visual polish */
+.stat-highlight {
+background: #f0f9ff;
+border-left: 4px solid #3498db;
+padding: 15px 20px;
+margin: 20px 0;
+border-radius: 4px;
         }
-
-        .key-finding {
-            background: #f0fdf4;
-            border-left: 4px solid #065f46;
-            padding: 15px 20px;
-            margin: 20px 0;
-            border-radius: 4px;
+.key-finding {
+background: #f0fdf4;
+border-left: 4px solid #065f46;
+padding: 15px 20px;
+margin: 20px 0;
+border-radius: 4px;
         }
-
-        .methodology {
-            background: #fef3c7;
-            border-left: 4px solid #f59e0b;
-            padding: 15px 20px;
-            margin: 20px 0;
-            border-radius: 4px;
-            font-size: 0.95em;
+.methodology {
+background: #ffffff;
+border-left: 4px solid #f59e0b;
+padding: 15px 20px;
+margin: 20px 0;
+border-radius: 4px;
+font-size: 0.95em;
         }
-
-        /* Chart spacing fix */
-        #chart5 {
-            margin-bottom: 0 !important;
+/* Chart spacing fix */
+#chart5 {
+margin-bottom: 0 !important;
         }
-    </style>
+/* Section dividers */
+section hr {
+margin: 40px 0;
+border: none;
+border-top: 2px solid #e5e7eb;
+        }
+</style>
 </head>
 <body>
-    <nav>
-    <div class="nav-container">
-        <div class="logo">Trisha Punamiya</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="education-india.html">Project</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-    </div>
+<nav>
+<div class="nav-container">
+<div class="logo">Trisha Punamiya</div>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="education-india.html">Project</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+</ul>
+</div>
 </nav>
-    <header>
-        <h1 class="big">Educational Disparities Across India</h1>
-        <p class="subtitle">Analyzing UDISE+ and ASER Survey Data to Uncover Inequalities in Access and Outcomes</p>
-    </header>
+<header>
+<h1 class="big">Educational Disparities Across India</h1>
+<p class="subtitle">Analyzing UDISE+ and ASER Survey Data to Uncover Inequalities in Access and Outcomes</p>
+</header>
+<div class="intro">
+<h2>Project Overview</h2>
+<p>This project examines educational disparities across India using data from UDISE+ (Unified District Information System for Education Plus) and other sources. Through a series of data visualizations, we explore patterns of inequality across geographic, gender, and socioeconomic dimensions to understand the challenges facing India's education system.</p>
+<p><strong>Key Questions:</strong> How do enrollment rates vary across Indian states? What gender disparities exist in education access? How do rural and urban areas compare in educational outcomes?</p>
+</div>
 
-    <div class="intro">
-        <h2>Project Overview</h2>
-        <p>This project examines educational disparities across India using data from UDISE+ (Unified District Information System for Education Plus) and other sources. Through a series of data visualizations, we explore patterns of inequality across geographic, gender, and socioeconomic dimensions to understand the challenges facing India's education system.</p>
-        <p><strong>Key Questions:</strong> How do enrollment rates vary across Indian states? What gender disparities exist in education access? How do rural and urban areas compare in educational outcomes?</p>
-    </div>
-
-    <!-- Chart 1: Gender Gap by State -->
-    <section>
-        <h2>Gender Gap in School Enrollment</h2>
-        <div class="chart-description">
-            <p>This diverging bar chart reveals significant gender disparities in school enrollment across Indian states. The horizontal bars show the percentage point difference between girls' and boys' enrollment rates. States like Haryana and Punjab show substantial gaps favoring boys (green bars extending left), indicating fewer girls enrolled relative to boys. In contrast, southern states like Kerala and Tamil Nadu approach gender parity or show slight advantages for girls (purple bars extending right).</p>
+<!-- DATA SECTION -->
+<div class="methodology">
+<h2>Data</h2>
+<p>The data used for this project comes from 3 sources:</p>
+<p><strong>1) UDISE+ (Unified District Information System for Education Plus):</strong> This comprehensive database provides school-level information across India, including enrollment statistics by gender and location, infrastructure metrics (electricity, internet, libraries, toilets), and student-teacher ratios. The data covers the period 2021-2024 and represents nearly all schools in India.</p>
             
-            <div class="key-finding">
-                <strong>Key Finding:</strong> Northern states exhibit the most pronounced gender gaps (up to 7 percentage points), while southern and northeastern states demonstrate greater gender parity in education access. Use the year slider to observe how these patterns have evolved from 2022 to 2024.
-            </div>
-        </div>
-        <figure id="gender_gap_chart"></figure>
-        <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2022-2024)</em></p>
-    </section>
-
-    <!-- Chart 2: Enrollment Pyramid -->
-    <section>
-        <h2>Educational Progression and Dropout Patterns</h2>
-        <div class="chart-description">
-            <p>This visualization examines enrollment patterns by gender across different states, revealing where students are concentrated in the education system and how gender ratios vary by region. The chart allows comparison of boys' and girls' enrollment numbers across states, highlighting both absolute enrollment levels and gender balance.</p>
+<p><strong>2) ASER (Annual Status of Education Report) 2024:</strong> Conducted by Pratham, ASER is India's largest citizen-led survey measuring children's learning outcomes. It assesses basic reading (ability to read Standard II level text) and arithmetic (ability to perform division) skills across Standards III, V, and VIII in rural India.</p>
             
-            <div class="key-finding">
-                <strong>Key Finding:</strong> Large populous states like Uttar Pradesh, Bihar, and West Bengal dominate enrollment numbers in absolute terms, but the gender composition varies significantly. States with higher overall enrollment don't necessarily have better gender parity—some high-enrollment states still show substantial gender gaps, while smaller states may achieve better balance.
-            </div>
-        </div>
-        <figure id="enrollment_pyramid_chart"></figure>
-        <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2022-2024)</em></p>
-    </section>
+<p><strong>3) Census of India:</strong> Population and demographic data used to contextualize enrollment figures and calculate rates.</p>
 
-    <!-- Chart 3: Rural vs Urban Educational Access -->
-    <section>
-        <h2>School Type Distribution: Rural vs Urban Divide</h2>
-        <div class="chart-description">
-            <p>This area chart reveals stark differences in school type distribution between rural and urban areas across India. The visualization shows what percentage of total enrollment each school type (State Government, Central Government, Government Aided, Private Unaided, and Other) comprises in rural versus urban settings from 2021-2024.</p>
+<!-- ANALYTICAL CHALLENGES SECTION -->
+<h2>Analytical Challenges</h2>
+<p>The biggest challenges in this project were the following:</p>
             
-            <div class="key-finding">
-                <strong>Key Finding:</strong> Rural areas remain heavily dominated by state government schools (approximately 65% of enrollment), while urban areas show a much more diverse landscape with private unaided schools comprising nearly 60% of enrollment. This disparity highlights the urban-rural divide in school choice and access to private education.
-            </div>
+<p><strong>1) Data integration across multiple sources:</strong> Combining UDISE+ enrollment data with ASER learning outcomes required careful alignment of state names, time periods, and measurement units. Some states had missing data for certain years, requiring interpolation or exclusion from specific analyses.</p>
             
-            <div class="stat-highlight">
-                <strong>Urban Trend:</strong> Private unaided schools have grown from about 65% to 73% of urban enrollment between 2021-2024, suggesting increasing privatization of urban education. In contrast, rural private school enrollment has remained relatively stable at around 25%.
-            </div>
+<p><strong>2) Creating meaningful composite indices:</strong> The infrastructure quality index required normalizing and weighting four different metrics (electricity, internet, libraries, toilets) to create a single comparable measure across states. Determining appropriate weights and handling missing facilities data presented methodological challenges.</p>
             
-            <p>Use the state dropdown to explore variations across different states. Some states show dramatically different patterns—certain urban areas have almost entirely privatized, while others maintain stronger government school systems.</p>
-        </div>
-        <figure id="chart4"></figure>
-        <p class="source"><em>Source: UDISE+ India, School Enrollment Data (2021-2024)</em></p>
-    </section>
+<p><strong>3) Visualization of multidimensional relationships:</strong> Displaying relationships between infrastructure, learning outcomes, gender, location, and time required careful selection of visualization types. I used choropleth maps for geographic patterns, heatmaps for comparing learning outcomes across states and standards, scatter plots for correlations, and network diagrams for state similarity clustering.</p>
+            
+<p><strong>4) Clustering states into meaningful archetypes:</strong> Using hierarchical clustering on five education metrics required normalizing different scales (percentages, ratios, index scores) and determining the optimal number of clusters that revealed genuinely distinct state profiles rather than arbitrary divisions.</p>
+</div>
 
-    <!-- Chart 4: School Infrastructure by State -->
-    <section>
-        <h2>School Infrastructure Quality Across States</h2>
-        <div class="chart-description">
-            <p>This choropleth map visualizes the composite infrastructure index across Indian states for 2022-2024. The index combines four key metrics: electricity availability, internet connectivity, library access, and functional girls' toilets. Darker shades of green indicate better infrastructure, while lighter shades reveal states with significant infrastructure gaps.</p>
-            
-            <div class="key-finding">
-                <strong>Key Finding:</strong> A clear geographic pattern emerges, with southern states (Kerala, Karnataka, Tamil Nadu, Telangana) and western states (Gujarat, Maharashtra) showing infrastructure scores above 80%, while several northeastern states lag behind with scores below 50%. This geographic pattern suggests systematic regional disparities in educational investment and development.
-            </div>
-            
-            <p>The map reveals that infrastructure quality does not perfectly predict learning outcomes (as shown in our correlation analysis below). States like Himachal Pradesh achieve excellent learning outcomes despite moderate infrastructure scores, while some well-resourced states show lower student performance—suggesting that how resources are used matters as much as their availability.</p>
-        </div>
-        <figure id="chart3"></figure>
-        <p class="source"><em>Source: UDISE+ India, School Infrastructure Data (2022-2024)</em></p>
-    </section>
+<!-- SECTION I: ACCESS & ENROLLMENT DISPARITIES -->
+<section>
+<h2 style="font-size: 2em; margin-bottom: 30px;">I. Access & Enrollment Disparities</h2>
 
-    <!-- Chart 5: State-wise Literacy Rates -->
-    <section>
-        <h2>Learning Outcomes Across Standards and States</h2>
-        <div class="chart-description">
-            <p>This dual heatmap displays proficiency levels in reading and mathematics across three critical grade levels—Standard III, V, and VIII—for all major Indian states. The data comes from ASER 2024 (Annual Status of Education Report), which tests foundational competencies: reading comprehension at Standard II level for the reading assessment, and mathematical ability to perform subtraction (Std III) or division (Std V & VIII) for the math assessment.</p>
-            
-            <div class="key-finding">
-                <strong>Key Finding:</strong> A clear performance hierarchy emerges across states. Himachal Pradesh, Mizoram, Punjab, and Kerala consistently achieve the highest proficiency rates (70-90% at Std VIII for reading), while states like Telangana, Karnataka, and Tamil Nadu show concerning patterns with less than 35% of Std V students achieving basic reading competency. The math proficiency crisis is even more severe—most states show fewer than 40% of Std V students able to perform basic division.
-            </div>
-            
-            <div class="stat-highlight">
-                <strong>The Learning Crisis:</strong> Even at Standard VIII (equivalent to 8th grade), states like Assam, Andhra Pradesh, and Jammu & Kashmir show reading proficiency rates below 66%, meaning one-third of eighth graders cannot read a second-grade level text. For mathematics, the situation is starker—states like Gujarat, Assam, and Meghalaya have division proficiency rates below 30% at Std VIII.
-            </div>
-            
-            <p><strong>Notable Patterns:</strong></p>
-            <ul>
-                <li><strong>Progressive vs. Stagnant Learning:</strong> Reading proficiency generally improves substantially from Std III to Std VIII (gains of 30-50 percentage points), but mathematical proficiency shows much smaller gains (10-20 points), suggesting mathematics instruction faces unique systemic challenges.</li>
-                <li><strong>Subject Disparities:</strong> Most states perform relatively better in reading than in mathematics. For instance, Haryana shows 82.7% reading proficiency at Std VIII but only 56.4% for division—a 26-point gap.</li>
-                <li><strong>Regional Patterns:</strong> Northern states (Himachal Pradesh, Punjab, Haryana) and northeastern states (Mizoram, Nagaland, Sikkim) outperform the national average, while several southern states surprisingly lag despite better infrastructure.</li>
-            </ul>
-        </div>
-        <figure id="chart5"></figure>
-        <p class="source"><em>Source: ASER 2024 (Annual Status of Education Report)</em></p>
-    </section>
+<h2>Gender Gap in School Enrollment</h2>
+<div class="chart-description">
+<p>This diverging bar chart reveals significant gender disparities in school enrollment across Indian states. The horizontal bars show the percentage point difference between girls' and boys' enrollment rates. States like Haryana and Punjab show substantial gaps favoring boys (green bars extending left), indicating fewer girls enrolled relative to boys. In contrast, southern states like Kerala and Tamil Nadu approach gender parity or show slight advantages for girls (purple bars extending right).</p>
+<div class="key-finding">
+<strong>Key Finding:</strong> Northern states exhibit the most pronounced gender gaps (up to 7 percentage points), while southern and northeastern states demonstrate greater gender parity in education access. The gender gap pronounces to be reducing over 2022-2024.
+</div>
+</div>
+<figure id="gender_gap_chart"></figure>
 
-    <!--Correlation Charts -->
-    <section>
-        <h2>Infrastructure & Class Size: Do They Matter for Learning?</h2>
-        <div class="chart-description">
-            <p>We examine whether better school infrastructure and lower student-teacher ratios correlate with improved learning outcomes across Indian states. Surprisingly, the data reveals weak correlations, suggesting that simply investing in facilities or reducing class sizes does not automatically translate to better educational results.</p>
-            <p><strong>Key Finding:</strong> Neither infrastructure quality nor student-teacher ratios show significant correlation with learning outcomes (all r < 0.22, p > 0.28). States with the highest infrastructure scores do not necessarily achieve the best results, pointing to other factors—such as teacher quality, curriculum effectiveness, and socioeconomic conditions—as more critical determinants of educational success.</p>
-        </div>
+<h2>Educational Progression and Dropout Patterns</h2>
+<div class="chart-description">
+<p>This visualization examines enrollment patterns by gender across different states, revealing where students are concentrated in the education system and how gender ratios vary by region.</p>
+<div class="key-finding">
+<strong>Key Finding:</strong> Enrollment drops dramatically between Class 10 and Class 11 nationwide, and across individual states. The patterns remain similar for both women and men. Use the state dropdown to explore regional differences in dropout patterns.
+</div>
+</div>
+<figure id="enrollment_pyramid_chart"></figure>
 
-        <h3>School Infrastructure vs Learning Outcomes (2024)</h3>
-        <div class="chart-row">
-            <figure id="infra_reading_chart"></figure>
-            <figure id="infra_math_chart"></figure>
-        </div>
-        <p class="source"><em>Source: UDISE+ 2024 (Infrastructure), ASER 2024 (Learning Outcomes)</em></p>
-
-        <h3>Student-Teacher Ratio vs Learning Outcomes (2024)</h3>
-        <div class="chart-row">
-            <figure id="str_reading_chart"></figure>
-            <figure id="str_math_chart"></figure>
-        </div>
-        <p class="source"><em>Source: UDISE+ 2024 (Enrollment & Teachers), ASER 2024 (Learning Outcomes)</em></p>
-    </section>
-
-   <section>
-    <h2>State Similarity Network: Uncovering Education System Archetypes</h2>
-    
-    <div class="chart-description">
-        <p>Using hierarchical clustering on five education metrics—reading proficiency, math proficiency, infrastructure quality, student-teacher ratio, and rural school percentage—we identified five distinct state archetypes. The network reveals which states share similar education profiles and could benefit from shared policy solutions. Edge thickness represents similarity strength, and connections appear only when states exceed 70% similarity across all dimensions.</p>
-        
-        <div class="key-finding">
-            <strong>Key Finding:</strong> Geographic neighbors often have vastly different education systems. Southern states (Andhra Pradesh, Gujarat, Karnataka, Kerala, Maharashtra, Tamil Nadu, Telangana) cluster together despite excellent infrastructure (91.8/100)—they share the challenge of converting resources into learning outcomes. Meanwhile, distant states like Himachal Pradesh and Mizoram cluster based on shared success patterns, not proximity.
-        </div>
-        
-        <div class="stat-highlight">
-            <strong>The Infrastructure Paradox:</strong> The seven southern and western states possess India's best school infrastructure yet deliver the poorest reading outcomes (67.6% vs 85.2% for top performers). In contrast, the "Best-in-Class Performers" achieve excellence with moderate resources, while Bihar, Jharkhand, and Uttar Pradesh—facing extreme overcrowding (55:1 student-teacher ratio)—outperform well-resourced states in mathematics. This suggests pedagogy and teaching quality matter more than facilities or class size.
-        </div>
-    </div>
-
-    <figure id="network_chart"></figure>
-    <p class="source"><em>Source: UDISE+ 2024 (Infrastructure & Enrollment), ASER 2024 (Learning Outcomes) | Method: Hierarchical clustering (Ward linkage), similarity threshold = 70%</em></p>
+<h2>School Type Distribution: Rural vs Urban Divide</h2>
+<div class="chart-description">
+<p>This area chart reveals stark differences in school type distribution between rural and urban areas across India.</p>
+<div class="key-finding">
+<strong>Key Finding:</strong> Rural areas remain heavily dominated by state government schools, while urban areas show increasing privatization - private unaided schools grew for urban enrollment between 2021-2024. Rural private school enrollment has remained stable.
+</div>
+</div>
+<figure id="chart4"></figure>
 </section>
 
-    <section>
-        <h2>Conclusion</h2>
-        <div class="chart-description">
-            <p>The data reveals persistent educational disparities across India's states, with significant variations in gender parity, rural-urban access, and enrollment across social categories. Addressing these inequalities requires targeted policy interventions that account for regional differences and systemic barriers to education access.</p>
-        </div>
-    </section>
+<!-- SECTION II: EDUCATIONAL INPUTS -->
+<section>
+<h2 style="font-size: 2em; margin-bottom: 30px;">II. Educational Inputs: School Infrastructure</h2>
+<div class="chart-description">
+<p>This choropleth map visualizes the composite infrastructure index across Indian states for 2022-2024. The index combines four key metrics: electricity availability, internet connectivity, library access, and functional girls' toilets.</p>
+<div class="key-finding">
+<strong>Key Finding:</strong> A clear geographic pattern emerges, with southern states (Kerala, Karnataka, Tamil Nadu, Telangana) and western states (Gujarat, Maharashtra) showing infrastructure scores above 80%, while several northeastern states lag behind with scores below 50%. This geographic pattern suggests systematic regional disparities in educational investment and development.
+</div>
+</div>
+<figure id="chart3"></figure>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Trisha Punamiya | Educational Disparities Across India | Data: UDISE+ & World Bank</p>
-    </footer>
+<!-- SECTION III: LEARNING OUTCOMES -->
+<section>
+<h2 style="font-size: 2em; margin-bottom: 30px;">III. Learning Outcomes: Measuring Educational Success</h2>
+<div class="chart-description">
+<p>This dual heatmap displays reading and math proficiency across Standards III, V, and VIII for Indian states, using ASER 2024 data.</p>
+<div class="key-finding">
+<strong>Key Finding:</strong> A clear performance hierarchy emerges. Northern states (Himachal Pradesh, Punjab, Haryana) and northeastern states (Mizoram, Nagaland) achieve the highest outcomes (80-90% reading at Std VIII), while southern states surprisingly lag despite superior infrastructure. Mathematics proficiency is significantly lower than reading across all states — most show fewer than 40% of Std VIII students able to perform division.
+</div>
+</div>
+<figure id="chart5"></figure>
+</section>
 
-    <script>
-        // Chart specifications
-        let gender_gap_spec = "Project_JSON/education_GenderGap.json";
-        let gender_gap_spec2 = "Project_JSON/education_dropout_byStateGender.json";
-        let chart3_spec = "Project_JSON/infra_india.json";
-        let chart4_spec = "Project_JSON/enrollment_chart.json";
-        let chart5_spec = "Project_JSON/aser_learning_outcomes_heatmap.json";
-        let network_chart = "charts/state_network_altair.json";
-        
-         // NEW: Correlation chart specifications
-        let infra_reading_spec = "charts/infrastructure_vs_reading_2024.json";
-        let infra_math_spec = "charts/infrastructure_vs_math_2024.json";
-        let str_reading_spec = "charts/str_vs_reading_2024.json";
-        let str_math_spec = "charts/str_vs_math_2024.json";
+<!-- SECTION IV: WHAT DRIVES SUCCESS? -->
+<section>
+<h2 style="font-size: 2em; margin-bottom: 30px;">IV. What Drives Educational Success?</h2>
 
-        // Configuration for consistent chart sizing
-        const embedConfig = {
-            actions: false,
-            width: 650,
-            height: 700
+<h2>Infrastructure & Class Size: Do They Matter for Learning?</h2>
+<div class="chart-description">
+<p>We examine whether better school infrastructure and lower student-teacher ratios correlate with improved learning outcomes across Indian states.</p>
+<div class="key-finding">
+<strong>Key Finding:</strong> Neither infrastructure quality nor student-teacher ratios show significant correlation with learning outcomes (all r < 0.22, p > 0.28). States with the highest infrastructure scores do not necessarily achieve the best results, pointing to other factors—such as teacher quality, curriculum effectiveness, and socioeconomic conditions—as more critical determinants of educational success.
+</div>
+</div>
+<h3>School Infrastructure vs Learning Outcomes, 2024</h3>
+<div class="chart-row">
+<figure id="infra_reading_chart"></figure>
+<figure id="infra_math_chart"></figure>
+</div>
+<h3>Student-Teacher Ratio vs Learning Outcomes, 2024</h3>
+<div class="chart-row">
+<figure id="str_reading_chart"></figure>
+<figure id="str_math_chart"></figure>
+</div>
+
+<h2>State Similarity Network: Uncovering Education System Archetypes</h2>
+<div class="chart-description">
+<p>This network uses hierarchical clustering on five education metrics—reading proficiency, math proficiency, infrastructure quality, student-teacher ratio, and rural school percentage—to identify states with similar education profiles. Edge thickness represents similarity strength, with connections appearing only when states exceed 70% similarity across all dimensions.</p>
+<div class="key-finding">
+<strong>Key Finding:</strong> The clustering reveals a striking infrastructure paradox. Southern and western states (Andhra Pradesh, Gujarat, Karnataka, Kerala, Maharashtra, Tamil Nadu, Telangana) form a distinct cluster with India's best school infrastructure yet achieve the poorest reading outcomes. Meanwhile, states like Himachal Pradesh and Mizoram cluster together based on educational success despite moderate resources, while Bihar, Jharkhand, and Uttar Pradesh outperform well-resourced states in mathematics despite extreme overcrowding (high student-teacher ratio). This suggests that infrastructure quality and class size are less important than pedagogy and teaching effectiveness.
+</div>
+</div>
+<figure id="network_chart"></figure>
+</section>
+
+<!-- FINAL THOUGHTS SECTION -->
+<div class="intro">
+<h2>Final Thoughts</h2>
+<p>This project reveals that educational disparities across India are driven more by teaching quality and pedagogical effectiveness than by infrastructure or class size alone. While infrastructure gaps remain important, particularly in northeastern states, the data demonstrates that resource-rich states are failing to convert investments into learning outcomes.</p>
+            
+<p>The emergence of distinct state archetypes—from "Infrastructure-Rich, Outcome-Poor" southern states to "Best-in-Class Performers" in the north and northeast—indicates that one-size-fits-all policies will not address India's education challenges. States like Kerala and Tamil Nadu possess excellent infrastructure yet struggle with learning outcomes, while states like Himachal Pradesh and Mizoram achieve excellence with moderate resources. This suggests that classroom pedagogy, teacher training, and curriculum effectiveness matter far more than facilities.</p>
+            
+<p>The analysis also highlights critical challenges that require immediate attention: the dramatic dropout crisis at the Class 10-11 transition, persistent gender gaps of up to 7 percentage points in northern states, and a nationwide mathematics proficiency crisis where fewer than 40% of Standard VIII students can perform basic division.</p>
+            
+<p>Addressing these disparities requires moving beyond traditional metrics of educational investment to focus on what happens inside classrooms. Policymakers should prioritize teacher quality, curriculum innovation, and pedagogical training while simultaneously tackling gender barriers and the secondary education transition crisis. States should learn from high-performing regions and adapt strategies based on their specific archetype rather than pursuing generic reforms.</p>
+<p> Gen AI Disclosure: I used Claude as a coding assistant for data cleaning and plot creation.</p>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2025 Trisha Punamiya | Educational Disparities Across India | Data: UDISE+ & ASER</p>
+</footer>
+
+<script>
+// Chart specifications
+let gender_gap_spec = "Project_JSON/education_GenderGap.json";
+let gender_gap_spec2 = "Project_JSON/education_dropout_byStateGender.json";
+let chart3_spec = "Project_JSON/infra_india.json";
+let chart4_spec = "Project_JSON/enrollment_chart.json";
+let chart5_spec = "Project_JSON/aser_learning_outcomes_heatmap.json";
+let network_chart = "charts/state_network_altair.json";
+// NEW: Correlation chart specifications
+let infra_reading_spec = "charts/infrastructure_vs_reading_2024.json";
+let infra_math_spec = "charts/infrastructure_vs_math_2024.json";
+let str_reading_spec = "charts/str_vs_reading_2024.json";
+let str_math_spec = "charts/str_vs_math_2024.json";
+// Configuration for consistent chart sizing
+const embedConfig = {
+actions: false,
+width: 650,
+height: 700
         };
-
-        // Configuration for enrollment chart (no width/height override)
-    const embedConfigNoSize = {
-        actions: false
+// Configuration for enrollment chart (no width/height override)
+const embedConfigNoSize = {
+actions: false
     };
-
-    //  Configuration for correlation charts (side by side)
+//  Configuration for correlation charts (side by side)
 const correlationConfig = {
-    actions: false,
-    width: 450,
-    height: 400
+actions: false,
+width: 450,
+height: 400
     };
-        
-        // Embed charts
-        vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfigNoSize);
-        vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
-        vegaEmbed('#chart3', chart3_spec, embedConfig);
-        vegaEmbed('#chart4', chart4_spec, embedConfigNoSize);
-        vegaEmbed('#chart5', chart5_spec, embedConfigNoSize);
-        vegaEmbed('#network_chart', network_chart, embedConfigNoSize);
-
-         // NEW: Embed correlation charts
-        vegaEmbed('#infra_reading_chart', infra_reading_spec, correlationConfig);
-        vegaEmbed('#infra_math_chart', infra_math_spec, correlationConfig);
-        vegaEmbed('#str_reading_chart', str_reading_spec, correlationConfig);
-        vegaEmbed('#str_math_chart', str_math_spec, correlationConfig);
-    </script>
+// Embed charts
+vegaEmbed('#gender_gap_chart', gender_gap_spec, embedConfigNoSize);
+vegaEmbed('#enrollment_pyramid_chart', gender_gap_spec2, embedConfig);
+vegaEmbed('#chart3', chart3_spec, embedConfig);
+vegaEmbed('#chart4', chart4_spec, embedConfigNoSize);
+vegaEmbed('#chart5', chart5_spec, embedConfigNoSize);
+vegaEmbed('#network_chart', network_chart, embedConfigNoSize);
+// NEW: Embed correlation charts
+vegaEmbed('#infra_reading_chart', infra_reading_spec, correlationConfig);
+vegaEmbed('#infra_math_chart', infra_math_spec, correlationConfig);
+vegaEmbed('#str_reading_chart', str_reading_spec, correlationConfig);
+vegaEmbed('#str_math_chart', str_math_spec, correlationConfig);
+</script>
 </body>
 </html>

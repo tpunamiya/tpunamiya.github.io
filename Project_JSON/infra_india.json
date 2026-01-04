@@ -4,7 +4,8 @@
     "text": "School Infrastructure Index by State, 2022-2024",
     "fontSize": 16,
     "subtitle": "Composite score: Electricity, Internet, Libraries, Girls' toilets",
-    "subtitleFontSize": 11
+    "subtitleFontSize": 11,
+    "anchor": "start"
   },
   "width": 600,
   "height": 700,
