@@ -67,14 +67,14 @@
 
         /* Hero Section */
         .hero {
-            min-height: 100vh;
+            min-height: 90vh;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
             background-image: url('images/IMG_2121.png'); 
-            background-size: 110%;
+            background-size: 100%;
             background-position: 92% 50%;
             background-repeat: no-repeat;
             color: white;
@@ -183,25 +183,75 @@
             margin: 0 auto 3rem;
         }
 
-        .button-section {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            flex-wrap: wrap;
+        /* Explore Work Cards */
+        .explore-work {
+            margin-top: 3rem;
+            width: 100%;
         }
 
-        .button-primary {
-            padding: 1rem 2rem;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+        .work-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .work-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border-top: 4px solid #503c16;
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: left;
+        }
+
+        .work-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+
+        .work-number {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #e8e8e8;
+            line-height: 1;
+        }
+
+        .work-card h3 {
+            color: #503c16;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            text-align: left;
+        }
+
+        .work-card p {
+            color: #503c16;
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .work-link {
+            color: #503c16;
             text-decoration: none;
-            border-radius: 50px;
             font-weight: 600;
-            transition: transform 0.3s;
+            font-size: 1rem;
+            border-bottom: 2px solid #503c16;
+            padding-bottom: 2px;
+            transition: opacity 0.3s;
+            display: inline-block;
         }
 
-        .button-primary:hover {
-            transform: translateY(-3px);
+        .work-link:hover {
+            opacity: 0.7;
         }
 
         /* More Section */
@@ -341,9 +391,16 @@
                 grid-template-columns: 1fr;
             }
 
-            .button-section {
-                flex-direction: column;
-                align-items: center;
+            .work-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .work-card {
+                padding: 2rem;
+            }
+
+            .work-number {
+                font-size: 3rem;
             }
         }
     </style>
@@ -373,31 +430,48 @@
             </span>
         </p>
 
-        <a class="btn-scroll" href="#about">Scroll down</a>
+        <a class="btn-scroll" href="#about">↓</a>
     </section>
 
-    <section class="about-section" id="about">
+    <section>
         <div class="about-container">
-            <h5>About me</h5>
+                <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 4rem 0 1rem;">About Me</h2>
+                <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
             
             <img src="images/FullSizeRender.jpeg" alt="Trisha Punamiya" class="about-image">
             
             <p class="about-text">
-               Hi! I’m Trisha, an MPA–Data Science student at the London School of Economics, driven by a passion for applying data science to real-world public policy challenges. My work focuses on turning complex development issues into clear, actionable insights through data storytelling.
-
+               Hi! I'm Trisha, an MPA–Data Science student at the London School of Economics, driven by a passion for applying data science to real-world public policy challenges. My work focuses on turning complex development issues into clear, actionable insights through data storytelling.
             </p>
+</section>
+<section>
+            <div class="explore-work">
+                <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 4rem 0 1rem;">Explore My Work</h2>
+                <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
+                
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-number">01</div>
+                        <h3>Portfolio</h3>
+                        <p>10 weekly coding challenges demonstrating skills in data visualisation, web scraping, API integration, interactive dashboards, mapping, and machine learning applications.</p>
+                        <a href="portfolio.html" target="_blank" class="work-link">View Portfolio →</a>
+                    </div>
 
-            <div class="button-section">
-                <a href="portfolio.html" target="_blank" class="button-primary">Data Visualization Portfolio</a>
-                <a href="education-india.html" target="_blank" class="button-primary">Project: Educational Disparities Across India</a>
+                    <div class="work-card">
+                        <div class="work-number">02</div>
+                        <h3>Project</h3>
+                        <p>An in-depth analysis of educational inequalities and outcomes in India, featuring comprehensive data visualisations and evidence-based insights into the disparities.</p>
+                        <a href="education-india.html" target="_blank" class="work-link">View Project →</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <section class="explore-work">
+                <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 4rem 0 1rem;">More</h2>
+                <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
 
-    <section class="more-section" id="more">
-        <div class="more-container">
-            <h5>MORE</h5>
-            
+    </section>   
             <div class="services-grid">
                 <div class="service-item">
                     <div class="service-icon">💻</div>

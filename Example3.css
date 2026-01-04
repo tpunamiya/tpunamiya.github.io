@@ -260,13 +260,14 @@ figure .vega-embed svg {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     max-width: 900px;
-    margin: 30px auto;
-    justify-items: start; /* Changed from center to start */
+    margin: 30px 0 30px 0 !important;
+    justify-items: start !important;
 }
 
 #chartGrid2x3 figure {
-    margin: 0;
-    max-width: none;
+    margin: 0 !important;
+    max-width: none !important;
+    justify-self: start !important;
 }
 
 /* LDA visualization iframe */
@@ -274,6 +275,18 @@ figure .vega-embed svg {
     max-width: 1200px !important;
     margin: 20px auto;
     display: block;
+}
+
+#lda-viz-figure {
+    display: block !important;
+    max-width: 1200px !important;
+    width: 100% !important;
+    margin: 20px auto !important;
+}
+
+#lda-viz-figure iframe {
+    width: 100% !important;
+    max-width: 1200px !important;
 }
 
 /* Footer styling */
@@ -301,6 +314,146 @@ footer {
 iframe {
     display: block;
     margin: 0 auto;
+}
+
+/* Aggressive centering for single charts - EXCEPT LDA visualization */
+section figure:not(.chart-row figure):not(#chartGrid2x3 figure):not(#lda-viz-figure) {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: fit-content !important;
+}
+
+/* API Details Box */
+.api-details {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+
+.api-details h4 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.api-details ul {
+    margin-left: 20px;
+}
+
+.api-details li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.api-details strong {
+    color: #2c3e50;
+}
+
+.api-details code {
+    background: #e8e8e8;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95em;
+}
+
+.vega-embed {
+    overflow: visible !important;
+}
+
+.vega-embed svg,
+.vega-embed canvas {
+    overflow: visible !important;
+}
+
+/* Reduce white space for heatmap chart section */
+section:has(#chart5) {
+    padding-bottom: 10px !important;
+}
+
+#chart5 {
+    margin-bottom: 0 !important;
+}
+
+#network_chart {
+    display: flex;
+    justify-content: center;
+}
+
+/* Explore Work Cards */
+.explore-work {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.work-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border-top: 4px solid #2d5016;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.work-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.work-number {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #e8e8e8;
+    line-height: 1;
+}
+
+.work-card h3 {
+    color: #2d5016;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.work-card p {
+    color: #5a6c57;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.work-link {
+    color: #2d5016;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-bottom: 2px solid #2d5016;
+    padding-bottom: 2px;
+    transition: opacity 0.3s;
+    display: inline-block;
+}
+
+.work-link:hover {
+    opacity: 0.7;
 }
 
 /* Responsive design for tablets and mobile */
@@ -356,95 +509,16 @@ iframe {
     .chart-row figure {
         max-width: 100% !important;
     }
-}
-/* Aggressive centering for single charts - EXCEPT LDA visualization */
-section figure:not(.chart-row figure):not(#chartGrid2x3 figure):not(#lda-viz-figure) {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: fit-content !important;
-}
-
-/* LDA visualization - allow full width */
-#lda-viz-figure {
-    display: block !important;
-    max-width: 1200px !important;
-    width: 100% !important;
-    margin: 20px auto !important;
-}
-
-#lda-viz-figure iframe {
-    width: 100% !important;
-    max-width: 1200px !important;
-}
-/* API Details Box */
-.api-details {
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px 0;
-    font-size: 0.9em;
-}
-
-.api-details h4 {
-    color: #2c3e50;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 1.1em;
-}
-
-.api-details ul {
-    margin-left: 20px;
-}
-
-.api-details li {
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-.api-details strong {
-    color: #2c3e50;
-}
-
-.api-details code {
-    background: #e8e8e8;
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.95em;
-}
-/* Force left alignment for crime charts */
-#chartGrid2x3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    max-width: 900px;
-    margin: 30px 0 30px 0 !important; /* Left align the grid itself */
-    justify-items: start !important;
-}
-
-#chartGrid2x3 figure {
-    margin: 0 !important;
-    max-width: none !important;
-    justify-self: start !important;
-}
-.vega-embed {
-  overflow: visible !important;
-}
-.vega-embed svg,
-.vega-embed canvas {
-  overflow: visible !important;
-}
-/* Reduce white space for heatmap chart section */
-section:has(#chart5) {
-    padding-bottom: 10px !important;
-}
-
-#chart5 {
-    margin-bottom: 0 !important;
-}
-#network_chart {
-    display: flex;
-    justify-content: center;
+    
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .work-card {
+        padding: 2rem;
+    }
+    
+    .work-number {
+        font-size: 3rem;
+    }
 }
