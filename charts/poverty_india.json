@@ -7,7 +7,7 @@
     "subtitleFontSize": 12
   },
   "width": 650,
-  "height": 400,
+  "height": 100,
   "resolve": {"scale": {"x": "shared"}},
   "data": {
     "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/data/distribution-of-population-poverty-thresholds.csv",

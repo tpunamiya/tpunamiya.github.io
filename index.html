@@ -183,10 +183,26 @@
             margin: 0 auto 3rem;
         }
 
+        /* Section Break */
+        .section-break {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #503c16, transparent);
+            margin: 4rem auto;
+            max-width: 600px;
+        }
+
+        /* Work Section */
+        .work-section {
+            padding: 5rem 2rem;
+            background: white;
+        }
+
         /* Explore Work Cards */
         .explore-work {
-            margin-top: 3rem;
+            margin-top: 0;
             width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
         }
 
         .work-grid {
@@ -257,21 +273,12 @@
         /* More Section */
         .more-section {
             padding: 5rem 2rem;
-            background: white;
+            background: #f5f5f5;
         }
 
         .more-container {
             max-width: 1200px;
             margin: 0 auto;
-        }
-
-        .more-section h5 {
-            text-align: center;
-            color: #808080;
-            font-size: 1rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            margin-bottom: 3rem;
         }
 
         .services-grid {
@@ -305,7 +312,7 @@
         /* Contact Section */
         .contact-section {
             padding: 5rem 2rem;
-            background: #f5f5f5;
+            background: white;
             text-align: center;
         }
 
@@ -340,7 +347,7 @@
         /* Footer */
         footer {
             padding: 2rem;
-            background: white;
+            background: #f5f5f5;
             text-align: center;
         }
 
@@ -433,45 +440,47 @@
         <a class="btn-scroll" href="#about">↓</a>
     </section>
 
-    <section>
+    <section class="about-section" id="about">
         <div class="about-container">
-                <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 4rem 0 1rem;">About Me</h2>
-                <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
+            <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 0 0 1rem;">About Me</h2>
+            <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
             
             <img src="images/FullSizeRender.jpeg" alt="Trisha Punamiya" class="about-image">
             
             <p class="about-text">
                Hi! I'm Trisha, an MPA–Data Science student at the London School of Economics, driven by a passion for applying data science to real-world public policy challenges. My work focuses on turning complex development issues into clear, actionable insights through data storytelling.
             </p>
-</section>
-<section>
-            <div class="explore-work">
-                <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 4rem 0 1rem;">Explore My Work</h2>
-                <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
-                
-                <div class="work-grid">
-                    <div class="work-card">
-                        <div class="work-number">01</div>
-                        <h3>Portfolio</h3>
-                        <p>10 weekly coding challenges demonstrating skills in data visualisation, web scraping, API integration, interactive dashboards, mapping, and machine learning applications.</p>
-                        <a href="portfolio.html" target="_blank" class="work-link">View Portfolio →</a>
-                    </div>
-
-                    <div class="work-card">
-                        <div class="work-number">02</div>
-                        <h3>Project</h3>
-                        <p>An in-depth analysis of educational inequalities and outcomes in India, featuring comprehensive data visualisations and evidence-based insights into the disparities.</p>
-                        <a href="education-india.html" target="_blank" class="work-link">View Project →</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
-    <section class="explore-work">
-                <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 4rem 0 1rem;">More</h2>
-                <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
 
-    </section>   
+    <!-- Section Break -->
+    <section class="work-section">
+        <div class="explore-work">
+            <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 0 0 1rem;">Explore My Work</h2>
+            <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
+            
+            <div class="work-grid">
+                <div class="work-card">
+                    <div class="work-number">01</div>
+                    <h3>Portfolio</h3>
+                    <p>10 weekly coding challenges demonstrating skills in data visualisation, web scraping, API integration, interactive dashboards, mapping, and machine learning applications.</p>
+                    <a href="portfolio.html" target="_blank" class="work-link">View Portfolio →</a>
+                </div>
+
+                <div class="work-card">
+                    <div class="work-number">02</div>
+                    <h3>Project</h3>
+                    <p>An in-depth analysis of educational inequalities and outcomes in India, featuring comprehensive data visualisations and evidence-based insights into the disparities.</p>
+                    <a href="education-india.html" target="_blank" class="work-link">View Project →</a>
+        </div>
+    </section>
+
+    <!-- Section Break -->
+    <section class="more-section" id="more">
+        <div class="more-container">
+            <h2 style="text-align: center; color: #503c16; font-size: 1.8rem; margin: 0 0 1rem;">More</h2>
+            <div style="width: 100px; height: 4px; background: #503c16; margin: 0 auto 3rem;"></div>
+
             <div class="services-grid">
                 <div class="service-item">
                     <div class="service-icon">💻</div>
@@ -515,11 +524,8 @@
         <div class="contact-container">
             <h5>Contact</h5>
             <h1>t.n.punamiya@lse.ac.uk</h1>
+         <a href="#top" class="back-to-top">↑</a>
         </div>
     </section>
-
-    <footer>
-        <a href="#top" class="back-to-top">↑</a>
-    </footer>
 </body>
 </html>

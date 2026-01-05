@@ -63,31 +63,8 @@ border-top: 2px solid #e5e7eb;
 </header>
 <div class="intro">
 <h2>Project Overview</h2>
-<p>This project examines educational disparities across India using data from UDISE+ (Unified District Information System for Education Plus) and other sources. Through a series of data visualizations, we explore patterns of inequality across geographic, gender, and socioeconomic dimensions to understand the challenges facing India's education system.</p>
+<p>This project examines educational disparities across India using data from UDISE+ (Unified District Information System for Education Plus) and ASER Survey. Through a series of data visualizations, we explore patterns of inequality across geographic, gender, and socioeconomic dimensions to understand the challenges facing India's education system.</p>
 <p><strong>Key Questions:</strong> How do enrollment rates vary across Indian states? What gender disparities exist in education access? How do rural and urban areas compare in educational outcomes?</p>
-</div>
-
-<!-- DATA SECTION -->
-<div class="methodology">
-<h2>Data</h2>
-<p>The data used for this project comes from 3 sources:</p>
-<p><strong>1) UDISE+ (Unified District Information System for Education Plus):</strong> This comprehensive database provides school-level information across India, including enrollment statistics by gender and location, infrastructure metrics (electricity, internet, libraries, toilets), and student-teacher ratios. The data covers the period 2021-2024 and represents nearly all schools in India.</p>
-            
-<p><strong>2) ASER (Annual Status of Education Report) 2024:</strong> Conducted by Pratham, ASER is India's largest citizen-led survey measuring children's learning outcomes. It assesses basic reading (ability to read Standard II level text) and arithmetic (ability to perform division) skills across Standards III, V, and VIII in rural India.</p>
-            
-<p><strong>3) Census of India:</strong> Population and demographic data used to contextualize enrollment figures and calculate rates.</p>
-
-<!-- ANALYTICAL CHALLENGES SECTION -->
-<h2>Analytical Challenges</h2>
-<p>The biggest challenges in this project were the following:</p>
-            
-<p><strong>1) Data integration across multiple sources:</strong> Combining UDISE+ enrollment data with ASER learning outcomes required careful alignment of state names, time periods, and measurement units. Some states had missing data for certain years, requiring interpolation or exclusion from specific analyses.</p>
-            
-<p><strong>2) Creating meaningful composite indices:</strong> The infrastructure quality index required normalizing and weighting four different metrics (electricity, internet, libraries, toilets) to create a single comparable measure across states. Determining appropriate weights and handling missing facilities data presented methodological challenges.</p>
-            
-<p><strong>3) Visualization of multidimensional relationships:</strong> Displaying relationships between infrastructure, learning outcomes, gender, location, and time required careful selection of visualization types. I used choropleth maps for geographic patterns, heatmaps for comparing learning outcomes across states and standards, scatter plots for correlations, and network diagrams for state similarity clustering.</p>
-            
-<p><strong>4) Clustering states into meaningful archetypes:</strong> Using hierarchical clustering on five education metrics required normalizing different scales (percentages, ratios, index scores) and determining the optimal number of clusters that revealed genuinely distinct state profiles rather than arbitrary divisions.</p>
 </div>
 
 <!-- SECTION I: ACCESS & ENROLLMENT DISPARITIES -->
@@ -177,6 +154,29 @@ border-top: 2px solid #e5e7eb;
 </div>
 <figure id="network_chart"></figure>
 </section>
+
+
+<!-- DATA SECTION -->
+<div class="intro">
+    <h2>Data</h2>
+    <p>The data used for this project comes from 3 sources:</p>
+    <p><strong>1) UDISE+ (Unified District Information System for Education Plus):</strong> This comprehensive database provides school-level information across India, including enrollment statistics by gender and location, infrastructure metrics (electricity, internet, libraries, toilets), and student-teacher ratios. The data covers the period 2021-2024 and represents nearly all schools in India. Available at: <a href="https://dashboard.udiseplus.gov.in/#/reportDashboard/sReport" target="_blank">UDISE+ Dashboard</a></p>
+    <p><strong>2) ASER (Annual Status of Education Report) 2024:</strong> Conducted by Pratham, ASER is India's largest citizen-led survey measuring children's learning outcomes. It assesses basic reading (ability to read Standard II level text) and arithmetic (ability to perform division) skills across Standards III, V, and VIII in India. Available at: <a href="https://asercentre.org/" target="_blank">ASER Centre</a></p>
+</div>
+
+<div class="intro">
+<!-- ANALYTICAL CHALLENGES SECTION -->
+<h2>Analytical Challenges</h2>
+<p>The biggest challenges in this project were the following:</p>
+            
+<p><strong>1) Data integration across multiple sources:</strong> Combining UDISE+ enrollment data with ASER learning outcomes required careful alignment of state names, time periods, and measurement units. Some states had missing data for certain years, requiring interpolation or exclusion from specific analyses. Pratham does not report the full data for the ASER Survey, requiring conversion forming a dataset using sruvey report PDFs.</p>
+            
+<p><strong>2) Creating meaningful composite indices:</strong> The infrastructure quality index required normalizing and weighting four different metrics (electricity, internet, libraries, toilets) to create a single comparable measure across states. Determining appropriate weights and handling missing facilities data presented methodological challenges.</p>
+            
+<p><strong>3) Visualization of multidimensional relationships:</strong> Displaying relationships between infrastructure, learning outcomes, gender, location, and time required careful selection of visualization types. I used choropleth maps for geographic patterns, heatmaps for comparing learning outcomes across states and standards, scatter plots for correlations, and network diagrams for state similarity clustering.</p>
+            
+<p><strong>4) Clustering states into meaningful archetypes:</strong> Using hierarchical clustering on five education metrics required normalizing different scales (percentages, ratios, index scores) and determining the optimal number of clusters that revealed genuinely distinct state profiles rather than arbitrary divisions.</p>
+</div>
 
 <!-- FINAL THOUGHTS SECTION -->
 <div class="intro">

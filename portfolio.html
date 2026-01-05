@@ -65,8 +65,10 @@
 <p><strong>Policy question:</strong> Have international development efforts successfully reduced extreme poverty?</p>
 <p>These visualizations examine poverty trends across different income thresholds and world regions to assess progress toward eliminating extreme poverty. The first chart tracks the number of people living in extreme poverty (below $3 per day) by region, while the second shows India's progress across multiple poverty bands, revealing how populations have shifted from extreme poverty toward higher income levels.</p>
 </div>
-<figure id="Location4"></figure>
-<figure id="Location4a"></figure>
+<div class="chart-row">
+    <figure id="Location4"></figure>
+    <figure id="Location4a"></figure>
+</div>
 <p class="source"><em>Source: World Bank Poverty and Inequality Platform (2025) - with major processing by Our World in Data</em></p>
 </section>
 
@@ -163,11 +165,11 @@
 <p>This choropleth map displays Wales Population Density by Local Authority.</p>
 </div>
 <figure id="Location7"></figure>
-<p class="source"><em>Source: [Add your data source]</em></p>
+<p class="source"><em>Source: <a href="https://statswales.gov.wales/Catalogue/Population-and-Migration/Population/Density/populationdensity-by-localauthority-year" target="_blank"> StatsWales Population Data</a></em></p>
 <p>This coordinates map shows railway stations across Scotland.</p>
 </div>
 <figure id="Location7a"></figure>
-<p class="source"><em>Source: [Add your data source]</em></p>
+<p class="source"><em>Source: <a href="https://github.com/davwheat/uk-railway-stations" target="_blank"> Trainline EU's repository</a></em></p>
 </section>
 
 <section>
@@ -196,7 +198,7 @@
 <p class="source"><em>Source: World Development Indicators, World Bank</em></p>
 </div>
 <figure id="Location9a"></figure>
-<p class="source"><em>Source: World Bank</em></p>
+<p class="source"><em>Source: World Development Indicators, World Bank</em></p>
 </section>
 
 <section>
@@ -255,12 +257,6 @@ let figure_9_spec = "charts/CC9_1.json";
 let figure_9a_spec = "charts/CC9_2.json";
 let figure_10_spec = "charts/CC10_1.json";
 
-// Configuration for side-by-side charts (Challenges 1 & 2)
-const sideBySideConfig = {
-    actions: false,
-    width: 500,
-    height: 400
-};
 
 // Configuration for single charts
 const embedConfig = {
@@ -268,6 +264,13 @@ const embedConfig = {
     width: 700,
     height: 400,
     renderer: 'svg'
+};
+
+// Configuration for ALL side-by-side charts (Challenges 1, 2, 3)
+const sideBySideConfig = {
+    actions: false,
+    width: 500,
+    height: 400
 };
 
 // Challenge 1 - side by side
@@ -278,9 +281,11 @@ vegaEmbed('#Location2', figure_2_spec, sideBySideConfig);
 vegaEmbed('#Location3', figure_3_spec, sideBySideConfig);
 vegaEmbed('#Location3a', figure_3a_spec, sideBySideConfig);
 
+// Challenge 3 - side by side
+vegaEmbed('#Location4', figure_4_spec, sideBySideConfig);
+vegaEmbed('#Location4a', figure_4a_spec, sideBySideConfig);
+
 // All other challenges - centered single charts
-vegaEmbed('#Location4', figure_4_spec, embedConfig);
-vegaEmbed('#Location4a', figure_4a_spec, embedConfig);
 vegaEmbed('#Location5', figure_5_spec, embedConfig);
 vegaEmbed('#Location5a', figure_5a_spec, embedConfig);
 vegaEmbed('#Location6', figure_6_spec, embedConfig);

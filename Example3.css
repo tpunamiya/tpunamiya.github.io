@@ -239,18 +239,17 @@ figure .vega-embed svg {
     color: #065f46;
 }
 
-/* Side-by-side chart layout for Challenges 1 & 2 */
 .chart-row {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     margin: 20px 0;
     flex-wrap: wrap;
 }
 
 .chart-row figure {
-    flex: 0 1 500px;
-    max-width: 500px !important;
+    flex: 0 1 550px;
+    max-width: 550px !important;
     margin: 0;
 }
 

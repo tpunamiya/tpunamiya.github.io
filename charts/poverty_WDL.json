@@ -7,7 +7,7 @@
     "subtitleFontSize": 12
   },
   "width": 650,
-  "height": 400,
+  "height": 350,
   "data": {
     "url": "https://raw.githubusercontent.com/tpunamiya/tpunamiya.github.io/refs/heads/main/data/total-population-living-in-extreme-poverty-by-world-region.csv",
     "format": {"type": "csv"}
@@ -30,7 +30,7 @@
       "type": "nominal",
       "legend": {
         "title": "Region",
-        "orient": "none",
+        "orient": "top-right",
         "legendX": 480,
         "legendY": 10
       }
