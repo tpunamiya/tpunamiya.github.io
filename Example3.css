@@ -299,13 +299,20 @@ footer {
     margin-top: 30px;
 }
 
-/* Style for Vega-Lite dropdown labels */
 .vega-bind label {
     font-size: 13px !important;
     font-weight: normal !important;
 }
 
 .vega-bind select {
+    font-size: 13px !important;
+}
+
+/* Ensure radio button labels are also 13px */
+.vega-bind input[type="radio"] + label {
+    font-size: 13px !important;
+}
+.vega-bind, .vega-bind * {
     font-size: 13px !important;
 }
 
